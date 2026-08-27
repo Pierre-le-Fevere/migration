@@ -1,17 +1,10 @@
 {
-  "generatedAtUtc": "2026-08-27T13:24:26.5705861Z",
+  "generatedAtUtc": "2026-08-27T13:45:50.0025144Z",
   "sql": {
-    "allGreen": 160,
+    "allGreen": 167,
     "total": 169,
     "findings": [
-      "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: INT=DIFF, ACC=DIFF",
-      "\u003Cstrong\u003EMapAccount\u003C/strong\u003E: PRD=DIFF",
-      "\u003Cstrong\u003EMapAdvanceInvoice\u003C/strong\u003E: PRD=DIFF",
-      "\u003Cstrong\u003EMapCurrentAdvanceAmount\u003C/strong\u003E: PRD=DIFF",
-      "\u003Cstrong\u003EMapGridfeeCost\u003C/strong\u003E: PRD=DIFF",
-      "\u003Cstrong\u003EMapMigratedPayments\u003C/strong\u003E: PRD=DIFF",
-      "\u003Cstrong\u003EMapReferenceAdvanceAmount\u003C/strong\u003E: PRD=DIFF",
-      "\u003Cstrong\u003EMapResidencyGroup\u003C/strong\u003E: PRD=DIFF"
+      "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: INT=DIFF, ACC=DIFF"
     ],
     "results": {
       "DEV": {
@@ -610,8 +603,8 @@
           "detail": ""
         },
         "MapAccount": {
-          "status": "DIFF",
-          "detail": "dev=7c867edff784 prd=2eabb427350f"
+          "status": "OK",
+          "detail": ""
         },
         "MapAccountHistory": {
           "status": "OK",
@@ -622,8 +615,8 @@
           "detail": ""
         },
         "MapAdvanceInvoice": {
-          "status": "DIFF",
-          "detail": "dev=ecc974fa448e prd=0f4fee1d43e2"
+          "status": "OK",
+          "detail": ""
         },
         "MapAgreement": {
           "status": "OK",
@@ -638,8 +631,8 @@
           "detail": ""
         },
         "MapCurrentAdvanceAmount": {
-          "status": "DIFF",
-          "detail": "dev=5bf96d157964 prd=448906780f76"
+          "status": "OK",
+          "detail": ""
         },
         "MapCustomer": {
           "status": "OK",
@@ -654,8 +647,8 @@
           "detail": ""
         },
         "MapGridfeeCost": {
-          "status": "DIFF",
-          "detail": "dev=0e83978087fd prd=3d8105a4fd33"
+          "status": "OK",
+          "detail": ""
         },
         "MapHistoricalUsageCosts": {
           "status": "OK",
@@ -682,20 +675,20 @@
           "detail": ""
         },
         "MapMigratedPayments": {
-          "status": "DIFF",
-          "detail": "dev=6ba1c3ffc9b2 prd=c328892cef9a"
+          "status": "OK",
+          "detail": ""
         },
         "MapReferenceAdvanceAmount": {
-          "status": "DIFF",
-          "detail": "dev=1f04f79013f3 prd=20d2c37d7ef8"
+          "status": "OK",
+          "detail": ""
         },
         "MapRegister": {
           "status": "OK",
           "detail": ""
         },
         "MapResidencyGroup": {
-          "status": "DIFF",
-          "detail": "dev=a6fb684feb77 prd=a3e5c25fc0eb"
+          "status": "OK",
+          "detail": ""
         },
         "MapSupplyPoint": {
           "status": "OK",
