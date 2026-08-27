@@ -27,6 +27,7 @@
   .missing{text-align:center;color:#fd7e14;font-weight:600}
   .error{text-align:center;color:#888}
   .na{text-align:center;color:#aaa;font-style:italic}
+  .unknown{text-align:center;color:#6c757d;font-style:italic}
   .row-ok:hover{background:#f0fff4}.row-bad:hover{background:#fff5f5}
   .row-ok td{border-left:3px solid #28a745}.row-bad td{border-left:3px solid #dc3545}
   .findings{background:#fff8f8;border:1px solid #f5c6cb;border-radius:6px;
@@ -38,16 +39,16 @@
 <h1>&#x1F680; NOVA Migration ADF &mdash; Deployment Status</h1>
 <div class="subtitle">
   SQL: DEV is reference &nbsp;|&nbsp;
-  Functions: content-hash comparison (schema.gql + source hash) &nbsp;|&nbsp;
-  Generated: 2026-08-27 14:00:00 UTC &nbsp;|&nbsp;
+  Functions: per-file content-hash comparison (DEV is reference) &nbsp;|&nbsp;
+  Generated: 2026-08-27 14:35:30 UTC &nbsp;|&nbsp;
   Source: DeploymentStatusCheck Azure Function
 </div>
 <div style="margin-bottom:18px">
   <span class="badge bad">SQL: 167/169 all-green</span>
-  <span class="badge bad">Functions: 1/4 in sync</span>
+  <span class="badge ok">Functions: 0/0 all-green</span>
 </div>
 <div class="env-label">Errors per environment (SQL + Functions, excluding N/A)</div>
-<div class="cards"><div class="card ok"><div class="num">0</div><div>DEV</div></div><div class="card bad"><div class="num">2</div><div>INT</div></div><div class="card bad"><div class="num">2</div><div>ACC</div></div><div class="card bad"><div class="num">1</div><div>PRD</div></div></div>
+<div class="cards"><div class="card ok"><div class="num">0</div><div>DEV</div></div><div class="card bad"><div class="num">1</div><div>INT</div></div><div class="card bad"><div class="num">1</div><div>ACC</div></div><div class="card ok"><div class="num">0</div><div>PRD</div></div></div>
 <h2 style="color:#1a1a2e;font-size:.9rem;letter-spacing:.07em;text-transform:uppercase">
   &#x1F5C4;&#xFE0F; SQL Stored Procedures
 </h2>
@@ -104,17 +105,23 @@
   &#x26A1; Azure Functions (content-based)
 </h2>
 <table>
-  <thead><tr><th>Environment</th><th>Deploy info</th><th>Status vs DEV</th></tr></thead>
-  <tbody><tr class="row-ok"><td class="proc">DEV</td><td style="font-size:.75rem;color:#888">schema=0a99b020b136</td><td class="ok" title="schema=0a99b020b136">&#x2705; OK</td></tr>
-<tr class="row-bad"><td class="proc">INT</td><td style="font-size:.75rem;color:#888">schema=0a99b020b136</td><td class="diff" title="source hash mismatch: dev≠int (schema.gql matches, CS differs)">&#x274C; DIFF</td></tr>
-<tr class="row-bad"><td class="proc">ACC</td><td style="font-size:.75rem;color:#888">schema=0a99b020b136</td><td class="diff" title="source hash mismatch: dev≠acc (schema.gql matches, CS differs)">&#x274C; DIFF</td></tr>
-<tr class="row-bad"><td class="proc">PRD</td><td style="font-size:.75rem;color:#888">schema=0a99b020b136</td><td class="diff" title="source hash mismatch: dev≠prd (schema.gql matches, CS differs)">&#x274C; DIFF</td></tr>
+  <thead><tr><th>Function / Asset</th><th>DEV</th><th>INT</th><th>ACC</th><th>PRD</th></tr></thead>
+  <tbody><tr class="row-ok"><td class="proc">BuildSapEnvelopeFromWebhook</td><td>&#8212;</td><td>&#8212;</td><td>&#8212;</td><td>&#8212;</td></tr>
+<tr class="row-ok"><td class="proc">BuildSapMigrationEnvelope</td><td>&#8212;</td><td>&#8212;</td><td>&#8212;</td><td>&#8212;</td></tr>
+<tr class="row-ok"><td class="proc">CallKaluza</td><td>&#8212;</td><td>&#8212;</td><td>&#8212;</td><td>&#8212;</td></tr>
+<tr class="row-ok"><td class="proc">DeploymentStatusCheck</td><td>&#8212;</td><td>&#8212;</td><td>&#8212;</td><td>&#8212;</td></tr>
+<tr class="row-ok"><td class="proc">GetDeploymentInfo</td><td>&#8212;</td><td>&#8212;</td><td>&#8212;</td><td>&#8212;</td></tr>
+<tr class="row-ok"><td class="proc">ImportDirect</td><td>&#8212;</td><td>&#8212;</td><td>&#8212;</td><td>&#8212;</td></tr>
+<tr class="row-ok"><td class="proc">LogAlert</td><td>&#8212;</td><td>&#8212;</td><td>&#8212;</td><td>&#8212;</td></tr>
+<tr class="row-ok"><td class="proc">ValidateGraphQL</td><td>&#8212;</td><td>&#8212;</td><td>&#8212;</td><td>&#8212;</td></tr>
+<tr class="row-ok"><td class="proc">schema.gql</td><td>&#8212;</td><td>&#8212;</td><td>&#8212;</td><td>&#8212;</td></tr>
 </tbody>
 </table>
+
 <div class="note">
-  &#x2705; = schema.gql + source hash match DEV &nbsp;|&nbsp;
+  &#x2705; = file content hash matches DEV &nbsp;|&nbsp;
   &#x274C; DIFF = content differs from DEV &nbsp;|&nbsp;
-  &#x2753; = SOURCE_CONTENT_HASH not set (run deploy.ps1 once to enable full check)<br>
+  &#x2753; = hash missing (run deploy.ps1 once to enable full check)<br>
   SQL: &#x2705; = matches DEV &nbsp;|&nbsp; &#x274C; DIFF = body differs from DEV
   &nbsp;|&nbsp; &#x26A0;&#xFE0F; missing = not in DB
 </div>
