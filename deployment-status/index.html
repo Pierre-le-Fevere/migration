@@ -38,17 +38,17 @@
 </style></head><body>
 <h1>&#x1F680; NOVA Migration ADF &mdash; Deployment Status</h1>
 <div class="subtitle">
-  SQL: DEV is reference &nbsp;|&nbsp;
+  SQL: GIT is reference &nbsp;|&nbsp;
   Functions: per-file content-hash comparison (DEV is reference) &nbsp;|&nbsp;
-  Generated: 2026-08-27 15:00:00 UTC &nbsp;|&nbsp;
+  Generated: 2026-08-27 15:10:20 UTC &nbsp;|&nbsp;
   Source: DeploymentStatusCheck Azure Function
 </div>
 <div style="margin-bottom:18px">
-  <span class="badge bad">SQL: 167/169 all-green</span>
+  <span class="badge bad">SQL: 168/169 all-green</span>
   <span class="badge ok">Functions: 33/33 all-green</span>
 </div>
 <div class="env-label">Errors per environment (SQL + Functions, excluding N/A)</div>
-<div class="cards"><div class="card ok"><div class="num">0</div><div>DEV</div></div><div class="card bad"><div class="num">1</div><div>INT</div></div><div class="card bad"><div class="num">1</div><div>ACC</div></div><div class="card ok"><div class="num">0</div><div>PRD</div></div></div>
+<div class="cards"><div class="card bad"><div class="num">1</div><div>DEV</div></div><div class="card ok"><div class="num">0</div><div>INT</div></div><div class="card ok"><div class="num">0</div><div>ACC</div></div><div class="card ok"><div class="num">0</div><div>PRD</div></div></div>
 <h2 style="color:#1a1a2e;font-size:.9rem;letter-spacing:.07em;text-transform:uppercase">
   &#x1F5C4;&#xFE0F; SQL Stored Procedures
 </h2>
@@ -64,7 +64,7 @@
 <tr class="row-ok"><td class="proc">DropTablesWithPrefix</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">GenerateKaluzaModel</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">GetCustomersByLatestStatus</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
-<tr class="row-bad"><td class="proc">GetMigratedKaluzaCustomers</td><td class="ok" title="">&#x2705; OK</td><td class="diff" title="dev=931d9bcacb93 int=19e2f1e8b621">&#x274C; DIFF</td><td class="diff" title="dev=931d9bcacb93 acc=19e2f1e8b621">&#x274C; DIFF</td><td class="na" title="Not applicable for this environment">&#x2014; N/A</td></tr>
+<tr class="row-bad"><td class="proc">GetMigratedKaluzaCustomers</td><td class="diff" title="git=19e2f1e8b621 dev=931d9bcacb93">&#x274C; DIFF</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="na" title="Not applicable for this environment">&#x2014; N/A</td></tr>
 <tr class="row-ok"><td class="proc">GetSprnCount</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">InsertNewCustomer</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">LastMRDate</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
@@ -100,7 +100,7 @@
 <tr class="row-ok"><td class="proc">SelectBatchToTreat</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 </tbody>
 </table>
-<div class="findings"><strong>Findings:</strong><ul><li><strong>GetMigratedKaluzaCustomers</strong>: INT=DIFF, ACC=DIFF</li></ul></div>
+<div class="findings"><strong>Findings:</strong><ul><li><strong>GetMigratedKaluzaCustomers</strong>: DEV=DIFF</li></ul></div>
 <h2 style="color:#1a1a2e;font-size:.9rem;letter-spacing:.07em;text-transform:uppercase;margin-top:28px">
   &#x26A1; Azure Functions (content-based)
 </h2>
