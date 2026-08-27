@@ -1,0 +1,753 @@
+{
+  "generatedAtUtc": "2026-08-27T13:16:37.5535423Z",
+  "sql": {
+    "allGreen": 160,
+    "total": 169,
+    "findings": [
+      "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: INT=DIFF, ACC=DIFF",
+      "\u003Cstrong\u003EMapAccount\u003C/strong\u003E: PRD=DIFF",
+      "\u003Cstrong\u003EMapAdvanceInvoice\u003C/strong\u003E: PRD=DIFF",
+      "\u003Cstrong\u003EMapCurrentAdvanceAmount\u003C/strong\u003E: PRD=DIFF",
+      "\u003Cstrong\u003EMapGridfeeCost\u003C/strong\u003E: PRD=DIFF",
+      "\u003Cstrong\u003EMapMigratedPayments\u003C/strong\u003E: PRD=DIFF",
+      "\u003Cstrong\u003EMapReferenceAdvanceAmount\u003C/strong\u003E: PRD=DIFF",
+      "\u003Cstrong\u003EMapResidencyGroup\u003C/strong\u003E: PRD=DIFF"
+    ],
+    "results": {
+      "DEV": {
+        "BatchUpdateCustomerStatus": {
+          "status": "OK",
+          "detail": ""
+        },
+        "BatchUpdateCustomerStatusAll": {
+          "status": "OK",
+          "detail": ""
+        },
+        "BatchUpdateCustomerStatusFreezeEligibility": {
+          "status": "OK",
+          "detail": ""
+        },
+        "BuildBatchFreezingRequest": {
+          "status": "OK",
+          "detail": ""
+        },
+        "CallMappingWithTVP": {
+          "status": "OK",
+          "detail": ""
+        },
+        "CanILaunchNextBatch": {
+          "status": "OK",
+          "detail": ""
+        },
+        "ClaimFile": {
+          "status": "OK",
+          "detail": ""
+        },
+        "DropTablesWithPrefix": {
+          "status": "OK",
+          "detail": ""
+        },
+        "GenerateKaluzaModel": {
+          "status": "OK",
+          "detail": ""
+        },
+        "GetCustomersByLatestStatus": {
+          "status": "OK",
+          "detail": ""
+        },
+        "GetMigratedKaluzaCustomers": {
+          "status": "OK",
+          "detail": ""
+        },
+        "GetSprnCount": {
+          "status": "OK",
+          "detail": ""
+        },
+        "InsertNewCustomer": {
+          "status": "OK",
+          "detail": ""
+        },
+        "LastMRDate": {
+          "status": "OK",
+          "detail": ""
+        },
+        "LaunchNextBatch": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapAccount": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapAccountHistory": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapAdvanceAmounts": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapAdvanceInvoice": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapAgreement": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapBillingPreferences": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapConsumption": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapCurrentAdvanceAmount": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapCustomer": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapCustomerAccountRelationship": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapCustomerResidencyRelationship": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapGridfeeCost": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapHistoricalUsageCosts": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapIntervalData": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapMandate": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapMeter": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapMeterRead": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapMigratedBalance": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapMigratedPayments": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapReferenceAdvanceAmount": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapRegister": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapResidencyGroup": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapSupplyPoint": {
+          "status": "OK",
+          "detail": ""
+        },
+        "PerformMapping": {
+          "status": "OK",
+          "detail": ""
+        },
+        "PerformValidation": {
+          "status": "OK",
+          "detail": ""
+        },
+        "ProcessCleanupList": {
+          "status": "OK",
+          "detail": ""
+        },
+        "PruneODataForBatch": {
+          "status": "OK",
+          "detail": ""
+        },
+        "ResetTestMigrationId": {
+          "status": "OK",
+          "detail": ""
+        },
+        "SelectBatchToTreat": {
+          "status": "OK",
+          "detail": ""
+        }
+      },
+      "INT": {
+        "BatchUpdateCustomerStatus": {
+          "status": "OK",
+          "detail": ""
+        },
+        "BatchUpdateCustomerStatusAll": {
+          "status": "OK",
+          "detail": ""
+        },
+        "BatchUpdateCustomerStatusFreezeEligibility": {
+          "status": "OK",
+          "detail": ""
+        },
+        "BuildBatchFreezingRequest": {
+          "status": "OK",
+          "detail": ""
+        },
+        "CallMappingWithTVP": {
+          "status": "NA",
+          "detail": "Not applicable for this environment"
+        },
+        "CanILaunchNextBatch": {
+          "status": "OK",
+          "detail": ""
+        },
+        "ClaimFile": {
+          "status": "OK",
+          "detail": ""
+        },
+        "DropTablesWithPrefix": {
+          "status": "OK",
+          "detail": ""
+        },
+        "GenerateKaluzaModel": {
+          "status": "OK",
+          "detail": ""
+        },
+        "GetCustomersByLatestStatus": {
+          "status": "OK",
+          "detail": ""
+        },
+        "GetMigratedKaluzaCustomers": {
+          "status": "DIFF",
+          "detail": "dev=931d9bcacb93 int=19e2f1e8b621"
+        },
+        "GetSprnCount": {
+          "status": "OK",
+          "detail": ""
+        },
+        "InsertNewCustomer": {
+          "status": "OK",
+          "detail": ""
+        },
+        "LastMRDate": {
+          "status": "OK",
+          "detail": ""
+        },
+        "LaunchNextBatch": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapAccount": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapAccountHistory": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapAdvanceAmounts": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapAdvanceInvoice": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapAgreement": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapBillingPreferences": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapConsumption": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapCurrentAdvanceAmount": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapCustomer": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapCustomerAccountRelationship": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapCustomerResidencyRelationship": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapGridfeeCost": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapHistoricalUsageCosts": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapIntervalData": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapMandate": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapMeter": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapMeterRead": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapMigratedBalance": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapMigratedPayments": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapReferenceAdvanceAmount": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapRegister": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapResidencyGroup": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapSupplyPoint": {
+          "status": "OK",
+          "detail": ""
+        },
+        "PerformMapping": {
+          "status": "OK",
+          "detail": ""
+        },
+        "PerformValidation": {
+          "status": "OK",
+          "detail": ""
+        },
+        "ProcessCleanupList": {
+          "status": "OK",
+          "detail": ""
+        },
+        "PruneODataForBatch": {
+          "status": "OK",
+          "detail": ""
+        },
+        "ResetTestMigrationId": {
+          "status": "NA",
+          "detail": "Not applicable for this environment"
+        },
+        "SelectBatchToTreat": {
+          "status": "OK",
+          "detail": ""
+        }
+      },
+      "ACC": {
+        "BatchUpdateCustomerStatus": {
+          "status": "OK",
+          "detail": ""
+        },
+        "BatchUpdateCustomerStatusAll": {
+          "status": "OK",
+          "detail": ""
+        },
+        "BatchUpdateCustomerStatusFreezeEligibility": {
+          "status": "OK",
+          "detail": ""
+        },
+        "BuildBatchFreezingRequest": {
+          "status": "OK",
+          "detail": ""
+        },
+        "CallMappingWithTVP": {
+          "status": "NA",
+          "detail": "Not applicable for this environment"
+        },
+        "CanILaunchNextBatch": {
+          "status": "OK",
+          "detail": ""
+        },
+        "ClaimFile": {
+          "status": "OK",
+          "detail": ""
+        },
+        "DropTablesWithPrefix": {
+          "status": "OK",
+          "detail": ""
+        },
+        "GenerateKaluzaModel": {
+          "status": "OK",
+          "detail": ""
+        },
+        "GetCustomersByLatestStatus": {
+          "status": "OK",
+          "detail": ""
+        },
+        "GetMigratedKaluzaCustomers": {
+          "status": "DIFF",
+          "detail": "dev=931d9bcacb93 acc=19e2f1e8b621"
+        },
+        "GetSprnCount": {
+          "status": "OK",
+          "detail": ""
+        },
+        "InsertNewCustomer": {
+          "status": "OK",
+          "detail": ""
+        },
+        "LastMRDate": {
+          "status": "OK",
+          "detail": ""
+        },
+        "LaunchNextBatch": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapAccount": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapAccountHistory": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapAdvanceAmounts": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapAdvanceInvoice": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapAgreement": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapBillingPreferences": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapConsumption": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapCurrentAdvanceAmount": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapCustomer": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapCustomerAccountRelationship": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapCustomerResidencyRelationship": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapGridfeeCost": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapHistoricalUsageCosts": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapIntervalData": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapMandate": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapMeter": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapMeterRead": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapMigratedBalance": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapMigratedPayments": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapReferenceAdvanceAmount": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapRegister": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapResidencyGroup": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapSupplyPoint": {
+          "status": "OK",
+          "detail": ""
+        },
+        "PerformMapping": {
+          "status": "OK",
+          "detail": ""
+        },
+        "PerformValidation": {
+          "status": "OK",
+          "detail": ""
+        },
+        "ProcessCleanupList": {
+          "status": "OK",
+          "detail": ""
+        },
+        "PruneODataForBatch": {
+          "status": "OK",
+          "detail": ""
+        },
+        "ResetTestMigrationId": {
+          "status": "NA",
+          "detail": "Not applicable for this environment"
+        },
+        "SelectBatchToTreat": {
+          "status": "OK",
+          "detail": ""
+        }
+      },
+      "PRD": {
+        "BatchUpdateCustomerStatus": {
+          "status": "OK",
+          "detail": ""
+        },
+        "BatchUpdateCustomerStatusAll": {
+          "status": "OK",
+          "detail": ""
+        },
+        "BatchUpdateCustomerStatusFreezeEligibility": {
+          "status": "OK",
+          "detail": ""
+        },
+        "BuildBatchFreezingRequest": {
+          "status": "OK",
+          "detail": ""
+        },
+        "CallMappingWithTVP": {
+          "status": "NA",
+          "detail": "Not applicable for this environment"
+        },
+        "CanILaunchNextBatch": {
+          "status": "OK",
+          "detail": ""
+        },
+        "ClaimFile": {
+          "status": "OK",
+          "detail": ""
+        },
+        "DropTablesWithPrefix": {
+          "status": "OK",
+          "detail": ""
+        },
+        "GenerateKaluzaModel": {
+          "status": "OK",
+          "detail": ""
+        },
+        "GetCustomersByLatestStatus": {
+          "status": "OK",
+          "detail": ""
+        },
+        "GetMigratedKaluzaCustomers": {
+          "status": "NA",
+          "detail": "Not applicable for this environment"
+        },
+        "GetSprnCount": {
+          "status": "OK",
+          "detail": ""
+        },
+        "InsertNewCustomer": {
+          "status": "OK",
+          "detail": ""
+        },
+        "LastMRDate": {
+          "status": "OK",
+          "detail": ""
+        },
+        "LaunchNextBatch": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapAccount": {
+          "status": "DIFF",
+          "detail": "dev=7c867edff784 prd=2eabb427350f"
+        },
+        "MapAccountHistory": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapAdvanceAmounts": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapAdvanceInvoice": {
+          "status": "DIFF",
+          "detail": "dev=ecc974fa448e prd=0f4fee1d43e2"
+        },
+        "MapAgreement": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapBillingPreferences": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapConsumption": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapCurrentAdvanceAmount": {
+          "status": "DIFF",
+          "detail": "dev=5bf96d157964 prd=448906780f76"
+        },
+        "MapCustomer": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapCustomerAccountRelationship": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapCustomerResidencyRelationship": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapGridfeeCost": {
+          "status": "DIFF",
+          "detail": "dev=0e83978087fd prd=3d8105a4fd33"
+        },
+        "MapHistoricalUsageCosts": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapIntervalData": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapMandate": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapMeter": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapMeterRead": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapMigratedBalance": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapMigratedPayments": {
+          "status": "DIFF",
+          "detail": "dev=6ba1c3ffc9b2 prd=c328892cef9a"
+        },
+        "MapReferenceAdvanceAmount": {
+          "status": "DIFF",
+          "detail": "dev=1f04f79013f3 prd=20d2c37d7ef8"
+        },
+        "MapRegister": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapResidencyGroup": {
+          "status": "DIFF",
+          "detail": "dev=a6fb684feb77 prd=a3e5c25fc0eb"
+        },
+        "MapSupplyPoint": {
+          "status": "OK",
+          "detail": ""
+        },
+        "PerformMapping": {
+          "status": "OK",
+          "detail": ""
+        },
+        "PerformValidation": {
+          "status": "OK",
+          "detail": ""
+        },
+        "ProcessCleanupList": {
+          "status": "OK",
+          "detail": ""
+        },
+        "PruneODataForBatch": {
+          "status": "OK",
+          "detail": ""
+        },
+        "ResetTestMigrationId": {
+          "status": "NA",
+          "detail": "Not applicable for this environment"
+        },
+        "SelectBatchToTreat": {
+          "status": "OK",
+          "detail": ""
+        }
+      }
+    }
+  },
+  "functions": {
+    "ok": 1,
+    "total": 4,
+    "results": {
+      "DEV": {
+        "status": "OK",
+        "detail": "schema=0a99b020b136"
+      },
+      "INT": {
+        "status": "DIFF",
+        "detail": "source hash mismatch: dev\u2260int (schema.gql matches, CS differs)"
+      },
+      "ACC": {
+        "status": "DIFF",
+        "detail": "source hash mismatch: dev\u2260acc (schema.gql matches, CS differs)"
+      },
+      "PRD": {
+        "status": "DIFF",
+        "detail": "source hash mismatch: dev\u2260prd (schema.gql matches, CS differs)"
+      }
+    }
+  }
+}
