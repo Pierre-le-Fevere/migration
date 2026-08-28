@@ -1,10 +1,12 @@
 {
-  "generatedAtUtc": "2026-08-28T07:00:04.1616276Z",
+  "generatedAtUtc": "2026-08-28T08:00:07.0810300Z",
   "sql": {
-    "allGreen": 168,
+    "allGreen": 166,
     "total": 169,
     "findings": [
-      "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: DEV=DIFF"
+      "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: DEV=DIFF",
+      "\u003Cstrong\u003EMapCurrentAdvanceAmount\u003C/strong\u003E: PRD=DIFF",
+      "\u003Cstrong\u003EMapReferenceAdvanceAmount\u003C/strong\u003E: PRD=DIFF"
     ],
     "results": {
       "DEV": {
@@ -631,8 +633,8 @@
           "detail": ""
         },
         "MapCurrentAdvanceAmount": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=448906780f76 prd=5bf96d157964"
         },
         "MapCustomer": {
           "status": "OK",
@@ -679,8 +681,8 @@
           "detail": ""
         },
         "MapReferenceAdvanceAmount": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=20d2c37d7ef8 prd=1f04f79013f3"
         },
         "MapRegister": {
           "status": "OK",
