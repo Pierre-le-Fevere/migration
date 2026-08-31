@@ -1,13 +1,13 @@
 {
-  "generatedAtUtc": "2026-08-31T14:00:05.8187849Z",
+  "generatedAtUtc": "2026-08-31T15:00:04.8116975Z",
   "sql": {
-    "allGreen": 162,
+    "allGreen": 160,
     "total": 169,
     "findings": [
       "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: DEV=DIFF",
       "\u003Cstrong\u003EMapCurrentAdvanceAmount\u003C/strong\u003E: PRD=DIFF",
       "\u003Cstrong\u003EMapMeter\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapMeterRead\u003C/strong\u003E: DEV=DIFF",
+      "\u003Cstrong\u003EMapMeterRead\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapReferenceAdvanceAmount\u003C/strong\u003E: PRD=DIFF"
     ],
     "results": {
@@ -137,8 +137,8 @@
           "detail": ""
         },
         "MapMeterRead": {
-          "status": "DIFF",
-          "detail": "git=4a14a5c13d3f dev=f1d42aca29d6"
+          "status": "OK",
+          "detail": ""
         },
         "MapMigratedBalance": {
           "status": "OK",
@@ -315,8 +315,8 @@
           "detail": "git=9cfaef4980ee int=ff86d66106ad"
         },
         "MapMeterRead": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=f1d42aca29d6 int=4a14a5c13d3f"
         },
         "MapMigratedBalance": {
           "status": "OK",
@@ -493,8 +493,8 @@
           "detail": "git=9cfaef4980ee acc=ff86d66106ad"
         },
         "MapMeterRead": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=f1d42aca29d6 acc=4a14a5c13d3f"
         },
         "MapMigratedBalance": {
           "status": "OK",
@@ -671,8 +671,8 @@
           "detail": "git=9cfaef4980ee prd=ff86d66106ad"
         },
         "MapMeterRead": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=f1d42aca29d6 prd=4a14a5c13d3f"
         },
         "MapMigratedBalance": {
           "status": "OK",
