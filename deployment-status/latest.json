@@ -1,12 +1,13 @@
 {
-  "generatedAtUtc": "2026-08-31T13:00:05.7702543Z",
+  "generatedAtUtc": "2026-08-31T14:00:05.8187849Z",
   "sql": {
-    "allGreen": 165,
+    "allGreen": 162,
     "total": 169,
     "findings": [
       "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: DEV=DIFF",
       "\u003Cstrong\u003EMapCurrentAdvanceAmount\u003C/strong\u003E: PRD=DIFF",
-      "\u003Cstrong\u003EMapMeter\u003C/strong\u003E: DEV=DIFF",
+      "\u003Cstrong\u003EMapMeter\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF",
+      "\u003Cstrong\u003EMapMeterRead\u003C/strong\u003E: DEV=DIFF",
       "\u003Cstrong\u003EMapReferenceAdvanceAmount\u003C/strong\u003E: PRD=DIFF"
     ],
     "results": {
@@ -132,12 +133,12 @@
           "detail": ""
         },
         "MapMeter": {
-          "status": "DIFF",
-          "detail": "git=ff86d66106ad dev=9cfaef4980ee"
-        },
-        "MapMeterRead": {
           "status": "OK",
           "detail": ""
+        },
+        "MapMeterRead": {
+          "status": "DIFF",
+          "detail": "git=4a14a5c13d3f dev=f1d42aca29d6"
         },
         "MapMigratedBalance": {
           "status": "OK",
@@ -310,8 +311,8 @@
           "detail": ""
         },
         "MapMeter": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=9cfaef4980ee int=ff86d66106ad"
         },
         "MapMeterRead": {
           "status": "OK",
@@ -488,8 +489,8 @@
           "detail": ""
         },
         "MapMeter": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=9cfaef4980ee acc=ff86d66106ad"
         },
         "MapMeterRead": {
           "status": "OK",
@@ -666,8 +667,8 @@
           "detail": ""
         },
         "MapMeter": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=9cfaef4980ee prd=ff86d66106ad"
         },
         "MapMeterRead": {
           "status": "OK",
