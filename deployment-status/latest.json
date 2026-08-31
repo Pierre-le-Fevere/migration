@@ -1,14 +1,16 @@
 {
-  "generatedAtUtc": "2026-08-31T15:00:04.8116975Z",
+  "generatedAtUtc": "2026-08-31T16:00:07.3940027Z",
   "sql": {
-    "allGreen": 160,
+    "allGreen": 156,
     "total": 169,
     "findings": [
       "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: DEV=DIFF",
       "\u003Cstrong\u003EMapCurrentAdvanceAmount\u003C/strong\u003E: PRD=DIFF",
       "\u003Cstrong\u003EMapMeter\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapMeterRead\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapReferenceAdvanceAmount\u003C/strong\u003E: PRD=DIFF"
+      "\u003Cstrong\u003EMapReferenceAdvanceAmount\u003C/strong\u003E: PRD=DIFF",
+      "\u003Cstrong\u003EMapSupplyPoint\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF",
+      "\u003Cstrong\u003EResetTestMigrationId\u003C/strong\u003E: DEV=DIFF"
     ],
     "results": {
       "DEV": {
@@ -181,8 +183,8 @@
           "detail": ""
         },
         "ResetTestMigrationId": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=21f298008466 dev=591ff4a4bbbe"
         },
         "SelectBatchToTreat": {
           "status": "OK",
@@ -339,8 +341,8 @@
           "detail": ""
         },
         "MapSupplyPoint": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=d8a8137d9c62 int=1a1285ae8b02"
         },
         "PerformMapping": {
           "status": "OK",
@@ -517,8 +519,8 @@
           "detail": ""
         },
         "MapSupplyPoint": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=d8a8137d9c62 acc=1a1285ae8b02"
         },
         "PerformMapping": {
           "status": "OK",
@@ -695,8 +697,8 @@
           "detail": ""
         },
         "MapSupplyPoint": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=d8a8137d9c62 prd=1a1285ae8b02"
         },
         "PerformMapping": {
           "status": "OK",
