@@ -40,15 +40,15 @@
 <div class="subtitle">
   SQL: GIT is reference &nbsp;|&nbsp;
   Functions: content-hash comparison (SHA-256/12) &mdash; GIT is reference &nbsp;|&nbsp;
-  Generated: 2026-08-31 15:00:00 UTC &nbsp;|&nbsp;
+  Generated: 2026-08-31 16:00:00 UTC &nbsp;|&nbsp;
   Source: DeploymentStatusCheck Azure Function
 </div>
 <div style="margin-bottom:18px">
-  <span class="badge bad">SQL: 160/169 all-green</span>
+  <span class="badge bad">SQL: 156/169 all-green</span>
   <span class="badge ok">Functions: 33/33 all-green</span>
 </div>
 <div class="env-label">Errors per environment (SQL + Functions, excluding N/A)</div>
-<div class="cards"><div class="card bad"><div class="num">1</div><div>DEV</div></div><div class="card bad"><div class="num">2</div><div>INT</div></div><div class="card bad"><div class="num">2</div><div>ACC</div></div><div class="card bad"><div class="num">4</div><div>PRD</div></div></div>
+<div class="cards"><div class="card bad"><div class="num">2</div><div>DEV</div></div><div class="card bad"><div class="num">3</div><div>INT</div></div><div class="card bad"><div class="num">3</div><div>ACC</div></div><div class="card bad"><div class="num">5</div><div>PRD</div></div></div>
 <h2 style="color:#1a1a2e;font-size:.9rem;letter-spacing:.07em;text-transform:uppercase">
   &#x1F5C4;&#xFE0F; SQL Stored Procedures
 </h2>
@@ -91,16 +91,16 @@
 <tr class="row-bad"><td class="proc">MapReferenceAdvanceAmount</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="diff" title="git=20d2c37d7ef8 prd=1f04f79013f3">&#x274C; DIFF</td></tr>
 <tr class="row-ok"><td class="proc">MapRegister</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">MapResidencyGroup</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
-<tr class="row-ok"><td class="proc">MapSupplyPoint</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
+<tr class="row-bad"><td class="proc">MapSupplyPoint</td><td class="ok" title="">&#x2705; OK</td><td class="diff" title="git=d8a8137d9c62 int=1a1285ae8b02">&#x274C; DIFF</td><td class="diff" title="git=d8a8137d9c62 acc=1a1285ae8b02">&#x274C; DIFF</td><td class="diff" title="git=d8a8137d9c62 prd=1a1285ae8b02">&#x274C; DIFF</td></tr>
 <tr class="row-ok"><td class="proc">PerformMapping</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">PerformValidation</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">ProcessCleanupList</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">PruneODataForBatch</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
-<tr class="row-ok"><td class="proc">ResetTestMigrationId</td><td class="ok" title="">&#x2705; OK</td><td class="na" title="Not applicable for this environment">&#x2014; N/A</td><td class="na" title="Not applicable for this environment">&#x2014; N/A</td><td class="na" title="Not applicable for this environment">&#x2014; N/A</td></tr>
+<tr class="row-bad"><td class="proc">ResetTestMigrationId</td><td class="diff" title="git=21f298008466 dev=591ff4a4bbbe">&#x274C; DIFF</td><td class="na" title="Not applicable for this environment">&#x2014; N/A</td><td class="na" title="Not applicable for this environment">&#x2014; N/A</td><td class="na" title="Not applicable for this environment">&#x2014; N/A</td></tr>
 <tr class="row-ok"><td class="proc">SelectBatchToTreat</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 </tbody>
 </table>
-<div class="findings"><strong>Findings:</strong><ul><li><strong>GetMigratedKaluzaCustomers</strong>: DEV=DIFF</li><li><strong>MapCurrentAdvanceAmount</strong>: PRD=DIFF</li><li><strong>MapMeter</strong>: INT=DIFF, ACC=DIFF, PRD=DIFF</li><li><strong>MapMeterRead</strong>: INT=DIFF, ACC=DIFF, PRD=DIFF</li><li><strong>MapReferenceAdvanceAmount</strong>: PRD=DIFF</li></ul></div>
+<div class="findings"><strong>Findings:</strong><ul><li><strong>GetMigratedKaluzaCustomers</strong>: DEV=DIFF</li><li><strong>MapCurrentAdvanceAmount</strong>: PRD=DIFF</li><li><strong>MapMeter</strong>: INT=DIFF, ACC=DIFF, PRD=DIFF</li><li><strong>MapMeterRead</strong>: INT=DIFF, ACC=DIFF, PRD=DIFF</li><li><strong>MapReferenceAdvanceAmount</strong>: PRD=DIFF</li><li><strong>MapSupplyPoint</strong>: INT=DIFF, ACC=DIFF, PRD=DIFF</li><li><strong>ResetTestMigrationId</strong>: DEV=DIFF</li></ul></div>
 <h2 style="color:#1a1a2e;font-size:.9rem;letter-spacing:.07em;text-transform:uppercase;margin-top:28px">
   &#x26A1; Azure Functions (content-based)
 </h2>
