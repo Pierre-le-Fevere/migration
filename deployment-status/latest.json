@@ -1,7 +1,7 @@
 {
-  "generatedAtUtc": "2026-09-01T08:00:06.1351968Z",
+  "generatedAtUtc": "2026-09-01T09:00:07.0813806Z",
   "sql": {
-    "allGreen": 155,
+    "allGreen": 158,
     "total": 169,
     "findings": [
       "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: DEV=DIFF",
@@ -10,7 +10,6 @@
       "\u003Cstrong\u003EMapMeter\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapMeterRead\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapReferenceAdvanceAmount\u003C/strong\u003E: PRD=DIFF",
-      "\u003Cstrong\u003EMapSupplyPoint\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EResetTestMigrationId\u003C/strong\u003E: DEV=DIFF"
     ],
     "results": {
@@ -299,7 +298,7 @@
         },
         "MapGridfeeCost": {
           "status": "DIFF",
-          "detail": "git=0e83978087fd int=a4db659da482"
+          "detail": "git=0e83978087fd int=39f610c5811d"
         },
         "MapHistoricalUsageCosts": {
           "status": "OK",
@@ -342,8 +341,8 @@
           "detail": ""
         },
         "MapSupplyPoint": {
-          "status": "DIFF",
-          "detail": "git=72f98c28eff6 int=1a1285ae8b02"
+          "status": "OK",
+          "detail": ""
         },
         "PerformMapping": {
           "status": "OK",
@@ -520,8 +519,8 @@
           "detail": ""
         },
         "MapSupplyPoint": {
-          "status": "DIFF",
-          "detail": "git=72f98c28eff6 acc=1a1285ae8b02"
+          "status": "OK",
+          "detail": ""
         },
         "PerformMapping": {
           "status": "OK",
@@ -698,8 +697,8 @@
           "detail": ""
         },
         "MapSupplyPoint": {
-          "status": "DIFF",
-          "detail": "git=72f98c28eff6 prd=1a1285ae8b02"
+          "status": "OK",
+          "detail": ""
         },
         "PerformMapping": {
           "status": "OK",
@@ -729,10 +728,10 @@
     }
   },
   "functions": {
-    "ok": 32,
+    "ok": 31,
     "total": 33,
     "findings": [
-      "\u003Cstrong\u003Eschema.gql\u003C/strong\u003E: DEV=DIFF"
+      "\u003Cstrong\u003Eschema.gql\u003C/strong\u003E: DEV=DIFF, INT=DIFF"
     ],
     "results": {
       "DEV": {
@@ -807,8 +806,8 @@
           "detail": ""
         },
         "schema.gql": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=0a99b020b136 int=22f38c6441c6"
         }
       },
       "ACC": {
