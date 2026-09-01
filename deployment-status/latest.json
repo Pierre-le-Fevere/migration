@@ -1,5 +1,5 @@
 {
-  "generatedAtUtc": "2026-09-01T15:00:04.4151303Z",
+  "generatedAtUtc": "2026-09-01T16:00:05.9531444Z",
   "sql": {
     "allGreen": 158,
     "total": 169,
@@ -322,7 +322,7 @@
         },
         "MapMigratedBalance": {
           "status": "DIFF",
-          "detail": "git=5c97da14fbd0 int=48257fc13d42"
+          "detail": "git=5c97da14fbd0 int=a87401666490"
         },
         "MapMigratedPayments": {
           "status": "OK",
