@@ -1,11 +1,12 @@
 {
-  "generatedAtUtc": "2026-09-01T07:00:04.7348164Z",
+  "generatedAtUtc": "2026-09-01T08:00:06.1351968Z",
   "sql": {
-    "allGreen": 156,
+    "allGreen": 155,
     "total": 169,
     "findings": [
       "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: DEV=DIFF",
       "\u003Cstrong\u003EMapCurrentAdvanceAmount\u003C/strong\u003E: PRD=DIFF",
+      "\u003Cstrong\u003EMapGridfeeCost\u003C/strong\u003E: INT=DIFF",
       "\u003Cstrong\u003EMapMeter\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapMeterRead\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapReferenceAdvanceAmount\u003C/strong\u003E: PRD=DIFF",
@@ -297,8 +298,8 @@
           "detail": ""
         },
         "MapGridfeeCost": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=0e83978087fd int=a4db659da482"
         },
         "MapHistoricalUsageCosts": {
           "status": "OK",
@@ -342,7 +343,7 @@
         },
         "MapSupplyPoint": {
           "status": "DIFF",
-          "detail": "git=d8a8137d9c62 int=1a1285ae8b02"
+          "detail": "git=72f98c28eff6 int=1a1285ae8b02"
         },
         "PerformMapping": {
           "status": "OK",
@@ -520,7 +521,7 @@
         },
         "MapSupplyPoint": {
           "status": "DIFF",
-          "detail": "git=d8a8137d9c62 acc=1a1285ae8b02"
+          "detail": "git=72f98c28eff6 acc=1a1285ae8b02"
         },
         "PerformMapping": {
           "status": "OK",
@@ -698,7 +699,7 @@
         },
         "MapSupplyPoint": {
           "status": "DIFF",
-          "detail": "git=d8a8137d9c62 prd=1a1285ae8b02"
+          "detail": "git=72f98c28eff6 prd=1a1285ae8b02"
         },
         "PerformMapping": {
           "status": "OK",
@@ -728,9 +729,11 @@
     }
   },
   "functions": {
-    "ok": 33,
+    "ok": 32,
     "total": 33,
-    "findings": [],
+    "findings": [
+      "\u003Cstrong\u003Eschema.gql\u003C/strong\u003E: DEV=DIFF"
+    ],
     "results": {
       "DEV": {
         "BuildSapEnvelopeFromWebhook": {
@@ -766,8 +769,8 @@
           "detail": ""
         },
         "schema.gql": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=0a99b020b136 dev=22f38c6441c6"
         }
       },
       "INT": {
