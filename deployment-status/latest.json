@@ -1,13 +1,14 @@
 {
-  "generatedAtUtc": "2026-09-01T14:00:11.4268690Z",
+  "generatedAtUtc": "2026-09-01T15:00:04.4151303Z",
   "sql": {
-    "allGreen": 159,
+    "allGreen": 158,
     "total": 169,
     "findings": [
       "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: DEV=DIFF",
       "\u003Cstrong\u003EMapCurrentAdvanceAmount\u003C/strong\u003E: PRD=DIFF",
       "\u003Cstrong\u003EMapMeter\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapMeterRead\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF",
+      "\u003Cstrong\u003EMapMigratedBalance\u003C/strong\u003E: INT=DIFF",
       "\u003Cstrong\u003EMapReferenceAdvanceAmount\u003C/strong\u003E: PRD=DIFF",
       "\u003Cstrong\u003EResetTestMigrationId\u003C/strong\u003E: DEV=DIFF"
     ],
@@ -320,8 +321,8 @@
           "detail": "git=f1d42aca29d6 int=4a14a5c13d3f"
         },
         "MapMigratedBalance": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=5c97da14fbd0 int=48257fc13d42"
         },
         "MapMigratedPayments": {
           "status": "OK",
