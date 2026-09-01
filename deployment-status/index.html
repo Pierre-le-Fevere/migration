@@ -40,15 +40,15 @@
 <div class="subtitle">
   SQL: GIT is reference &nbsp;|&nbsp;
   Functions: content-hash comparison (SHA-256/12) &mdash; GIT is reference &nbsp;|&nbsp;
-  Generated: 2026-09-01 07:00:00 UTC &nbsp;|&nbsp;
+  Generated: 2026-09-01 08:00:00 UTC &nbsp;|&nbsp;
   Source: DeploymentStatusCheck Azure Function
 </div>
 <div style="margin-bottom:18px">
-  <span class="badge bad">SQL: 156/169 all-green</span>
-  <span class="badge ok">Functions: 33/33 all-green</span>
+  <span class="badge bad">SQL: 155/169 all-green</span>
+  <span class="badge bad">Functions: 32/33 all-green</span>
 </div>
 <div class="env-label">Errors per environment (SQL + Functions, excluding N/A)</div>
-<div class="cards"><div class="card bad"><div class="num">2</div><div>DEV</div></div><div class="card bad"><div class="num">3</div><div>INT</div></div><div class="card bad"><div class="num">3</div><div>ACC</div></div><div class="card bad"><div class="num">5</div><div>PRD</div></div></div>
+<div class="cards"><div class="card bad"><div class="num">3</div><div>DEV</div></div><div class="card bad"><div class="num">4</div><div>INT</div></div><div class="card bad"><div class="num">3</div><div>ACC</div></div><div class="card bad"><div class="num">5</div><div>PRD</div></div></div>
 <h2 style="color:#1a1a2e;font-size:.9rem;letter-spacing:.07em;text-transform:uppercase">
   &#x1F5C4;&#xFE0F; SQL Stored Procedures
 </h2>
@@ -80,7 +80,7 @@
 <tr class="row-ok"><td class="proc">MapCustomer</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">MapCustomerAccountRelationship</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">MapCustomerResidencyRelationship</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
-<tr class="row-ok"><td class="proc">MapGridfeeCost</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
+<tr class="row-bad"><td class="proc">MapGridfeeCost</td><td class="ok" title="">&#x2705; OK</td><td class="diff" title="git=0e83978087fd int=a4db659da482">&#x274C; DIFF</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">MapHistoricalUsageCosts</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">MapIntervalData</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">MapMandate</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
@@ -91,7 +91,7 @@
 <tr class="row-bad"><td class="proc">MapReferenceAdvanceAmount</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="diff" title="git=20d2c37d7ef8 prd=1f04f79013f3">&#x274C; DIFF</td></tr>
 <tr class="row-ok"><td class="proc">MapRegister</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">MapResidencyGroup</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
-<tr class="row-bad"><td class="proc">MapSupplyPoint</td><td class="ok" title="">&#x2705; OK</td><td class="diff" title="git=d8a8137d9c62 int=1a1285ae8b02">&#x274C; DIFF</td><td class="diff" title="git=d8a8137d9c62 acc=1a1285ae8b02">&#x274C; DIFF</td><td class="diff" title="git=d8a8137d9c62 prd=1a1285ae8b02">&#x274C; DIFF</td></tr>
+<tr class="row-bad"><td class="proc">MapSupplyPoint</td><td class="ok" title="">&#x2705; OK</td><td class="diff" title="git=72f98c28eff6 int=1a1285ae8b02">&#x274C; DIFF</td><td class="diff" title="git=72f98c28eff6 acc=1a1285ae8b02">&#x274C; DIFF</td><td class="diff" title="git=72f98c28eff6 prd=1a1285ae8b02">&#x274C; DIFF</td></tr>
 <tr class="row-ok"><td class="proc">PerformMapping</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">PerformValidation</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">ProcessCleanupList</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
@@ -100,7 +100,7 @@
 <tr class="row-ok"><td class="proc">SelectBatchToTreat</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 </tbody>
 </table>
-<div class="findings"><strong>Findings:</strong><ul><li><strong>GetMigratedKaluzaCustomers</strong>: DEV=DIFF</li><li><strong>MapCurrentAdvanceAmount</strong>: PRD=DIFF</li><li><strong>MapMeter</strong>: INT=DIFF, ACC=DIFF, PRD=DIFF</li><li><strong>MapMeterRead</strong>: INT=DIFF, ACC=DIFF, PRD=DIFF</li><li><strong>MapReferenceAdvanceAmount</strong>: PRD=DIFF</li><li><strong>MapSupplyPoint</strong>: INT=DIFF, ACC=DIFF, PRD=DIFF</li><li><strong>ResetTestMigrationId</strong>: DEV=DIFF</li></ul></div>
+<div class="findings"><strong>Findings:</strong><ul><li><strong>GetMigratedKaluzaCustomers</strong>: DEV=DIFF</li><li><strong>MapCurrentAdvanceAmount</strong>: PRD=DIFF</li><li><strong>MapGridfeeCost</strong>: INT=DIFF</li><li><strong>MapMeter</strong>: INT=DIFF, ACC=DIFF, PRD=DIFF</li><li><strong>MapMeterRead</strong>: INT=DIFF, ACC=DIFF, PRD=DIFF</li><li><strong>MapReferenceAdvanceAmount</strong>: PRD=DIFF</li><li><strong>MapSupplyPoint</strong>: INT=DIFF, ACC=DIFF, PRD=DIFF</li><li><strong>ResetTestMigrationId</strong>: DEV=DIFF</li></ul></div>
 <h2 style="color:#1a1a2e;font-size:.9rem;letter-spacing:.07em;text-transform:uppercase;margin-top:28px">
   &#x26A1; Azure Functions (content-based)
 </h2>
@@ -114,10 +114,10 @@
 <tr class="row-ok"><td class="proc">ImportDirect</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">LogAlert</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">ValidateGraphQL</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
-<tr class="row-ok"><td class="proc">schema.gql</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
+<tr class="row-bad"><td class="proc">schema.gql</td><td class="diff" title="git=0a99b020b136 dev=22f38c6441c6">&#x274C; DIFF</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 </tbody>
 </table>
-
+<div class="findings"><strong>Findings:</strong><ul><li><strong>schema.gql</strong>: DEV=DIFF</li></ul></div>
 <div class="note">
   &#x2705; = file content hash matches DEV &nbsp;|&nbsp;
   &#x274C; DIFF = content differs from DEV &nbsp;|&nbsp;
