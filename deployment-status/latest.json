@@ -1,17 +1,14 @@
 {
-  "generatedAtUtc": "2026-09-02T11:00:05.6172645Z",
+  "generatedAtUtc": "2026-09-02T12:00:04.5013462Z",
   "sql": {
-    "allGreen": 151,
+    "allGreen": 156,
     "total": 169,
     "findings": [
       "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: DEV=DIFF, INT=DIFF",
       "\u003Cstrong\u003EMapAdvanceAmounts\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapCurrentAdvanceAmount\u003C/strong\u003E: DEV=MISSING, PRD=DIFF",
+      "\u003Cstrong\u003EMapCurrentAdvanceAmount\u003C/strong\u003E: DEV=MISSING, INT=MISSING, ACC=MISSING, PRD=MISSING",
       "\u003Cstrong\u003EMapCustomer\u003C/strong\u003E: PRD=DIFF",
-      "\u003Cstrong\u003EMapMeter\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapMeterRead\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapReferenceAdvanceAmount\u003C/strong\u003E: DEV=MISSING, PRD=DIFF",
-      "\u003Cstrong\u003EMapRegister\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF"
+      "\u003Cstrong\u003EMapReferenceAdvanceAmount\u003C/strong\u003E: DEV=MISSING, INT=MISSING, ACC=MISSING, PRD=MISSING"
     ],
     "results": {
       "DEV": {
@@ -282,8 +279,8 @@
           "detail": ""
         },
         "MapCurrentAdvanceAmount": {
-          "status": "OK",
-          "detail": ""
+          "status": "MISSING",
+          "detail": "Not found in database"
         },
         "MapCustomer": {
           "status": "OK",
@@ -314,12 +311,12 @@
           "detail": ""
         },
         "MapMeter": {
-          "status": "DIFF",
-          "detail": "git=9cfaef4980ee int=ff86d66106ad"
+          "status": "OK",
+          "detail": ""
         },
         "MapMeterRead": {
-          "status": "DIFF",
-          "detail": "git=f1d42aca29d6 int=4a14a5c13d3f"
+          "status": "OK",
+          "detail": ""
         },
         "MapMigratedBalance": {
           "status": "OK",
@@ -330,12 +327,12 @@
           "detail": ""
         },
         "MapReferenceAdvanceAmount": {
-          "status": "OK",
-          "detail": ""
+          "status": "MISSING",
+          "detail": "Not found in database"
         },
         "MapRegister": {
-          "status": "DIFF",
-          "detail": "git=2d7f58062dd8 int=79e93248dba2"
+          "status": "OK",
+          "detail": ""
         },
         "MapResidencyGroup": {
           "status": "OK",
@@ -460,8 +457,8 @@
           "detail": ""
         },
         "MapCurrentAdvanceAmount": {
-          "status": "OK",
-          "detail": ""
+          "status": "MISSING",
+          "detail": "Not found in database"
         },
         "MapCustomer": {
           "status": "OK",
@@ -492,12 +489,12 @@
           "detail": ""
         },
         "MapMeter": {
-          "status": "DIFF",
-          "detail": "git=9cfaef4980ee acc=ff86d66106ad"
+          "status": "OK",
+          "detail": ""
         },
         "MapMeterRead": {
-          "status": "DIFF",
-          "detail": "git=f1d42aca29d6 acc=4a14a5c13d3f"
+          "status": "OK",
+          "detail": ""
         },
         "MapMigratedBalance": {
           "status": "OK",
@@ -508,12 +505,12 @@
           "detail": ""
         },
         "MapReferenceAdvanceAmount": {
-          "status": "OK",
-          "detail": ""
+          "status": "MISSING",
+          "detail": "Not found in database"
         },
         "MapRegister": {
-          "status": "DIFF",
-          "detail": "git=2d7f58062dd8 acc=79e93248dba2"
+          "status": "OK",
+          "detail": ""
         },
         "MapResidencyGroup": {
           "status": "OK",
@@ -638,8 +635,8 @@
           "detail": ""
         },
         "MapCurrentAdvanceAmount": {
-          "status": "DIFF",
-          "detail": "git=83e6b115c9e0 prd=6d52f41340a7"
+          "status": "MISSING",
+          "detail": "Not found in database"
         },
         "MapCustomer": {
           "status": "DIFF",
@@ -670,12 +667,12 @@
           "detail": ""
         },
         "MapMeter": {
-          "status": "DIFF",
-          "detail": "git=9cfaef4980ee prd=ff86d66106ad"
+          "status": "OK",
+          "detail": ""
         },
         "MapMeterRead": {
-          "status": "DIFF",
-          "detail": "git=f1d42aca29d6 prd=4a14a5c13d3f"
+          "status": "OK",
+          "detail": ""
         },
         "MapMigratedBalance": {
           "status": "OK",
@@ -686,12 +683,12 @@
           "detail": ""
         },
         "MapReferenceAdvanceAmount": {
-          "status": "DIFF",
-          "detail": "git=bec59f8f229a prd=428b6ca2d6e1"
+          "status": "MISSING",
+          "detail": "Not found in database"
         },
         "MapRegister": {
-          "status": "DIFF",
-          "detail": "git=2d7f58062dd8 prd=79e93248dba2"
+          "status": "OK",
+          "detail": ""
         },
         "MapResidencyGroup": {
           "status": "OK",
