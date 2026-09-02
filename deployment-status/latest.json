@@ -1,15 +1,17 @@
 {
-  "generatedAtUtc": "2026-09-02T07:00:04.7282966Z",
+  "generatedAtUtc": "2026-09-02T08:00:06.5496919Z",
   "sql": {
-    "allGreen": 159,
+    "allGreen": 152,
     "total": 169,
     "findings": [
       "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: DEV=DIFF",
-      "\u003Cstrong\u003EMapCurrentAdvanceAmount\u003C/strong\u003E: PRD=DIFF",
+      "\u003Cstrong\u003EMapAdvanceAmounts\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
+      "\u003Cstrong\u003EMapCurrentAdvanceAmount\u003C/strong\u003E: DEV=MISSING, PRD=DIFF",
+      "\u003Cstrong\u003EMapCustomer\u003C/strong\u003E: PRD=DIFF",
       "\u003Cstrong\u003EMapMeter\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapMeterRead\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapMigratedBalance\u003C/strong\u003E: INT=DIFF",
-      "\u003Cstrong\u003EMapReferenceAdvanceAmount\u003C/strong\u003E: PRD=DIFF"
+      "\u003Cstrong\u003EMapReferenceAdvanceAmount\u003C/strong\u003E: DEV=MISSING, PRD=DIFF",
+      "\u003Cstrong\u003EMapRegister\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF"
     ],
     "results": {
       "DEV": {
@@ -55,7 +57,7 @@
         },
         "GetMigratedKaluzaCustomers": {
           "status": "DIFF",
-          "detail": "git=19e2f1e8b621 dev=abb8be05ca36"
+          "detail": "git=19e2f1e8b621 dev=4a7eca67cd86"
         },
         "GetSprnCount": {
           "status": "OK",
@@ -102,8 +104,8 @@
           "detail": ""
         },
         "MapCurrentAdvanceAmount": {
-          "status": "OK",
-          "detail": ""
+          "status": "MISSING",
+          "detail": "Not found in database"
         },
         "MapCustomer": {
           "status": "OK",
@@ -150,8 +152,8 @@
           "detail": ""
         },
         "MapReferenceAdvanceAmount": {
-          "status": "OK",
-          "detail": ""
+          "status": "MISSING",
+          "detail": "Not found in database"
         },
         "MapRegister": {
           "status": "OK",
@@ -320,8 +322,8 @@
           "detail": "git=f1d42aca29d6 int=4a14a5c13d3f"
         },
         "MapMigratedBalance": {
-          "status": "DIFF",
-          "detail": "git=5c97da14fbd0 int=a87401666490"
+          "status": "OK",
+          "detail": ""
         },
         "MapMigratedPayments": {
           "status": "OK",
@@ -332,8 +334,8 @@
           "detail": ""
         },
         "MapRegister": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=2d7f58062dd8 int=79e93248dba2"
         },
         "MapResidencyGroup": {
           "status": "OK",
@@ -438,8 +440,8 @@
           "detail": ""
         },
         "MapAdvanceAmounts": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=922105189c68 acc=97b02cb0f31f"
         },
         "MapAdvanceInvoice": {
           "status": "OK",
@@ -510,8 +512,8 @@
           "detail": ""
         },
         "MapRegister": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=2d7f58062dd8 acc=79e93248dba2"
         },
         "MapResidencyGroup": {
           "status": "OK",
@@ -616,8 +618,8 @@
           "detail": ""
         },
         "MapAdvanceAmounts": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=922105189c68 prd=97b02cb0f31f"
         },
         "MapAdvanceInvoice": {
           "status": "OK",
@@ -637,11 +639,11 @@
         },
         "MapCurrentAdvanceAmount": {
           "status": "DIFF",
-          "detail": "git=448906780f76 prd=5bf96d157964"
+          "detail": "git=83e6b115c9e0 prd=6d52f41340a7"
         },
         "MapCustomer": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=9bf156545a17 prd=51826114fc3b"
         },
         "MapCustomerAccountRelationship": {
           "status": "OK",
@@ -685,11 +687,11 @@
         },
         "MapReferenceAdvanceAmount": {
           "status": "DIFF",
-          "detail": "git=20d2c37d7ef8 prd=1f04f79013f3"
+          "detail": "git=bec59f8f229a prd=428b6ca2d6e1"
         },
         "MapRegister": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=2d7f58062dd8 prd=79e93248dba2"
         },
         "MapResidencyGroup": {
           "status": "OK",
@@ -730,7 +732,8 @@
     "ok": 31,
     "total": 33,
     "findings": [
-      "\u003Cstrong\u003Eschema.gql\u003C/strong\u003E: ACC=DIFF, PRD=DIFF"
+      "\u003Cstrong\u003EDeploymentStatusCheck\u003C/strong\u003E: DEV=DIFF",
+      "\u003Cstrong\u003Eschema.gql\u003C/strong\u003E: ACC=DIFF"
     ],
     "results": {
       "DEV": {
@@ -747,8 +750,8 @@
           "detail": ""
         },
         "DeploymentStatusCheck": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=6318b23eb286 dev=73e405961274"
         },
         "GetDeploymentInfo": {
           "status": "OK",
@@ -881,8 +884,8 @@
           "detail": ""
         },
         "schema.gql": {
-          "status": "DIFF",
-          "detail": "git=22f38c6441c6 prd=0a99b020b136"
+          "status": "OK",
+          "detail": ""
         }
       }
     }
