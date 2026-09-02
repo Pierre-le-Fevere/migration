@@ -1,7 +1,7 @@
 {
-  "generatedAtUtc": "2026-09-02T06:00:05.2294960Z",
+  "generatedAtUtc": "2026-09-02T07:00:04.7282966Z",
   "sql": {
-    "allGreen": 158,
+    "allGreen": 159,
     "total": 169,
     "findings": [
       "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: DEV=DIFF",
@@ -9,8 +9,7 @@
       "\u003Cstrong\u003EMapMeter\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapMeterRead\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapMigratedBalance\u003C/strong\u003E: INT=DIFF",
-      "\u003Cstrong\u003EMapReferenceAdvanceAmount\u003C/strong\u003E: PRD=DIFF",
-      "\u003Cstrong\u003EResetTestMigrationId\u003C/strong\u003E: DEV=DIFF"
+      "\u003Cstrong\u003EMapReferenceAdvanceAmount\u003C/strong\u003E: PRD=DIFF"
     ],
     "results": {
       "DEV": {
@@ -56,7 +55,7 @@
         },
         "GetMigratedKaluzaCustomers": {
           "status": "DIFF",
-          "detail": "git=19e2f1e8b621 dev=931d9bcacb93"
+          "detail": "git=19e2f1e8b621 dev=abb8be05ca36"
         },
         "GetSprnCount": {
           "status": "OK",
@@ -183,8 +182,8 @@
           "detail": ""
         },
         "ResetTestMigrationId": {
-          "status": "DIFF",
-          "detail": "git=21f298008466 dev=591ff4a4bbbe"
+          "status": "OK",
+          "detail": ""
         },
         "SelectBatchToTreat": {
           "status": "OK",
@@ -731,7 +730,7 @@
     "ok": 31,
     "total": 33,
     "findings": [
-      "\u003Cstrong\u003Eschema.gql\u003C/strong\u003E: DEV=DIFF, INT=DIFF"
+      "\u003Cstrong\u003Eschema.gql\u003C/strong\u003E: ACC=DIFF, PRD=DIFF"
     ],
     "results": {
       "DEV": {
@@ -768,8 +767,8 @@
           "detail": ""
         },
         "schema.gql": {
-          "status": "DIFF",
-          "detail": "git=0a99b020b136 dev=22f38c6441c6"
+          "status": "OK",
+          "detail": ""
         }
       },
       "INT": {
@@ -806,8 +805,8 @@
           "detail": ""
         },
         "schema.gql": {
-          "status": "DIFF",
-          "detail": "git=0a99b020b136 int=22f38c6441c6"
+          "status": "OK",
+          "detail": ""
         }
       },
       "ACC": {
@@ -844,8 +843,8 @@
           "detail": ""
         },
         "schema.gql": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=22f38c6441c6 acc=0a99b020b136"
         }
       },
       "PRD": {
@@ -882,8 +881,8 @@
           "detail": ""
         },
         "schema.gql": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=22f38c6441c6 prd=0a99b020b136"
         }
       }
     }
