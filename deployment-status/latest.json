@@ -1,14 +1,11 @@
 {
-  "generatedAtUtc": "2026-09-02T14:00:06.0425430Z",
+  "generatedAtUtc": "2026-09-02T14:19:26.3547606Z",
   "sql": {
-    "allGreen": 156,
-    "total": 169,
+    "allGreen": 157,
+    "total": 161,
     "findings": [
       "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: DEV=DIFF, INT=DIFF",
-      "\u003Cstrong\u003EMapAdvanceAmounts\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapCurrentAdvanceAmount\u003C/strong\u003E: DEV=MISSING, INT=MISSING, ACC=MISSING, PRD=MISSING",
-      "\u003Cstrong\u003EMapCustomer\u003C/strong\u003E: PRD=DIFF",
-      "\u003Cstrong\u003EMapReferenceAdvanceAmount\u003C/strong\u003E: DEV=MISSING, INT=MISSING, ACC=MISSING, PRD=MISSING"
+      "\u003Cstrong\u003EMapAdvanceAmounts\u003C/strong\u003E: ACC=DIFF, PRD=DIFF"
     ],
     "results": {
       "DEV": {
@@ -100,10 +97,6 @@
           "status": "OK",
           "detail": ""
         },
-        "MapCurrentAdvanceAmount": {
-          "status": "MISSING",
-          "detail": "Not found in database"
-        },
         "MapCustomer": {
           "status": "OK",
           "detail": ""
@@ -147,10 +140,6 @@
         "MapMigratedPayments": {
           "status": "OK",
           "detail": ""
-        },
-        "MapReferenceAdvanceAmount": {
-          "status": "MISSING",
-          "detail": "Not found in database"
         },
         "MapRegister": {
           "status": "OK",
@@ -278,10 +267,6 @@
           "status": "OK",
           "detail": ""
         },
-        "MapCurrentAdvanceAmount": {
-          "status": "MISSING",
-          "detail": "Not found in database"
-        },
         "MapCustomer": {
           "status": "OK",
           "detail": ""
@@ -325,10 +310,6 @@
         "MapMigratedPayments": {
           "status": "OK",
           "detail": ""
-        },
-        "MapReferenceAdvanceAmount": {
-          "status": "MISSING",
-          "detail": "Not found in database"
         },
         "MapRegister": {
           "status": "OK",
@@ -456,10 +437,6 @@
           "status": "OK",
           "detail": ""
         },
-        "MapCurrentAdvanceAmount": {
-          "status": "MISSING",
-          "detail": "Not found in database"
-        },
         "MapCustomer": {
           "status": "OK",
           "detail": ""
@@ -503,10 +480,6 @@
         "MapMigratedPayments": {
           "status": "OK",
           "detail": ""
-        },
-        "MapReferenceAdvanceAmount": {
-          "status": "MISSING",
-          "detail": "Not found in database"
         },
         "MapRegister": {
           "status": "OK",
@@ -634,13 +607,9 @@
           "status": "OK",
           "detail": ""
         },
-        "MapCurrentAdvanceAmount": {
-          "status": "MISSING",
-          "detail": "Not found in database"
-        },
         "MapCustomer": {
-          "status": "DIFF",
-          "detail": "git=9bf156545a17 prd=51826114fc3b"
+          "status": "OK",
+          "detail": ""
         },
         "MapCustomerAccountRelationship": {
           "status": "OK",
@@ -682,10 +651,6 @@
           "status": "OK",
           "detail": ""
         },
-        "MapReferenceAdvanceAmount": {
-          "status": "MISSING",
-          "detail": "Not found in database"
-        },
         "MapRegister": {
           "status": "OK",
           "detail": ""
@@ -726,10 +691,9 @@
     }
   },
   "functions": {
-    "ok": 31,
+    "ok": 32,
     "total": 33,
     "findings": [
-      "\u003Cstrong\u003EDeploymentStatusCheck\u003C/strong\u003E: DEV=DIFF",
       "\u003Cstrong\u003Eschema.gql\u003C/strong\u003E: ACC=DIFF"
     ],
     "results": {
@@ -747,8 +711,8 @@
           "detail": ""
         },
         "DeploymentStatusCheck": {
-          "status": "DIFF",
-          "detail": "git=6318b23eb286 dev=73e405961274"
+          "status": "OK",
+          "detail": ""
         },
         "GetDeploymentInfo": {
           "status": "OK",
