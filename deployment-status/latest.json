@@ -1,10 +1,10 @@
 {
-  "generatedAtUtc": "2026-09-03T07:00:04.0805142Z",
+  "generatedAtUtc": "2026-09-03T08:00:04.7653531Z",
   "sql": {
-    "allGreen": 157,
+    "allGreen": 158,
     "total": 161,
     "findings": [
-      "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: DEV=DIFF, INT=DIFF",
+      "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: DEV=DIFF",
       "\u003Cstrong\u003EMapAdvanceAmounts\u003C/strong\u003E: ACC=DIFF, PRD=DIFF"
     ],
     "results": {
@@ -51,7 +51,7 @@
         },
         "GetMigratedKaluzaCustomers": {
           "status": "DIFF",
-          "detail": "git=19e2f1e8b621 dev=4a7eca67cd86"
+          "detail": "git=61d1ad2170b0 dev=6efb6cf07049"
         },
         "GetSprnCount": {
           "status": "OK",
@@ -220,8 +220,8 @@
           "detail": ""
         },
         "GetMigratedKaluzaCustomers": {
-          "status": "DIFF",
-          "detail": "git=19e2f1e8b621 int=cf7f239069f4"
+          "status": "OK",
+          "detail": ""
         },
         "GetSprnCount": {
           "status": "OK",
