@@ -1,13 +1,12 @@
 {
-  "generatedAtUtc": "2026-09-07T09:00:07.2577649Z",
+  "generatedAtUtc": "2026-09-07T10:00:10.5031281Z",
   "sql": {
-    "allGreen": 156,
+    "allGreen": 155,
     "total": 161,
     "findings": [
-      "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: DEV=DIFF",
+      "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: DEV=DIFF, INT=DIFF, ACC=DIFF",
       "\u003Cstrong\u003EMapAdvanceAmounts\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: ACC=DIFF",
-      "\u003Cstrong\u003EMapIntervalData\u003C/strong\u003E: DEV=DIFF"
+      "\u003Cstrong\u003EMapIntervalData\u003C/strong\u003E: PRD=DIFF"
     ],
     "results": {
       "DEV": {
@@ -53,7 +52,7 @@
         },
         "GetMigratedKaluzaCustomers": {
           "status": "DIFF",
-          "detail": "git=61d1ad2170b0 dev=6efb6cf07049"
+          "detail": "git=61d1ad2170b0 dev=b3656b851b0c"
         },
         "GetSprnCount": {
           "status": "OK",
@@ -120,8 +119,8 @@
           "detail": ""
         },
         "MapIntervalData": {
-          "status": "DIFF",
-          "detail": "git=7d37f681f5f6 dev=58984b8e8a12"
+          "status": "OK",
+          "detail": ""
         },
         "MapMandate": {
           "status": "OK",
@@ -222,8 +221,8 @@
           "detail": ""
         },
         "GetMigratedKaluzaCustomers": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=61d1ad2170b0 int=b3656b851b0c"
         },
         "GetSprnCount": {
           "status": "OK",
@@ -392,8 +391,8 @@
           "detail": ""
         },
         "GetMigratedKaluzaCustomers": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=61d1ad2170b0 acc=b3656b851b0c"
         },
         "GetSprnCount": {
           "status": "OK",
@@ -436,8 +435,8 @@
           "detail": ""
         },
         "MapConsumption": {
-          "status": "DIFF",
-          "detail": "git=a0c1bd3ca6e8 acc=bd0227ba59d4"
+          "status": "OK",
+          "detail": ""
         },
         "MapCustomer": {
           "status": "OK",
@@ -630,8 +629,8 @@
           "detail": ""
         },
         "MapIntervalData": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=58984b8e8a12 prd=7d37f681f5f6"
         },
         "MapMandate": {
           "status": "OK",
