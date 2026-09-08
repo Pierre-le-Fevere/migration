@@ -1,16 +1,18 @@
 {
-  "generatedAtUtc": "2026-09-08T08:00:07.3256645Z",
+  "generatedAtUtc": "2026-09-08T09:00:06.5926112Z",
   "sql": {
-    "allGreen": 151,
+    "allGreen": 148,
     "total": 161,
     "findings": [
       "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: DEV=DIFF, INT=DIFF, ACC=DIFF",
       "\u003Cstrong\u003EMapAdvanceAmounts\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: PRD=DIFF",
-      "\u003Cstrong\u003EMapGridfeeCost\u003C/strong\u003E: DEV=DIFF",
+      "\u003Cstrong\u003EMapGridfeeCost\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapIntervalData\u003C/strong\u003E: PRD=DIFF",
       "\u003Cstrong\u003EMapMeter\u003C/strong\u003E: PRD=DIFF",
-      "\u003Cstrong\u003EMapRegister\u003C/strong\u003E: PRD=DIFF"
+      "\u003Cstrong\u003EMapMeterRead\u003C/strong\u003E: PRD=DIFF",
+      "\u003Cstrong\u003EMapRegister\u003C/strong\u003E: PRD=DIFF",
+      "\u003Cstrong\u003EMapSupplyPoint\u003C/strong\u003E: DEV=DIFF"
     ],
     "results": {
       "DEV": {
@@ -115,8 +117,8 @@
           "detail": ""
         },
         "MapGridfeeCost": {
-          "status": "DIFF",
-          "detail": "git=3aa1ab88cb5c dev=e293a95d35de"
+          "status": "OK",
+          "detail": ""
         },
         "MapHistoricalUsageCosts": {
           "status": "OK",
@@ -155,8 +157,8 @@
           "detail": ""
         },
         "MapSupplyPoint": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=c3e441f16000 dev=9f3873e0adec"
         },
         "PerformMapping": {
           "status": "OK",
@@ -455,8 +457,8 @@
           "detail": ""
         },
         "MapGridfeeCost": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=e293a95d35de acc=3aa1ab88cb5c"
         },
         "MapHistoricalUsageCosts": {
           "status": "OK",
@@ -625,8 +627,8 @@
           "detail": ""
         },
         "MapGridfeeCost": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=e293a95d35de prd=3aa1ab88cb5c"
         },
         "MapHistoricalUsageCosts": {
           "status": "OK",
@@ -645,8 +647,8 @@
           "detail": "git=0bdc80f0e308 prd=9cfaef4980ee"
         },
         "MapMeterRead": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=4dad39ca38ba prd=f1d42aca29d6"
         },
         "MapMigratedBalance": {
           "status": "OK",
