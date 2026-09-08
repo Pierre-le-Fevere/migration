@@ -1,13 +1,16 @@
 {
-  "generatedAtUtc": "2026-09-08T07:00:05.6097196Z",
+  "generatedAtUtc": "2026-09-08T08:00:07.3256645Z",
   "sql": {
-    "allGreen": 154,
+    "allGreen": 151,
     "total": 161,
     "findings": [
       "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: DEV=DIFF, INT=DIFF, ACC=DIFF",
       "\u003Cstrong\u003EMapAdvanceAmounts\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: PRD=DIFF",
-      "\u003Cstrong\u003EMapIntervalData\u003C/strong\u003E: PRD=DIFF"
+      "\u003Cstrong\u003EMapGridfeeCost\u003C/strong\u003E: DEV=DIFF",
+      "\u003Cstrong\u003EMapIntervalData\u003C/strong\u003E: PRD=DIFF",
+      "\u003Cstrong\u003EMapMeter\u003C/strong\u003E: PRD=DIFF",
+      "\u003Cstrong\u003EMapRegister\u003C/strong\u003E: PRD=DIFF"
     ],
     "results": {
       "DEV": {
@@ -112,8 +115,8 @@
           "detail": ""
         },
         "MapGridfeeCost": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=3aa1ab88cb5c dev=e293a95d35de"
         },
         "MapHistoricalUsageCosts": {
           "status": "OK",
@@ -607,7 +610,7 @@
         },
         "MapConsumption": {
           "status": "DIFF",
-          "detail": "git=a672ed45c3cf prd=ac0ae44e043b"
+          "detail": "git=8b64c88235b1 prd=ac0ae44e043b"
         },
         "MapCustomer": {
           "status": "OK",
@@ -638,8 +641,8 @@
           "detail": ""
         },
         "MapMeter": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=0bdc80f0e308 prd=9cfaef4980ee"
         },
         "MapMeterRead": {
           "status": "OK",
@@ -654,8 +657,8 @@
           "detail": ""
         },
         "MapRegister": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=4a6796d15a4c prd=2d7f58062dd8"
         },
         "MapResidencyGroup": {
           "status": "OK",
