@@ -1,12 +1,12 @@
 {
-  "generatedAtUtc": "2026-09-08T09:00:06.5926112Z",
+  "generatedAtUtc": "2026-09-08T10:00:07.1161070Z",
   "sql": {
-    "allGreen": 148,
+    "allGreen": 147,
     "total": 161,
     "findings": [
       "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: DEV=DIFF, INT=DIFF, ACC=DIFF",
       "\u003Cstrong\u003EMapAdvanceAmounts\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: PRD=DIFF",
+      "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: INT=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapGridfeeCost\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapIntervalData\u003C/strong\u003E: PRD=DIFF",
       "\u003Cstrong\u003EMapMeter\u003C/strong\u003E: PRD=DIFF",
@@ -271,8 +271,8 @@
           "detail": ""
         },
         "MapConsumption": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=8b64c88235b1 int=7697e869cca5"
         },
         "MapCustomer": {
           "status": "OK",
