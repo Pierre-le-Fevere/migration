@@ -1,14 +1,14 @@
 {
-  "generatedAtUtc": "2026-09-09T11:00:04.8762974Z",
+  "generatedAtUtc": "2026-09-09T12:00:05.0867232Z",
   "sql": {
-    "allGreen": 146,
+    "allGreen": 145,
     "total": 161,
     "findings": [
       "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: DEV=DIFF, INT=DIFF, ACC=DIFF",
       "\u003Cstrong\u003EMapAdvanceAmounts\u003C/strong\u003E: PRD=DIFF",
       "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: INT=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapGridfeeCost\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapIntervalData\u003C/strong\u003E: PRD=DIFF",
+      "\u003Cstrong\u003EMapIntervalData\u003C/strong\u003E: DEV=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapMeter\u003C/strong\u003E: PRD=DIFF",
       "\u003Cstrong\u003EMapMeterRead\u003C/strong\u003E: PRD=DIFF",
       "\u003Cstrong\u003EMapRegister\u003C/strong\u003E: PRD=DIFF",
@@ -125,8 +125,8 @@
           "detail": ""
         },
         "MapIntervalData": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=9d5c73a8ab99 dev=589faf37d0b9"
         },
         "MapMandate": {
           "status": "OK",
@@ -815,7 +815,7 @@
         },
         "schema.gql": {
           "status": "DIFF",
-          "detail": "git=22f38c6441c6 acc=0a99b020b136"
+          "detail": "git=22f38c6441c6 acc=77135084a071"
         }
       },
       "PRD": {
