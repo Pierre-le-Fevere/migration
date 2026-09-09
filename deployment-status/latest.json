@@ -1,7 +1,7 @@
 {
-  "generatedAtUtc": "2026-09-09T06:00:08.0223184Z",
+  "generatedAtUtc": "2026-09-09T07:00:05.1505874Z",
   "sql": {
-    "allGreen": 146,
+    "allGreen": 144,
     "total": 161,
     "findings": [
       "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: DEV=DIFF, INT=DIFF, ACC=DIFF",
@@ -12,7 +12,7 @@
       "\u003Cstrong\u003EMapMeter\u003C/strong\u003E: PRD=DIFF",
       "\u003Cstrong\u003EMapMeterRead\u003C/strong\u003E: PRD=DIFF",
       "\u003Cstrong\u003EMapRegister\u003C/strong\u003E: PRD=DIFF",
-      "\u003Cstrong\u003EMapSupplyPoint\u003C/strong\u003E: DEV=DIFF"
+      "\u003Cstrong\u003EMapSupplyPoint\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF"
     ],
     "results": {
       "DEV": {
@@ -58,7 +58,7 @@
         },
         "GetMigratedKaluzaCustomers": {
           "status": "DIFF",
-          "detail": "git=61d1ad2170b0 dev=b3656b851b0c"
+          "detail": "git=61d1ad2170b0 dev=8f3647222290"
         },
         "GetSprnCount": {
           "status": "OK",
@@ -157,8 +157,8 @@
           "detail": ""
         },
         "MapSupplyPoint": {
-          "status": "DIFF",
-          "detail": "git=c3e441f16000 dev=9f3873e0adec"
+          "status": "OK",
+          "detail": ""
         },
         "PerformMapping": {
           "status": "OK",
@@ -327,8 +327,8 @@
           "detail": ""
         },
         "MapSupplyPoint": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=9f3873e0adec int=c3e441f16000"
         },
         "PerformMapping": {
           "status": "OK",
@@ -497,8 +497,8 @@
           "detail": ""
         },
         "MapSupplyPoint": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=9f3873e0adec acc=c3e441f16000"
         },
         "PerformMapping": {
           "status": "OK",
@@ -667,8 +667,8 @@
           "detail": ""
         },
         "MapSupplyPoint": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=9f3873e0adec prd=c3e441f16000"
         },
         "PerformMapping": {
           "status": "OK",
