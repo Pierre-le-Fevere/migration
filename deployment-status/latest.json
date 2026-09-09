@@ -1,14 +1,14 @@
 {
-  "generatedAtUtc": "2026-09-09T12:00:05.0867232Z",
+  "generatedAtUtc": "2026-09-09T13:00:10.6799366Z",
   "sql": {
-    "allGreen": 145,
-    "total": 161,
+    "allGreen": 150,
+    "total": 165,
     "findings": [
       "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: DEV=DIFF, INT=DIFF, ACC=DIFF",
       "\u003Cstrong\u003EMapAdvanceAmounts\u003C/strong\u003E: PRD=DIFF",
-      "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: INT=DIFF, PRD=DIFF",
+      "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapGridfeeCost\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapIntervalData\u003C/strong\u003E: DEV=DIFF, PRD=DIFF",
+      "\u003Cstrong\u003EMapIntervalData\u003C/strong\u003E: PRD=DIFF",
       "\u003Cstrong\u003EMapMeter\u003C/strong\u003E: PRD=DIFF",
       "\u003Cstrong\u003EMapMeterRead\u003C/strong\u003E: PRD=DIFF",
       "\u003Cstrong\u003EMapRegister\u003C/strong\u003E: PRD=DIFF",
@@ -59,6 +59,10 @@
         "GetMigratedKaluzaCustomers": {
           "status": "DIFF",
           "detail": "git=61d1ad2170b0 dev=8f3647222290"
+        },
+        "GetMigratedKaluzaCustomersMetering": {
+          "status": "OK",
+          "detail": ""
         },
         "GetSprnCount": {
           "status": "OK",
@@ -125,8 +129,8 @@
           "detail": ""
         },
         "MapIntervalData": {
-          "status": "DIFF",
-          "detail": "git=9d5c73a8ab99 dev=589faf37d0b9"
+          "status": "OK",
+          "detail": ""
         },
         "MapMandate": {
           "status": "OK",
@@ -230,6 +234,10 @@
           "status": "DIFF",
           "detail": "git=61d1ad2170b0 int=b3656b851b0c"
         },
+        "GetMigratedKaluzaCustomersMetering": {
+          "status": "OK",
+          "detail": ""
+        },
         "GetSprnCount": {
           "status": "OK",
           "detail": ""
@@ -271,8 +279,8 @@
           "detail": ""
         },
         "MapConsumption": {
-          "status": "DIFF",
-          "detail": "git=8b64c88235b1 int=7697e869cca5"
+          "status": "OK",
+          "detail": ""
         },
         "MapCustomer": {
           "status": "OK",
@@ -400,6 +408,10 @@
           "status": "DIFF",
           "detail": "git=61d1ad2170b0 acc=b3656b851b0c"
         },
+        "GetMigratedKaluzaCustomersMetering": {
+          "status": "OK",
+          "detail": ""
+        },
         "GetSprnCount": {
           "status": "OK",
           "detail": ""
@@ -441,8 +453,8 @@
           "detail": ""
         },
         "MapConsumption": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=7697e869cca5 acc=8afb9cf1cf2b"
         },
         "MapCustomer": {
           "status": "OK",
@@ -570,6 +582,10 @@
           "status": "NA",
           "detail": "Not applicable for this environment"
         },
+        "GetMigratedKaluzaCustomersMetering": {
+          "status": "OK",
+          "detail": ""
+        },
         "GetSprnCount": {
           "status": "OK",
           "detail": ""
@@ -612,7 +628,7 @@
         },
         "MapConsumption": {
           "status": "DIFF",
-          "detail": "git=8b64c88235b1 prd=ac0ae44e043b"
+          "detail": "git=7697e869cca5 prd=ac0ae44e043b"
         },
         "MapCustomer": {
           "status": "OK",
@@ -636,7 +652,7 @@
         },
         "MapIntervalData": {
           "status": "DIFF",
-          "detail": "git=9d5c73a8ab99 prd=7d37f681f5f6"
+          "detail": "git=589faf37d0b9 prd=7d37f681f5f6"
         },
         "MapMandate": {
           "status": "OK",
@@ -815,7 +831,7 @@
         },
         "schema.gql": {
           "status": "DIFF",
-          "detail": "git=22f38c6441c6 acc=77135084a071"
+          "detail": "git=22f38c6441c6 acc=f8107119d40b"
         }
       },
       "PRD": {
