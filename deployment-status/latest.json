@@ -1,18 +1,17 @@
 {
-  "generatedAtUtc": "2026-09-09T13:00:10.6799366Z",
+  "generatedAtUtc": "2026-09-09T14:00:05.6803391Z",
   "sql": {
-    "allGreen": 150,
+    "allGreen": 151,
     "total": 165,
     "findings": [
-      "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: DEV=DIFF, INT=DIFF, ACC=DIFF",
       "\u003Cstrong\u003EMapAdvanceAmounts\u003C/strong\u003E: PRD=DIFF",
       "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapGridfeeCost\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapIntervalData\u003C/strong\u003E: PRD=DIFF",
-      "\u003Cstrong\u003EMapMeter\u003C/strong\u003E: PRD=DIFF",
-      "\u003Cstrong\u003EMapMeterRead\u003C/strong\u003E: PRD=DIFF",
-      "\u003Cstrong\u003EMapRegister\u003C/strong\u003E: PRD=DIFF",
-      "\u003Cstrong\u003EMapSupplyPoint\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF"
+      "\u003Cstrong\u003EMapMeter\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
+      "\u003Cstrong\u003EMapMeterRead\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
+      "\u003Cstrong\u003EMapRegister\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
+      "\u003Cstrong\u003EMapSupplyPoint\u003C/strong\u003E: ACC=DIFF, PRD=DIFF"
     ],
     "results": {
       "DEV": {
@@ -57,8 +56,8 @@
           "detail": ""
         },
         "GetMigratedKaluzaCustomers": {
-          "status": "DIFF",
-          "detail": "git=61d1ad2170b0 dev=8f3647222290"
+          "status": "OK",
+          "detail": ""
         },
         "GetMigratedKaluzaCustomersMetering": {
           "status": "OK",
@@ -231,8 +230,8 @@
           "detail": ""
         },
         "GetMigratedKaluzaCustomers": {
-          "status": "DIFF",
-          "detail": "git=61d1ad2170b0 int=b3656b851b0c"
+          "status": "OK",
+          "detail": ""
         },
         "GetMigratedKaluzaCustomersMetering": {
           "status": "OK",
@@ -335,8 +334,8 @@
           "detail": ""
         },
         "MapSupplyPoint": {
-          "status": "DIFF",
-          "detail": "git=9f3873e0adec int=c3e441f16000"
+          "status": "OK",
+          "detail": ""
         },
         "PerformMapping": {
           "status": "OK",
@@ -405,8 +404,8 @@
           "detail": ""
         },
         "GetMigratedKaluzaCustomers": {
-          "status": "DIFF",
-          "detail": "git=61d1ad2170b0 acc=b3656b851b0c"
+          "status": "OK",
+          "detail": ""
         },
         "GetMigratedKaluzaCustomersMetering": {
           "status": "OK",
@@ -485,12 +484,12 @@
           "detail": ""
         },
         "MapMeter": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=0bdc80f0e308 acc=9cfaef4980ee"
         },
         "MapMeterRead": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=4dad39ca38ba acc=f1d42aca29d6"
         },
         "MapMigratedBalance": {
           "status": "OK",
@@ -501,8 +500,8 @@
           "detail": ""
         },
         "MapRegister": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=4a6796d15a4c acc=2d7f58062dd8"
         },
         "MapResidencyGroup": {
           "status": "OK",
