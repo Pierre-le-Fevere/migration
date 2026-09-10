@@ -1,9 +1,11 @@
 {
-  "generatedAtUtc": "2026-09-10T06:00:04.5189485Z",
+  "generatedAtUtc": "2026-09-10T07:00:04.4529795Z",
   "sql": {
-    "allGreen": 151,
+    "allGreen": 148,
     "total": 165,
     "findings": [
+      "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: DEV=DIFF",
+      "\u003Cstrong\u003EGetMigratedKaluzaCustomersMetering\u003C/strong\u003E: DEV=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapAdvanceAmounts\u003C/strong\u003E: PRD=DIFF",
       "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapGridfeeCost\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
@@ -56,12 +58,12 @@
           "detail": ""
         },
         "GetMigratedKaluzaCustomers": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=b3656b851b0c dev=8f3647222290"
         },
         "GetMigratedKaluzaCustomersMetering": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=93b5a1ee3022 dev=1d035384c87c"
         },
         "GetSprnCount": {
           "status": "OK",
@@ -582,8 +584,8 @@
           "detail": "Not applicable for this environment"
         },
         "GetMigratedKaluzaCustomersMetering": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=93b5a1ee3022 prd=1d035384c87c"
         },
         "GetSprnCount": {
           "status": "OK",
