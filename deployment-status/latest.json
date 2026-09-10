@@ -1,5 +1,5 @@
 {
-  "generatedAtUtc": "2026-09-10T09:00:05.6147040Z",
+  "generatedAtUtc": "2026-09-10T10:00:05.7587215Z",
   "sql": {
     "allGreen": 147,
     "total": 165,
@@ -9,7 +9,7 @@
       "\u003Cstrong\u003EMapAdvanceAmounts\u003C/strong\u003E: PRD=DIFF",
       "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapGridfeeCost\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapIntervalData\u003C/strong\u003E: DEV=DIFF, PRD=DIFF",
+      "\u003Cstrong\u003EMapIntervalData\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapMeter\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapMeterRead\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapRegister\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
@@ -130,8 +130,8 @@
           "detail": ""
         },
         "MapIntervalData": {
-          "status": "DIFF",
-          "detail": "git=589faf37d0b9 dev=c228556d0677"
+          "status": "OK",
+          "detail": ""
         },
         "MapMandate": {
           "status": "OK",
@@ -478,8 +478,8 @@
           "detail": ""
         },
         "MapIntervalData": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=c228556d0677 acc=589faf37d0b9"
         },
         "MapMandate": {
           "status": "OK",
@@ -653,7 +653,7 @@
         },
         "MapIntervalData": {
           "status": "DIFF",
-          "detail": "git=589faf37d0b9 prd=7d37f681f5f6"
+          "detail": "git=c228556d0677 prd=7d37f681f5f6"
         },
         "MapMandate": {
           "status": "OK",
