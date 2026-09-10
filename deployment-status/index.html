@@ -40,7 +40,7 @@
 <div class="subtitle">
   SQL: GIT is reference &nbsp;|&nbsp;
   Functions: content-hash comparison (SHA-256/12) &mdash; GIT is reference &nbsp;|&nbsp;
-  Generated: 2026-09-10 09:00:00 UTC &nbsp;|&nbsp;
+  Generated: 2026-09-10 10:00:00 UTC &nbsp;|&nbsp;
   Source: DeploymentStatusCheck Azure Function
 </div>
 <div style="margin-bottom:18px">
@@ -48,7 +48,7 @@
   <span class="badge bad">Functions: 32/33 all-green</span>
 </div>
 <div class="env-label">Errors per environment (SQL + Functions, excluding N/A)</div>
-<div class="cards"><div class="card bad"><div class="num">3</div><div>DEV</div></div><div class="card ok"><div class="num">0</div><div>INT</div></div><div class="card bad"><div class="num">7</div><div>ACC</div></div><div class="card bad"><div class="num">9</div><div>PRD</div></div></div>
+<div class="cards"><div class="card bad"><div class="num">2</div><div>DEV</div></div><div class="card ok"><div class="num">0</div><div>INT</div></div><div class="card bad"><div class="num">8</div><div>ACC</div></div><div class="card bad"><div class="num">9</div><div>PRD</div></div></div>
 <h2 style="color:#1a1a2e;font-size:.9rem;letter-spacing:.07em;text-transform:uppercase">
   &#x1F5C4;&#xFE0F; SQL Stored Procedures
 </h2>
@@ -82,7 +82,7 @@
 <tr class="row-ok"><td class="proc">MapCustomerResidencyRelationship</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-bad"><td class="proc">MapGridfeeCost</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="diff" title="git=e293a95d35de acc=3aa1ab88cb5c">&#x274C; DIFF</td><td class="diff" title="git=e293a95d35de prd=3aa1ab88cb5c">&#x274C; DIFF</td></tr>
 <tr class="row-ok"><td class="proc">MapHistoricalUsageCosts</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
-<tr class="row-bad"><td class="proc">MapIntervalData</td><td class="diff" title="git=589faf37d0b9 dev=c228556d0677">&#x274C; DIFF</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="diff" title="git=589faf37d0b9 prd=7d37f681f5f6">&#x274C; DIFF</td></tr>
+<tr class="row-bad"><td class="proc">MapIntervalData</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="diff" title="git=c228556d0677 acc=589faf37d0b9">&#x274C; DIFF</td><td class="diff" title="git=c228556d0677 prd=7d37f681f5f6">&#x274C; DIFF</td></tr>
 <tr class="row-ok"><td class="proc">MapMandate</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-bad"><td class="proc">MapMeter</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="diff" title="git=0bdc80f0e308 acc=9cfaef4980ee">&#x274C; DIFF</td><td class="diff" title="git=0bdc80f0e308 prd=9cfaef4980ee">&#x274C; DIFF</td></tr>
 <tr class="row-bad"><td class="proc">MapMeterRead</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="diff" title="git=4dad39ca38ba acc=f1d42aca29d6">&#x274C; DIFF</td><td class="diff" title="git=4dad39ca38ba prd=f1d42aca29d6">&#x274C; DIFF</td></tr>
@@ -99,7 +99,7 @@
 <tr class="row-ok"><td class="proc">SelectBatchToTreat</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 </tbody>
 </table>
-<div class="findings"><strong>Findings:</strong><ul><li><strong>GetMigratedKaluzaCustomers</strong>: DEV=DIFF</li><li><strong>GetMigratedKaluzaCustomersMetering</strong>: DEV=DIFF, PRD=DIFF</li><li><strong>MapAdvanceAmounts</strong>: PRD=DIFF</li><li><strong>MapConsumption</strong>: ACC=DIFF, PRD=DIFF</li><li><strong>MapGridfeeCost</strong>: ACC=DIFF, PRD=DIFF</li><li><strong>MapIntervalData</strong>: DEV=DIFF, PRD=DIFF</li><li><strong>MapMeter</strong>: ACC=DIFF, PRD=DIFF</li><li><strong>MapMeterRead</strong>: ACC=DIFF, PRD=DIFF</li><li><strong>MapRegister</strong>: ACC=DIFF, PRD=DIFF</li><li><strong>MapSupplyPoint</strong>: ACC=DIFF, PRD=DIFF</li></ul></div>
+<div class="findings"><strong>Findings:</strong><ul><li><strong>GetMigratedKaluzaCustomers</strong>: DEV=DIFF</li><li><strong>GetMigratedKaluzaCustomersMetering</strong>: DEV=DIFF, PRD=DIFF</li><li><strong>MapAdvanceAmounts</strong>: PRD=DIFF</li><li><strong>MapConsumption</strong>: ACC=DIFF, PRD=DIFF</li><li><strong>MapGridfeeCost</strong>: ACC=DIFF, PRD=DIFF</li><li><strong>MapIntervalData</strong>: ACC=DIFF, PRD=DIFF</li><li><strong>MapMeter</strong>: ACC=DIFF, PRD=DIFF</li><li><strong>MapMeterRead</strong>: ACC=DIFF, PRD=DIFF</li><li><strong>MapRegister</strong>: ACC=DIFF, PRD=DIFF</li><li><strong>MapSupplyPoint</strong>: ACC=DIFF, PRD=DIFF</li></ul></div>
 <h2 style="color:#1a1a2e;font-size:.9rem;letter-spacing:.07em;text-transform:uppercase;margin-top:28px">
   &#x26A1; Azure Functions (content-based)
 </h2>
