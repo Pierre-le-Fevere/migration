@@ -1,5 +1,5 @@
 {
-  "generatedAtUtc": "2026-09-11T08:00:04.3213141Z",
+  "generatedAtUtc": "2026-09-11T09:00:04.9200320Z",
   "sql": {
     "allGreen": 147,
     "total": 165,
@@ -491,7 +491,7 @@
         },
         "MapMeterRead": {
           "status": "DIFF",
-          "detail": "git=4dad39ca38ba acc=f1d42aca29d6"
+          "detail": "git=05246fddcf30 acc=f1d42aca29d6"
         },
         "MapMigratedBalance": {
           "status": "OK",
@@ -665,7 +665,7 @@
         },
         "MapMeterRead": {
           "status": "DIFF",
-          "detail": "git=4dad39ca38ba prd=f1d42aca29d6"
+          "detail": "git=05246fddcf30 prd=f1d42aca29d6"
         },
         "MapMigratedBalance": {
           "status": "OK",
