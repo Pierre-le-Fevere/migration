@@ -1,14 +1,14 @@
 {
-  "generatedAtUtc": "2026-09-17T07:00:04.5000920Z",
+  "generatedAtUtc": "2026-09-17T08:00:05.3640994Z",
   "sql": {
-    "allGreen": 147,
+    "allGreen": 146,
     "total": 165,
     "findings": [
       "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: DEV=DIFF",
-      "\u003Cstrong\u003EGetMigratedKaluzaCustomersMetering\u003C/strong\u003E: DEV=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapAdvanceAmounts\u003C/strong\u003E: PRD=DIFF",
       "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapGridfeeCost\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
+      "\u003Cstrong\u003EMapHistoricalUsageCosts\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapIntervalData\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapMeter\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapMeterRead\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
@@ -62,8 +62,8 @@
           "detail": "git=9822b49996dc dev=111f5070198f"
         },
         "GetMigratedKaluzaCustomersMetering": {
-          "status": "DIFF",
-          "detail": "git=93b5a1ee3022 dev=5f514731212f"
+          "status": "OK",
+          "detail": ""
         },
         "GetSprnCount": {
           "status": "OK",
@@ -300,8 +300,8 @@
           "detail": ""
         },
         "MapHistoricalUsageCosts": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=9d1e543ef3a1 int=47baa2456dbe"
         },
         "MapIntervalData": {
           "status": "OK",
@@ -474,8 +474,8 @@
           "detail": "git=e293a95d35de acc=3aa1ab88cb5c"
         },
         "MapHistoricalUsageCosts": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=9d1e543ef3a1 acc=47baa2456dbe"
         },
         "MapIntervalData": {
           "status": "DIFF",
@@ -584,8 +584,8 @@
           "detail": "Not applicable for this environment"
         },
         "GetMigratedKaluzaCustomersMetering": {
-          "status": "DIFF",
-          "detail": "git=93b5a1ee3022 prd=1d035384c87c"
+          "status": "OK",
+          "detail": ""
         },
         "GetSprnCount": {
           "status": "OK",
@@ -648,8 +648,8 @@
           "detail": "git=e293a95d35de prd=3aa1ab88cb5c"
         },
         "MapHistoricalUsageCosts": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=9d1e543ef3a1 prd=47baa2456dbe"
         },
         "MapIntervalData": {
           "status": "DIFF",
