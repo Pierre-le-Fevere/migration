@@ -1,5 +1,5 @@
 {
-  "generatedAtUtc": "2026-09-17T06:00:05.2567006Z",
+  "generatedAtUtc": "2026-09-17T07:00:04.5000920Z",
   "sql": {
     "allGreen": 147,
     "total": 165,
@@ -63,7 +63,7 @@
         },
         "GetMigratedKaluzaCustomersMetering": {
           "status": "DIFF",
-          "detail": "git=93b5a1ee3022 dev=1d035384c87c"
+          "detail": "git=93b5a1ee3022 dev=5f514731212f"
         },
         "GetSprnCount": {
           "status": "OK",
