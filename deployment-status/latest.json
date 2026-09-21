@@ -1,10 +1,10 @@
 {
-  "generatedAtUtc": "2026-09-21T14:00:04.5019316Z",
+  "generatedAtUtc": "2026-09-21T15:00:06.0172239Z",
   "sql": {
-    "allGreen": 146,
+    "allGreen": 145,
     "total": 165,
     "findings": [
-      "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: DEV=DIFF",
+      "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: DEV=DIFF, INT=DIFF",
       "\u003Cstrong\u003EMapAdvanceAmounts\u003C/strong\u003E: PRD=DIFF",
       "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapGridfeeCost\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
@@ -232,8 +232,8 @@
           "detail": ""
         },
         "GetMigratedKaluzaCustomers": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=9822b49996dc int=111f5070198f"
         },
         "GetMigratedKaluzaCustomersMetering": {
           "status": "OK",
@@ -715,10 +715,10 @@
     }
   },
   "functions": {
-    "ok": 32,
+    "ok": 29,
     "total": 33,
     "findings": [
-      "\u003Cstrong\u003Eschema.gql\u003C/strong\u003E: ACC=DIFF"
+      "\u003Cstrong\u003Eschema.gql\u003C/strong\u003E: DEV=DIFF, INT=DIFF, ACC=DIFF, PRD=DIFF"
     ],
     "results": {
       "DEV": {
@@ -755,8 +755,8 @@
           "detail": ""
         },
         "schema.gql": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=22f38c6441c6 dev=de260aeb7bc8"
         }
       },
       "INT": {
@@ -793,8 +793,8 @@
           "detail": ""
         },
         "schema.gql": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=22f38c6441c6 int=de260aeb7bc8"
         }
       },
       "ACC": {
@@ -869,8 +869,8 @@
           "detail": ""
         },
         "schema.gql": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=22f38c6441c6 prd=de260aeb7bc8"
         }
       }
     }
