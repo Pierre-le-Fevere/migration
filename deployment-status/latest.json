@@ -1,19 +1,18 @@
 {
-  "generatedAtUtc": "2026-09-22T09:00:06.8703663Z",
+  "generatedAtUtc": "2026-09-22T10:00:06.0609178Z",
   "sql": {
-    "allGreen": 145,
+    "allGreen": 154,
     "total": 165,
     "findings": [
       "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: DEV=DIFF, INT=DIFF",
-      "\u003Cstrong\u003EMapAdvanceAmounts\u003C/strong\u003E: PRD=DIFF",
-      "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapGridfeeCost\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapHistoricalUsageCosts\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapIntervalData\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapMeter\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapMeterRead\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapRegister\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapSupplyPoint\u003C/strong\u003E: ACC=DIFF, PRD=DIFF"
+      "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: ACC=DIFF",
+      "\u003Cstrong\u003EMapGridfeeCost\u003C/strong\u003E: ACC=DIFF",
+      "\u003Cstrong\u003EMapHistoricalUsageCosts\u003C/strong\u003E: INT=DIFF, ACC=DIFF",
+      "\u003Cstrong\u003EMapIntervalData\u003C/strong\u003E: ACC=DIFF",
+      "\u003Cstrong\u003EMapMeter\u003C/strong\u003E: ACC=DIFF",
+      "\u003Cstrong\u003EMapMeterRead\u003C/strong\u003E: ACC=DIFF",
+      "\u003Cstrong\u003EMapRegister\u003C/strong\u003E: ACC=DIFF",
+      "\u003Cstrong\u003EMapSupplyPoint\u003C/strong\u003E: ACC=DIFF"
     ],
     "results": {
       "DEV": {
@@ -612,8 +611,8 @@
           "detail": ""
         },
         "MapAdvanceAmounts": {
-          "status": "DIFF",
-          "detail": "git=922105189c68 prd=97b02cb0f31f"
+          "status": "OK",
+          "detail": ""
         },
         "MapAdvanceInvoice": {
           "status": "OK",
@@ -628,8 +627,8 @@
           "detail": ""
         },
         "MapConsumption": {
-          "status": "DIFF",
-          "detail": "git=7697e869cca5 prd=ac0ae44e043b"
+          "status": "OK",
+          "detail": ""
         },
         "MapCustomer": {
           "status": "OK",
@@ -644,28 +643,28 @@
           "detail": ""
         },
         "MapGridfeeCost": {
-          "status": "DIFF",
-          "detail": "git=e293a95d35de prd=3aa1ab88cb5c"
+          "status": "OK",
+          "detail": ""
         },
         "MapHistoricalUsageCosts": {
-          "status": "DIFF",
-          "detail": "git=9d1e543ef3a1 prd=47baa2456dbe"
+          "status": "OK",
+          "detail": ""
         },
         "MapIntervalData": {
-          "status": "DIFF",
-          "detail": "git=c228556d0677 prd=7d37f681f5f6"
+          "status": "OK",
+          "detail": ""
         },
         "MapMandate": {
           "status": "OK",
           "detail": ""
         },
         "MapMeter": {
-          "status": "DIFF",
-          "detail": "git=0bdc80f0e308 prd=9cfaef4980ee"
+          "status": "OK",
+          "detail": ""
         },
         "MapMeterRead": {
-          "status": "DIFF",
-          "detail": "git=05246fddcf30 prd=f1d42aca29d6"
+          "status": "OK",
+          "detail": ""
         },
         "MapMigratedBalance": {
           "status": "OK",
@@ -676,16 +675,16 @@
           "detail": ""
         },
         "MapRegister": {
-          "status": "DIFF",
-          "detail": "git=4a6796d15a4c prd=2d7f58062dd8"
+          "status": "OK",
+          "detail": ""
         },
         "MapResidencyGroup": {
           "status": "OK",
           "detail": ""
         },
         "MapSupplyPoint": {
-          "status": "DIFF",
-          "detail": "git=9f3873e0adec prd=c3e441f16000"
+          "status": "OK",
+          "detail": ""
         },
         "PerformMapping": {
           "status": "OK",
@@ -715,11 +714,9 @@
     }
   },
   "functions": {
-    "ok": 32,
+    "ok": 33,
     "total": 33,
-    "findings": [
-      "\u003Cstrong\u003Eschema.gql\u003C/strong\u003E: ACC=DIFF"
-    ],
+    "findings": [],
     "results": {
       "DEV": {
         "BuildSapEnvelopeFromWebhook": {
@@ -831,8 +828,8 @@
           "detail": ""
         },
         "schema.gql": {
-          "status": "DIFF",
-          "detail": "git=de260aeb7bc8 acc=f8107119d40b"
+          "status": "OK",
+          "detail": ""
         }
       },
       "PRD": {
