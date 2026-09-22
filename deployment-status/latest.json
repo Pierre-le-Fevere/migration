@@ -1,5 +1,5 @@
 {
-  "generatedAtUtc": "2026-09-22T06:00:05.7731429Z",
+  "generatedAtUtc": "2026-09-22T07:00:05.4476168Z",
   "sql": {
     "allGreen": 145,
     "total": 165,
@@ -715,10 +715,10 @@
     }
   },
   "functions": {
-    "ok": 29,
+    "ok": 32,
     "total": 33,
     "findings": [
-      "\u003Cstrong\u003Eschema.gql\u003C/strong\u003E: DEV=DIFF, INT=DIFF, ACC=DIFF, PRD=DIFF"
+      "\u003Cstrong\u003Eschema.gql\u003C/strong\u003E: ACC=DIFF"
     ],
     "results": {
       "DEV": {
@@ -755,8 +755,8 @@
           "detail": ""
         },
         "schema.gql": {
-          "status": "DIFF",
-          "detail": "git=22f38c6441c6 dev=de260aeb7bc8"
+          "status": "OK",
+          "detail": ""
         }
       },
       "INT": {
@@ -793,8 +793,8 @@
           "detail": ""
         },
         "schema.gql": {
-          "status": "DIFF",
-          "detail": "git=22f38c6441c6 int=de260aeb7bc8"
+          "status": "OK",
+          "detail": ""
         }
       },
       "ACC": {
@@ -832,7 +832,7 @@
         },
         "schema.gql": {
           "status": "DIFF",
-          "detail": "git=22f38c6441c6 acc=f8107119d40b"
+          "detail": "git=de260aeb7bc8 acc=f8107119d40b"
         }
       },
       "PRD": {
@@ -869,8 +869,8 @@
           "detail": ""
         },
         "schema.gql": {
-          "status": "DIFF",
-          "detail": "git=22f38c6441c6 prd=de260aeb7bc8"
+          "status": "OK",
+          "detail": ""
         }
       }
     }
