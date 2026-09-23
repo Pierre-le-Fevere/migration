@@ -1,12 +1,11 @@
 {
-  "generatedAtUtc": "2026-09-23T12:00:03.6022493Z",
+  "generatedAtUtc": "2026-09-23T13:00:25.6631881Z",
   "sql": {
-    "allGreen": 163,
-    "total": 169,
+    "allGreen": 162,
+    "total": 165,
     "findings": [
       "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: INT=DIFF, ACC=DIFF",
-      "\u003Cstrong\u003EGetMigratedKaluzaCustomersMetering\u003C/strong\u003E: INT=DIFF",
-      "\u003Cstrong\u003EMapMeterReadT\u003C/strong\u003E: INT=MISSING, ACC=MISSING, PRD=MISSING"
+      "\u003Cstrong\u003EGetMigratedKaluzaCustomersMetering\u003C/strong\u003E: INT=DIFF"
     ],
     "results": {
       "DEV": {
@@ -135,10 +134,6 @@
           "detail": ""
         },
         "MapMeterRead": {
-          "status": "OK",
-          "detail": ""
-        },
-        "MapMeterReadT": {
           "status": "OK",
           "detail": ""
         },
@@ -316,10 +311,6 @@
           "status": "OK",
           "detail": ""
         },
-        "MapMeterReadT": {
-          "status": "MISSING",
-          "detail": "Not found in database"
-        },
         "MapMigratedBalance": {
           "status": "OK",
           "detail": ""
@@ -494,10 +485,6 @@
           "status": "OK",
           "detail": ""
         },
-        "MapMeterReadT": {
-          "status": "MISSING",
-          "detail": "Not found in database"
-        },
         "MapMigratedBalance": {
           "status": "OK",
           "detail": ""
@@ -671,10 +658,6 @@
         "MapMeterRead": {
           "status": "OK",
           "detail": ""
-        },
-        "MapMeterReadT": {
-          "status": "MISSING",
-          "detail": "Not found in database"
         },
         "MapMigratedBalance": {
           "status": "OK",
