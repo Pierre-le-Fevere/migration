@@ -1,9 +1,10 @@
 {
-  "generatedAtUtc": "2026-09-23T07:00:05.0034895Z",
+  "generatedAtUtc": "2026-09-23T08:00:05.2853774Z",
   "sql": {
-    "allGreen": 163,
+    "allGreen": 159,
     "total": 165,
     "findings": [
+      "\u003Cstrong\u003ECanILaunchNextBatch\u003C/strong\u003E: DEV=DIFF, INT=DIFF, ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: DEV=DIFF",
       "\u003Cstrong\u003EGetMigratedKaluzaCustomersMetering\u003C/strong\u003E: INT=DIFF"
     ],
@@ -30,8 +31,8 @@
           "detail": ""
         },
         "CanILaunchNextBatch": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=8124197fa049 dev=d785c304cffa"
         },
         "ClaimFile": {
           "status": "OK",
@@ -204,8 +205,8 @@
           "detail": "Not applicable for this environment"
         },
         "CanILaunchNextBatch": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=8124197fa049 int=d785c304cffa"
         },
         "ClaimFile": {
           "status": "OK",
@@ -378,8 +379,8 @@
           "detail": "Not applicable for this environment"
         },
         "CanILaunchNextBatch": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=8124197fa049 acc=d785c304cffa"
         },
         "ClaimFile": {
           "status": "OK",
@@ -552,8 +553,8 @@
           "detail": "Not applicable for this environment"
         },
         "CanILaunchNextBatch": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=8124197fa049 prd=d785c304cffa"
         },
         "ClaimFile": {
           "status": "OK",
