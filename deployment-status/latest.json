@@ -1,12 +1,12 @@
 {
-  "generatedAtUtc": "2026-09-23T08:00:05.2853774Z",
+  "generatedAtUtc": "2026-09-23T09:00:03.6847373Z",
   "sql": {
-    "allGreen": 159,
-    "total": 165,
+    "allGreen": 163,
+    "total": 169,
     "findings": [
-      "\u003Cstrong\u003ECanILaunchNextBatch\u003C/strong\u003E: DEV=DIFF, INT=DIFF, ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: DEV=DIFF",
-      "\u003Cstrong\u003EGetMigratedKaluzaCustomersMetering\u003C/strong\u003E: INT=DIFF"
+      "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: INT=DIFF, ACC=DIFF",
+      "\u003Cstrong\u003EGetMigratedKaluzaCustomersMetering\u003C/strong\u003E: INT=DIFF",
+      "\u003Cstrong\u003EMapMeterReadT\u003C/strong\u003E: INT=MISSING, ACC=MISSING, PRD=MISSING"
     ],
     "results": {
       "DEV": {
@@ -31,8 +31,8 @@
           "detail": ""
         },
         "CanILaunchNextBatch": {
-          "status": "DIFF",
-          "detail": "git=8124197fa049 dev=d785c304cffa"
+          "status": "OK",
+          "detail": ""
         },
         "ClaimFile": {
           "status": "OK",
@@ -51,8 +51,8 @@
           "detail": ""
         },
         "GetMigratedKaluzaCustomers": {
-          "status": "DIFF",
-          "detail": "git=9822b49996dc dev=111f5070198f"
+          "status": "OK",
+          "detail": ""
         },
         "GetMigratedKaluzaCustomersMetering": {
           "status": "OK",
@@ -135,6 +135,10 @@
           "detail": ""
         },
         "MapMeterRead": {
+          "status": "OK",
+          "detail": ""
+        },
+        "MapMeterReadT": {
           "status": "OK",
           "detail": ""
         },
@@ -205,8 +209,8 @@
           "detail": "Not applicable for this environment"
         },
         "CanILaunchNextBatch": {
-          "status": "DIFF",
-          "detail": "git=8124197fa049 int=d785c304cffa"
+          "status": "OK",
+          "detail": ""
         },
         "ClaimFile": {
           "status": "OK",
@@ -225,12 +229,12 @@
           "detail": ""
         },
         "GetMigratedKaluzaCustomers": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "dev=111f5070198f int=9822b49996dc"
         },
         "GetMigratedKaluzaCustomersMetering": {
           "status": "DIFF",
-          "detail": "git=5f514731212f int=ceeb0b07df06"
+          "detail": "dev=5f514731212f int=ceeb0b07df06"
         },
         "GetSprnCount": {
           "status": "OK",
@@ -311,6 +315,10 @@
         "MapMeterRead": {
           "status": "OK",
           "detail": ""
+        },
+        "MapMeterReadT": {
+          "status": "MISSING",
+          "detail": "Not found in database"
         },
         "MapMigratedBalance": {
           "status": "OK",
@@ -379,8 +387,8 @@
           "detail": "Not applicable for this environment"
         },
         "CanILaunchNextBatch": {
-          "status": "DIFF",
-          "detail": "git=8124197fa049 acc=d785c304cffa"
+          "status": "OK",
+          "detail": ""
         },
         "ClaimFile": {
           "status": "OK",
@@ -399,8 +407,8 @@
           "detail": ""
         },
         "GetMigratedKaluzaCustomers": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "dev=111f5070198f acc=9822b49996dc"
         },
         "GetMigratedKaluzaCustomersMetering": {
           "status": "OK",
@@ -485,6 +493,10 @@
         "MapMeterRead": {
           "status": "OK",
           "detail": ""
+        },
+        "MapMeterReadT": {
+          "status": "MISSING",
+          "detail": "Not found in database"
         },
         "MapMigratedBalance": {
           "status": "OK",
@@ -553,8 +565,8 @@
           "detail": "Not applicable for this environment"
         },
         "CanILaunchNextBatch": {
-          "status": "DIFF",
-          "detail": "git=8124197fa049 prd=d785c304cffa"
+          "status": "OK",
+          "detail": ""
         },
         "ClaimFile": {
           "status": "OK",
@@ -659,6 +671,10 @@
         "MapMeterRead": {
           "status": "OK",
           "detail": ""
+        },
+        "MapMeterReadT": {
+          "status": "MISSING",
+          "detail": "Not found in database"
         },
         "MapMigratedBalance": {
           "status": "OK",
