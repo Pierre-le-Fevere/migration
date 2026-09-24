@@ -40,15 +40,15 @@
 <div class="subtitle">
   SQL: GIT branch sql/MVB1 is reference &nbsp;|&nbsp;
   Functions: content-hash comparison (SHA-256/12) &mdash; GIT branch sql/MVB1 is reference &nbsp;|&nbsp;
-  Generated: 2026-09-24 14:00:00 UTC &nbsp;|&nbsp;
+  Generated: 2026-09-24 15:00:00 UTC &nbsp;|&nbsp;
   Source: DeploymentStatusCheck Azure Function
 </div>
 <div style="margin-bottom:18px">
-  <span class="badge bad">SQL: 161/162 all-green</span>
+  <span class="badge ok">SQL: 162/162 all-green</span>
   <span class="badge ok">Functions: 33/33 all-green</span>
 </div>
 <div class="env-label">Errors per environment (SQL + Functions, excluding N/A)</div>
-<div class="cards"><div class="card ok"><div class="num">0</div><div>DEV</div></div><div class="card ok"><div class="num">0</div><div>INT</div></div><div class="card bad"><div class="num">1</div><div>ACC</div></div><div class="card ok"><div class="num">0</div><div>PRD</div></div></div>
+<div class="cards"><div class="card ok"><div class="num">0</div><div>DEV</div></div><div class="card ok"><div class="num">0</div><div>INT</div></div><div class="card ok"><div class="num">0</div><div>ACC</div></div><div class="card ok"><div class="num">0</div><div>PRD</div></div></div>
 <h2 style="color:#1a1a2e;font-size:.9rem;letter-spacing:.07em;text-transform:uppercase">
   &#x1F5C4;&#xFE0F; SQL Stored Procedures
 </h2>
@@ -65,7 +65,7 @@
 <tr class="row-ok"><td class="proc">GenerateKaluzaModel</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">GetCustomersByLatestStatus</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">GetMigratedKaluzaCustomers</td><td class="na" title="Not applicable for this environment">&#x2014; N/A</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="na" title="Not applicable for this environment">&#x2014; N/A</td></tr>
-<tr class="row-bad"><td class="proc">GetMigratedKaluzaCustomersMetering</td><td class="na" title="Not applicable for this environment">&#x2014; N/A</td><td class="ok" title="">&#x2705; OK</td><td class="diff" title="git=ceeb0b07df06 acc=5f514731212f">&#x274C; DIFF</td><td class="na" title="Not applicable for this environment">&#x2014; N/A</td></tr>
+<tr class="row-ok"><td class="proc">GetMigratedKaluzaCustomersMetering</td><td class="na" title="Not applicable for this environment">&#x2014; N/A</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="na" title="Not applicable for this environment">&#x2014; N/A</td></tr>
 <tr class="row-ok"><td class="proc">GetSprnCount</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">InsertNewCustomer</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">LastMRDate</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
@@ -99,7 +99,7 @@
 <tr class="row-ok"><td class="proc">SelectBatchToTreat</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 </tbody>
 </table>
-<div class="findings"><strong>Findings:</strong><ul><li><strong>GetMigratedKaluzaCustomersMetering</strong>: ACC=DIFF</li></ul></div>
+
 <h2 style="color:#1a1a2e;font-size:.9rem;letter-spacing:.07em;text-transform:uppercase;margin-top:28px">
   &#x26A1; Azure Functions (content-based)
 </h2>
