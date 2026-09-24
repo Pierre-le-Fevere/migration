@@ -1,10 +1,10 @@
 {
-  "generatedAtUtc": "2026-09-24T11:00:04.6066194Z",
+  "generatedAtUtc": "2026-09-24T12:00:05.2719506Z",
   "sql": {
     "allGreen": 157,
     "total": 162,
     "findings": [
-      "\u003Cstrong\u003EGetMigratedKaluzaCustomersMetering\u003C/strong\u003E: INT=DIFF",
+      "\u003Cstrong\u003EGetMigratedKaluzaCustomersMetering\u003C/strong\u003E: ACC=DIFF",
       "\u003Cstrong\u003EMapRegister\u003C/strong\u003E: DEV=DIFF, INT=DIFF, ACC=DIFF, PRD=DIFF"
     ],
     "results": {
@@ -228,8 +228,8 @@
           "detail": ""
         },
         "GetMigratedKaluzaCustomersMetering": {
-          "status": "DIFF",
-          "detail": "git=5f514731212f int=ceeb0b07df06"
+          "status": "OK",
+          "detail": ""
         },
         "GetSprnCount": {
           "status": "OK",
@@ -402,8 +402,8 @@
           "detail": ""
         },
         "GetMigratedKaluzaCustomersMetering": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=ceeb0b07df06 acc=5f514731212f"
         },
         "GetSprnCount": {
           "status": "OK",
@@ -707,11 +707,9 @@
     }
   },
   "functions": {
-    "ok": 32,
+    "ok": 33,
     "total": 33,
-    "findings": [
-      "\u003Cstrong\u003EDeploymentStatusCheck\u003C/strong\u003E: DEV=DIFF"
-    ],
+    "findings": [],
     "results": {
       "DEV": {
         "BuildSapEnvelopeFromWebhook": {
@@ -727,8 +725,8 @@
           "detail": ""
         },
         "DeploymentStatusCheck": {
-          "status": "DIFF",
-          "detail": "git=73e405961274 dev=051e45dd7521"
+          "status": "OK",
+          "detail": ""
         },
         "GetDeploymentInfo": {
           "status": "OK",
