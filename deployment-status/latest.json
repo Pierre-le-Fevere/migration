@@ -1,11 +1,9 @@
 {
-  "generatedAtUtc": "2026-09-24T14:00:05.0717472Z",
+  "generatedAtUtc": "2026-09-24T15:00:04.8214381Z",
   "sql": {
-    "allGreen": 161,
+    "allGreen": 162,
     "total": 162,
-    "findings": [
-      "\u003Cstrong\u003EGetMigratedKaluzaCustomersMetering\u003C/strong\u003E: ACC=DIFF"
-    ],
+    "findings": [],
     "results": {
       "DEV": {
         "BatchUpdateCustomerStatus": {
@@ -401,8 +399,8 @@
           "detail": ""
         },
         "GetMigratedKaluzaCustomersMetering": {
-          "status": "DIFF",
-          "detail": "git=ceeb0b07df06 acc=5f514731212f"
+          "status": "OK",
+          "detail": ""
         },
         "GetSprnCount": {
           "status": "OK",
