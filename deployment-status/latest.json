@@ -1,11 +1,11 @@
 {
-  "generatedAtUtc": "2026-09-24T08:00:02.5159390Z",
+  "generatedAtUtc": "2026-09-24T09:00:08.8556740Z",
   "sql": {
-    "allGreen": 162,
-    "total": 165,
+    "allGreen": 157,
+    "total": 162,
     "findings": [
-      "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: INT=DIFF, ACC=DIFF",
-      "\u003Cstrong\u003EGetMigratedKaluzaCustomersMetering\u003C/strong\u003E: INT=DIFF"
+      "\u003Cstrong\u003EGetMigratedKaluzaCustomersMetering\u003C/strong\u003E: INT=DIFF",
+      "\u003Cstrong\u003EMapRegister\u003C/strong\u003E: DEV=DIFF, INT=DIFF, ACC=DIFF, PRD=DIFF"
     ],
     "results": {
       "DEV": {
@@ -50,12 +50,12 @@
           "detail": ""
         },
         "GetMigratedKaluzaCustomers": {
-          "status": "OK",
-          "detail": ""
+          "status": "NA",
+          "detail": "Not applicable for this environment"
         },
         "GetMigratedKaluzaCustomersMetering": {
-          "status": "OK",
-          "detail": ""
+          "status": "NA",
+          "detail": "Not applicable for this environment"
         },
         "GetSprnCount": {
           "status": "OK",
@@ -146,8 +146,8 @@
           "detail": ""
         },
         "MapRegister": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=30d369c9fa08 dev=4a6796d15a4c"
         },
         "MapResidencyGroup": {
           "status": "OK",
@@ -224,12 +224,12 @@
           "detail": ""
         },
         "GetMigratedKaluzaCustomers": {
-          "status": "DIFF",
-          "detail": "dev=111f5070198f int=9822b49996dc"
+          "status": "OK",
+          "detail": ""
         },
         "GetMigratedKaluzaCustomersMetering": {
           "status": "DIFF",
-          "detail": "dev=5f514731212f int=ceeb0b07df06"
+          "detail": "git=5f514731212f int=ceeb0b07df06"
         },
         "GetSprnCount": {
           "status": "OK",
@@ -320,8 +320,8 @@
           "detail": ""
         },
         "MapRegister": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=30d369c9fa08 int=4a6796d15a4c"
         },
         "MapResidencyGroup": {
           "status": "OK",
@@ -398,8 +398,8 @@
           "detail": ""
         },
         "GetMigratedKaluzaCustomers": {
-          "status": "DIFF",
-          "detail": "dev=111f5070198f acc=9822b49996dc"
+          "status": "OK",
+          "detail": ""
         },
         "GetMigratedKaluzaCustomersMetering": {
           "status": "OK",
@@ -494,8 +494,8 @@
           "detail": ""
         },
         "MapRegister": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=30d369c9fa08 acc=4a6796d15a4c"
         },
         "MapResidencyGroup": {
           "status": "OK",
@@ -576,8 +576,8 @@
           "detail": "Not applicable for this environment"
         },
         "GetMigratedKaluzaCustomersMetering": {
-          "status": "OK",
-          "detail": ""
+          "status": "NA",
+          "detail": "Not applicable for this environment"
         },
         "GetSprnCount": {
           "status": "OK",
@@ -668,8 +668,8 @@
           "detail": ""
         },
         "MapRegister": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=30d369c9fa08 prd=4a6796d15a4c"
         },
         "MapResidencyGroup": {
           "status": "OK",
@@ -707,9 +707,11 @@
     }
   },
   "functions": {
-    "ok": 33,
+    "ok": 32,
     "total": 33,
-    "findings": [],
+    "findings": [
+      "\u003Cstrong\u003EDeploymentStatusCheck\u003C/strong\u003E: DEV=DIFF"
+    ],
     "results": {
       "DEV": {
         "BuildSapEnvelopeFromWebhook": {
@@ -725,8 +727,8 @@
           "detail": ""
         },
         "DeploymentStatusCheck": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=73e405961274 dev=051e45dd7521"
         },
         "GetDeploymentInfo": {
           "status": "OK",
