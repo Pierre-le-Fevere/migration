@@ -1,5 +1,5 @@
 {
-  "generatedAtUtc": "2026-09-28T07:00:05.0629721Z",
+  "generatedAtUtc": "2026-09-28T08:00:07.0488247Z",
   "sql": {
     "allGreen": 162,
     "total": 162,
@@ -704,11 +704,9 @@
     }
   },
   "functions": {
-    "ok": 32,
+    "ok": 33,
     "total": 33,
-    "findings": [
-      "\u003Cstrong\u003EDeploymentStatusCheck\u003C/strong\u003E: DEV=DIFF"
-    ],
+    "findings": [],
     "results": {
       "DEV": {
         "BuildSapEnvelopeFromWebhook": {
@@ -724,8 +722,8 @@
           "detail": ""
         },
         "DeploymentStatusCheck": {
-          "status": "DIFF",
-          "detail": "git=4a6a6e79fade dev=051e45dd7521"
+          "status": "OK",
+          "detail": ""
         },
         "GetDeploymentInfo": {
           "status": "OK",
