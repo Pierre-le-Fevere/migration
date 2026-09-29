@@ -1,9 +1,12 @@
 {
-  "generatedAtUtc": "2026-09-29T13:00:05.4099390Z",
+  "generatedAtUtc": "2026-09-29T14:00:06.3630325Z",
   "sql": {
-    "allGreen": 162,
+    "allGreen": 159,
     "total": 162,
-    "findings": [],
+    "findings": [
+      "\u003Cstrong\u003EMapMeterRead\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
+      "\u003Cstrong\u003EResetTestMigrationId\u003C/strong\u003E: DEV=DIFF"
+    ],
     "results": {
       "DEV": {
         "BatchUpdateCustomerStatus": {
@@ -171,8 +174,8 @@
           "detail": ""
         },
         "ResetTestMigrationId": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=591ff4a4bbbe dev=6ecf100b0dc2"
         },
         "SelectBatchToTreat": {
           "status": "OK",
@@ -479,8 +482,8 @@
           "detail": ""
         },
         "MapMeterRead": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=e3e533ce8970 acc=05246fddcf30"
         },
         "MapMigratedBalance": {
           "status": "OK",
@@ -653,8 +656,8 @@
           "detail": ""
         },
         "MapMeterRead": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=e3e533ce8970 prd=05246fddcf30"
         },
         "MapMigratedBalance": {
           "status": "OK",
