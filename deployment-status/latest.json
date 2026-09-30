@@ -1,5 +1,5 @@
 {
-  "generatedAtUtc": "2026-09-30T00:01:35.9352504Z",
+  "generatedAtUtc": "2026-09-30T01:00:05.6447755Z",
   "sql": {
     "allGreen": 159,
     "total": 162,
@@ -707,19 +707,9 @@
     }
   },
   "functions": {
-    "ok": 25,
-    "total": 34,
-    "findings": [
-      "\u003Cstrong\u003EBuildSapEnvelopeFromWebhook\u003C/strong\u003E: PRD=ERROR",
-      "\u003Cstrong\u003EBuildSapMigrationEnvelope\u003C/strong\u003E: PRD=ERROR",
-      "\u003Cstrong\u003ECallKaluza\u003C/strong\u003E: PRD=ERROR",
-      "\u003Cstrong\u003EDeploymentStatusCheck\u003C/strong\u003E: PRD=ERROR",
-      "\u003Cstrong\u003EGetDeploymentInfo\u003C/strong\u003E: PRD=ERROR",
-      "\u003Cstrong\u003EImportDirect\u003C/strong\u003E: PRD=ERROR",
-      "\u003Cstrong\u003ELogAlert\u003C/strong\u003E: PRD=ERROR",
-      "\u003Cstrong\u003EValidateGraphQL\u003C/strong\u003E: PRD=ERROR",
-      "\u003Cstrong\u003Eschema.gql\u003C/strong\u003E: PRD=ERROR"
-    ],
+    "ok": 33,
+    "total": 33,
+    "findings": [],
     "results": {
       "DEV": {
         "BuildSapEnvelopeFromWebhook": {
@@ -837,40 +827,40 @@
       },
       "PRD": {
         "BuildSapEnvelopeFromWebhook": {
-          "status": "ERROR",
-          "detail": "GetDeploymentInfo unreachable"
+          "status": "OK",
+          "detail": ""
         },
         "BuildSapMigrationEnvelope": {
-          "status": "ERROR",
-          "detail": "GetDeploymentInfo unreachable"
+          "status": "OK",
+          "detail": ""
         },
         "CallKaluza": {
-          "status": "ERROR",
-          "detail": "GetDeploymentInfo unreachable"
+          "status": "OK",
+          "detail": ""
         },
         "DeploymentStatusCheck": {
-          "status": "ERROR",
-          "detail": "GetDeploymentInfo unreachable"
+          "status": "NA",
+          "detail": "Not applicable for this environment"
         },
         "GetDeploymentInfo": {
-          "status": "ERROR",
-          "detail": "GetDeploymentInfo unreachable"
+          "status": "OK",
+          "detail": ""
         },
         "ImportDirect": {
-          "status": "ERROR",
-          "detail": "GetDeploymentInfo unreachable"
+          "status": "OK",
+          "detail": ""
         },
         "LogAlert": {
-          "status": "ERROR",
-          "detail": "GetDeploymentInfo unreachable"
+          "status": "OK",
+          "detail": ""
         },
         "ValidateGraphQL": {
-          "status": "ERROR",
-          "detail": "GetDeploymentInfo unreachable"
+          "status": "OK",
+          "detail": ""
         },
         "schema.gql": {
-          "status": "ERROR",
-          "detail": "GetDeploymentInfo unreachable"
+          "status": "OK",
+          "detail": ""
         }
       }
     }
