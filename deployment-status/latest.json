@@ -1,11 +1,13 @@
 {
-  "generatedAtUtc": "2026-09-30T09:00:05.1714016Z",
+  "generatedAtUtc": "2026-09-30T10:00:06.6625269Z",
   "sql": {
-    "allGreen": 157,
+    "allGreen": 153,
     "total": 162,
     "findings": [
+      "\u003Cstrong\u003EMapBillingPreferences\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapMeterRead\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
+      "\u003Cstrong\u003EMapSupplyPoint\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EResetTestMigrationId\u003C/strong\u003E: DEV=DIFF"
     ],
     "results": {
@@ -443,8 +445,8 @@
           "detail": ""
         },
         "MapBillingPreferences": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=25895c3f525b acc=484d25fb0bad"
         },
         "MapConsumption": {
           "status": "DIFF",
@@ -503,8 +505,8 @@
           "detail": ""
         },
         "MapSupplyPoint": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=02b1050d52df acc=9f3873e0adec"
         },
         "PerformMapping": {
           "status": "OK",
@@ -617,8 +619,8 @@
           "detail": ""
         },
         "MapBillingPreferences": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=25895c3f525b prd=484d25fb0bad"
         },
         "MapConsumption": {
           "status": "DIFF",
@@ -677,8 +679,8 @@
           "detail": ""
         },
         "MapSupplyPoint": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=02b1050d52df prd=9f3873e0adec"
         },
         "PerformMapping": {
           "status": "OK",
