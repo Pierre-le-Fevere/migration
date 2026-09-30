@@ -1,9 +1,10 @@
 {
-  "generatedAtUtc": "2026-09-30T07:00:04.4667867Z",
+  "generatedAtUtc": "2026-09-30T08:00:05.5363684Z",
   "sql": {
-    "allGreen": 159,
+    "allGreen": 158,
     "total": 162,
     "findings": [
+      "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: DEV=DIFF",
       "\u003Cstrong\u003EMapMeterRead\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EResetTestMigrationId\u003C/strong\u003E: DEV=DIFF"
     ],
@@ -98,8 +99,8 @@
           "detail": ""
         },
         "MapConsumption": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=72ad8ff7739d dev=1207bc92aec5"
         },
         "MapCustomer": {
           "status": "OK",
