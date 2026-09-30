@@ -1,10 +1,10 @@
 {
-  "generatedAtUtc": "2026-09-30T08:00:05.5363684Z",
+  "generatedAtUtc": "2026-09-30T09:00:05.1714016Z",
   "sql": {
-    "allGreen": 158,
+    "allGreen": 157,
     "total": 162,
     "findings": [
-      "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: DEV=DIFF",
+      "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapMeterRead\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EResetTestMigrationId\u003C/strong\u003E: DEV=DIFF"
     ],
@@ -99,8 +99,8 @@
           "detail": ""
         },
         "MapConsumption": {
-          "status": "DIFF",
-          "detail": "git=72ad8ff7739d dev=1207bc92aec5"
+          "status": "OK",
+          "detail": ""
         },
         "MapCustomer": {
           "status": "OK",
@@ -447,8 +447,8 @@
           "detail": ""
         },
         "MapConsumption": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=1207bc92aec5 acc=72ad8ff7739d"
         },
         "MapCustomer": {
           "status": "OK",
@@ -621,8 +621,8 @@
           "detail": ""
         },
         "MapConsumption": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=1207bc92aec5 prd=72ad8ff7739d"
         },
         "MapCustomer": {
           "status": "OK",
