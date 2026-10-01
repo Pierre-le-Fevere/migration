@@ -1,11 +1,12 @@
 {
-  "generatedAtUtc": "2026-10-01T11:00:05.0596998Z",
+  "generatedAtUtc": "2026-10-01T12:00:05.5211905Z",
   "sql": {
-    "allGreen": 154,
+    "allGreen": 152,
     "total": 162,
     "findings": [
       "\u003Cstrong\u003EMapBillingPreferences\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
+      "\u003Cstrong\u003EMapGridfeeCost\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapMeterRead\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapSupplyPoint\u003C/strong\u003E: ACC=DIFF, PRD=DIFF"
     ],
@@ -464,8 +465,8 @@
           "detail": ""
         },
         "MapGridfeeCost": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=8c68a8a11dc5 acc=e293a95d35de"
         },
         "MapHistoricalUsageCosts": {
           "status": "OK",
@@ -638,8 +639,8 @@
           "detail": ""
         },
         "MapGridfeeCost": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=8c68a8a11dc5 prd=e293a95d35de"
         },
         "MapHistoricalUsageCosts": {
           "status": "OK",
