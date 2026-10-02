@@ -1,5 +1,5 @@
 {
-  "generatedAtUtc": "2026-10-02T09:00:03.7276694Z",
+  "generatedAtUtc": "2026-10-02T10:00:05.1572465Z",
   "sql": {
     "allGreen": 152,
     "total": 162,
@@ -450,7 +450,7 @@
         },
         "MapConsumption": {
           "status": "DIFF",
-          "detail": "git=1207bc92aec5 acc=72ad8ff7739d"
+          "detail": "git=56e2bb066dee acc=72ad8ff7739d"
         },
         "MapCustomer": {
           "status": "OK",
@@ -486,7 +486,7 @@
         },
         "MapMeterRead": {
           "status": "DIFF",
-          "detail": "git=e3e533ce8970 acc=05246fddcf30"
+          "detail": "git=ecacb418a0e4 acc=05246fddcf30"
         },
         "MapMigratedBalance": {
           "status": "OK",
@@ -624,7 +624,7 @@
         },
         "MapConsumption": {
           "status": "DIFF",
-          "detail": "git=1207bc92aec5 prd=72ad8ff7739d"
+          "detail": "git=56e2bb066dee prd=72ad8ff7739d"
         },
         "MapCustomer": {
           "status": "OK",
@@ -660,7 +660,7 @@
         },
         "MapMeterRead": {
           "status": "DIFF",
-          "detail": "git=e3e533ce8970 prd=05246fddcf30"
+          "detail": "git=ecacb418a0e4 prd=05246fddcf30"
         },
         "MapMigratedBalance": {
           "status": "OK",
