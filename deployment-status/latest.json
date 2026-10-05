@@ -1,9 +1,11 @@
 {
-  "generatedAtUtc": "2026-10-05T09:00:04.7899403Z",
+  "generatedAtUtc": "2026-10-05T10:00:05.6638633Z",
   "sql": {
-    "allGreen": 162,
+    "allGreen": 161,
     "total": 162,
-    "findings": [],
+    "findings": [
+      "\u003Cstrong\u003EResetTestMigrationId\u003C/strong\u003E: DEV=DIFF"
+    ],
     "results": {
       "DEV": {
         "BatchUpdateCustomerStatus": {
@@ -171,8 +173,8 @@
           "detail": ""
         },
         "ResetTestMigrationId": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=6ecf100b0dc2 dev=602a519261e7"
         },
         "SelectBatchToTreat": {
           "status": "OK",
