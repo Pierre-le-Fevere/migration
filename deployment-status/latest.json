@@ -1,9 +1,10 @@
 {
-  "generatedAtUtc": "2026-10-05T14:00:05.0594514Z",
+  "generatedAtUtc": "2026-10-05T15:00:04.1743110Z",
   "sql": {
-    "allGreen": 161,
+    "allGreen": 160,
     "total": 162,
     "findings": [
+      "\u003Cstrong\u003EMapAccountHistory\u003C/strong\u003E: DEV=DIFF",
       "\u003Cstrong\u003EResetTestMigrationId\u003C/strong\u003E: DEV=DIFF"
     ],
     "results": {
@@ -77,8 +78,8 @@
           "detail": ""
         },
         "MapAccountHistory": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=fb705c766b62 dev=9bb906018940"
         },
         "MapAdvanceAmounts": {
           "status": "OK",
