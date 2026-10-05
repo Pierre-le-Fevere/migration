@@ -1,15 +1,9 @@
 {
-  "generatedAtUtc": "2026-10-05T07:00:03.8251248Z",
+  "generatedAtUtc": "2026-10-05T08:00:04.9409100Z",
   "sql": {
-    "allGreen": 152,
+    "allGreen": 162,
     "total": 162,
-    "findings": [
-      "\u003Cstrong\u003EMapBillingPreferences\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapGridfeeCost\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapMeterRead\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapSupplyPoint\u003C/strong\u003E: ACC=DIFF, PRD=DIFF"
-    ],
+    "findings": [],
     "results": {
       "DEV": {
         "BatchUpdateCustomerStatus": {
@@ -445,12 +439,12 @@
           "detail": ""
         },
         "MapBillingPreferences": {
-          "status": "DIFF",
-          "detail": "git=bf711739db50 acc=484d25fb0bad"
+          "status": "OK",
+          "detail": ""
         },
         "MapConsumption": {
-          "status": "DIFF",
-          "detail": "git=56e2bb066dee acc=72ad8ff7739d"
+          "status": "OK",
+          "detail": ""
         },
         "MapCustomer": {
           "status": "OK",
@@ -465,8 +459,8 @@
           "detail": ""
         },
         "MapGridfeeCost": {
-          "status": "DIFF",
-          "detail": "git=8c68a8a11dc5 acc=e293a95d35de"
+          "status": "OK",
+          "detail": ""
         },
         "MapHistoricalUsageCosts": {
           "status": "OK",
@@ -485,8 +479,8 @@
           "detail": ""
         },
         "MapMeterRead": {
-          "status": "DIFF",
-          "detail": "git=ecacb418a0e4 acc=05246fddcf30"
+          "status": "OK",
+          "detail": ""
         },
         "MapMigratedBalance": {
           "status": "OK",
@@ -505,8 +499,8 @@
           "detail": ""
         },
         "MapSupplyPoint": {
-          "status": "DIFF",
-          "detail": "git=02b1050d52df acc=9f3873e0adec"
+          "status": "OK",
+          "detail": ""
         },
         "PerformMapping": {
           "status": "OK",
@@ -619,12 +613,12 @@
           "detail": ""
         },
         "MapBillingPreferences": {
-          "status": "DIFF",
-          "detail": "git=bf711739db50 prd=484d25fb0bad"
+          "status": "OK",
+          "detail": ""
         },
         "MapConsumption": {
-          "status": "DIFF",
-          "detail": "git=56e2bb066dee prd=72ad8ff7739d"
+          "status": "OK",
+          "detail": ""
         },
         "MapCustomer": {
           "status": "OK",
@@ -639,8 +633,8 @@
           "detail": ""
         },
         "MapGridfeeCost": {
-          "status": "DIFF",
-          "detail": "git=8c68a8a11dc5 prd=e293a95d35de"
+          "status": "OK",
+          "detail": ""
         },
         "MapHistoricalUsageCosts": {
           "status": "OK",
@@ -659,8 +653,8 @@
           "detail": ""
         },
         "MapMeterRead": {
-          "status": "DIFF",
-          "detail": "git=ecacb418a0e4 prd=05246fddcf30"
+          "status": "OK",
+          "detail": ""
         },
         "MapMigratedBalance": {
           "status": "OK",
@@ -679,8 +673,8 @@
           "detail": ""
         },
         "MapSupplyPoint": {
-          "status": "DIFF",
-          "detail": "git=02b1050d52df prd=9f3873e0adec"
+          "status": "OK",
+          "detail": ""
         },
         "PerformMapping": {
           "status": "OK",
