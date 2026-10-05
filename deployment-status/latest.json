@@ -1,5 +1,5 @@
 {
-  "generatedAtUtc": "2026-10-05T11:00:04.6051839Z",
+  "generatedAtUtc": "2026-10-05T12:00:05.0168463Z",
   "sql": {
     "allGreen": 161,
     "total": 162,
@@ -174,7 +174,7 @@
         },
         "ResetTestMigrationId": {
           "status": "DIFF",
-          "detail": "git=6ecf100b0dc2 dev=602a519261e7"
+          "detail": "git=6ecf100b0dc2 dev=dca4834c10b0"
         },
         "SelectBatchToTreat": {
           "status": "OK",
