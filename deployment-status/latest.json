@@ -1,11 +1,12 @@
 {
-  "generatedAtUtc": "2026-10-06T14:00:06.0064886Z",
+  "generatedAtUtc": "2026-10-06T15:00:05.2856162Z",
   "sql": {
-    "allGreen": 158,
+    "allGreen": 156,
     "total": 162,
     "findings": [
       "\u003Cstrong\u003EMapAccountHistory\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: ACC=DIFF, PRD=DIFF"
+      "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
+      "\u003Cstrong\u003EMapSupplyPoint\u003C/strong\u003E: ACC=DIFF, PRD=DIFF"
     ],
     "results": {
       "DEV": {
@@ -502,8 +503,8 @@
           "detail": ""
         },
         "MapSupplyPoint": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=2141f32fd227 acc=02b1050d52df"
         },
         "PerformMapping": {
           "status": "OK",
@@ -676,8 +677,8 @@
           "detail": ""
         },
         "MapSupplyPoint": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=2141f32fd227 prd=02b1050d52df"
         },
         "PerformMapping": {
           "status": "OK",
