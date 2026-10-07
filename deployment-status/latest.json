@@ -1,12 +1,13 @@
 {
-  "generatedAtUtc": "2026-10-07T13:00:04.7878085Z",
+  "generatedAtUtc": "2026-10-07T14:00:05.4314282Z",
   "sql": {
-    "allGreen": 156,
+    "allGreen": 155,
     "total": 162,
     "findings": [
       "\u003Cstrong\u003EMapAccountHistory\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapSupplyPoint\u003C/strong\u003E: ACC=DIFF, PRD=DIFF"
+      "\u003Cstrong\u003EMapSupplyPoint\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
+      "\u003Cstrong\u003EResetTestMigrationId\u003C/strong\u003E: DEV=DIFF"
     ],
     "results": {
       "DEV": {
@@ -175,8 +176,8 @@
           "detail": ""
         },
         "ResetTestMigrationId": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=00384e78e357 dev=98bb64e53383"
         },
         "SelectBatchToTreat": {
           "status": "OK",
