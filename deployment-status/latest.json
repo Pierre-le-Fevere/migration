@@ -1,5 +1,5 @@
 {
-  "generatedAtUtc": "2026-10-07T15:00:04.2195374Z",
+  "generatedAtUtc": "2026-10-07T16:00:05.7282816Z",
   "sql": {
     "allGreen": 155,
     "total": 162,
@@ -449,7 +449,7 @@
         },
         "MapConsumption": {
           "status": "DIFF",
-          "detail": "git=d9c44971ecbb acc=56e2bb066dee"
+          "detail": "git=ed584ebb98b9 acc=56e2bb066dee"
         },
         "MapCustomer": {
           "status": "OK",
@@ -623,7 +623,7 @@
         },
         "MapConsumption": {
           "status": "DIFF",
-          "detail": "git=d9c44971ecbb prd=56e2bb066dee"
+          "detail": "git=ed584ebb98b9 prd=56e2bb066dee"
         },
         "MapCustomer": {
           "status": "OK",
