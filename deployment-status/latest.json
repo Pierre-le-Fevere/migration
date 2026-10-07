@@ -1,5 +1,5 @@
 {
-  "generatedAtUtc": "2026-10-07T08:00:44.3525975Z",
+  "generatedAtUtc": "2026-10-07T09:00:05.8897964Z",
   "sql": {
     "allGreen": 156,
     "total": 162,
@@ -708,11 +708,9 @@
     }
   },
   "functions": {
-    "ok": 32,
+    "ok": 33,
     "total": 33,
-    "findings": [
-      "\u003Cstrong\u003EImportDirect\u003C/strong\u003E: PRD=DIFF"
-    ],
+    "findings": [],
     "results": {
       "DEV": {
         "BuildSapEnvelopeFromWebhook": {
@@ -850,8 +848,8 @@
           "detail": ""
         },
         "ImportDirect": {
-          "status": "DIFF",
-          "detail": "git=3b7168d361d3 prd=18ef3dc79918"
+          "status": "OK",
+          "detail": ""
         },
         "LogAlert": {
           "status": "OK",
