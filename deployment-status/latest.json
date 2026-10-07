@@ -1,5 +1,5 @@
 {
-  "generatedAtUtc": "2026-10-07T07:00:04.4753684Z",
+  "generatedAtUtc": "2026-10-07T08:00:44.3525975Z",
   "sql": {
     "allGreen": 156,
     "total": 162,
@@ -708,10 +708,10 @@
     }
   },
   "functions": {
-    "ok": 30,
+    "ok": 32,
     "total": 33,
     "findings": [
-      "\u003Cstrong\u003EImportDirect\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF"
+      "\u003Cstrong\u003EImportDirect\u003C/strong\u003E: PRD=DIFF"
     ],
     "results": {
       "DEV": {
@@ -774,8 +774,8 @@
           "detail": ""
         },
         "ImportDirect": {
-          "status": "DIFF",
-          "detail": "git=18ef3dc79918 int=0cddee5ec3b9"
+          "status": "OK",
+          "detail": ""
         },
         "LogAlert": {
           "status": "OK",
@@ -812,8 +812,8 @@
           "detail": ""
         },
         "ImportDirect": {
-          "status": "DIFF",
-          "detail": "git=18ef3dc79918 acc=0cddee5ec3b9"
+          "status": "OK",
+          "detail": ""
         },
         "LogAlert": {
           "status": "OK",
@@ -851,7 +851,7 @@
         },
         "ImportDirect": {
           "status": "DIFF",
-          "detail": "git=18ef3dc79918 prd=0cddee5ec3b9"
+          "detail": "git=3b7168d361d3 prd=18ef3dc79918"
         },
         "LogAlert": {
           "status": "OK",
