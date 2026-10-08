@@ -1,10 +1,9 @@
 {
-  "generatedAtUtc": "2026-10-08T13:00:08.0117426Z",
+  "generatedAtUtc": "2026-10-08T14:00:05.0339606Z",
   "sql": {
-    "allGreen": 158,
+    "allGreen": 161,
     "total": 162,
     "findings": [
-      "\u003Cstrong\u003EMapMigratedPayments\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EResetTestMigrationId\u003C/strong\u003E: DEV=DIFF"
     ],
     "results": {
@@ -316,8 +315,8 @@
           "detail": ""
         },
         "MapMigratedPayments": {
-          "status": "DIFF",
-          "detail": "git=04f4f9926ea4 int=618803ece335"
+          "status": "OK",
+          "detail": ""
         },
         "MapRegister": {
           "status": "OK",
@@ -490,8 +489,8 @@
           "detail": ""
         },
         "MapMigratedPayments": {
-          "status": "DIFF",
-          "detail": "git=04f4f9926ea4 acc=618803ece335"
+          "status": "OK",
+          "detail": ""
         },
         "MapRegister": {
           "status": "OK",
@@ -664,8 +663,8 @@
           "detail": ""
         },
         "MapMigratedPayments": {
-          "status": "DIFF",
-          "detail": "git=04f4f9926ea4 prd=618803ece335"
+          "status": "OK",
+          "detail": ""
         },
         "MapRegister": {
           "status": "OK",
