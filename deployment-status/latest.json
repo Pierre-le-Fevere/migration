@@ -1,14 +1,14 @@
 {
-  "generatedAtUtc": "2026-10-08T09:00:05.7936998Z",
+  "generatedAtUtc": "2026-10-08T10:00:05.6604070Z",
   "sql": {
-    "allGreen": 153,
+    "allGreen": 155,
     "total": 162,
     "findings": [
-      "\u003Cstrong\u003EGenerateKaluzaModel\u003C/strong\u003E: DEV=DIFF",
-      "\u003Cstrong\u003EMapAccountHistory\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapRegister\u003C/strong\u003E: DEV=DIFF",
-      "\u003Cstrong\u003EMapSupplyPoint\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
+      "\u003Cstrong\u003EGenerateKaluzaModel\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
+      "\u003Cstrong\u003EMapAccountHistory\u003C/strong\u003E: ACC=DIFF",
+      "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: ACC=DIFF",
+      "\u003Cstrong\u003EMapRegister\u003C/strong\u003E: ACC=DIFF",
+      "\u003Cstrong\u003EMapSupplyPoint\u003C/strong\u003E: ACC=DIFF",
       "\u003Cstrong\u003EResetTestMigrationId\u003C/strong\u003E: DEV=DIFF"
     ],
     "results": {
@@ -46,8 +46,8 @@
           "detail": ""
         },
         "GenerateKaluzaModel": {
-          "status": "DIFF",
-          "detail": "git=4b0cd1177c6e dev=b25a4b781cde"
+          "status": "OK",
+          "detail": ""
         },
         "GetCustomersByLatestStatus": {
           "status": "OK",
@@ -150,8 +150,8 @@
           "detail": ""
         },
         "MapRegister": {
-          "status": "DIFF",
-          "detail": "git=ecb23025bbd0 dev=ff7717be941d"
+          "status": "OK",
+          "detail": ""
         },
         "MapResidencyGroup": {
           "status": "OK",
@@ -394,8 +394,8 @@
           "detail": ""
         },
         "GenerateKaluzaModel": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=b25a4b781cde acc=4b0cd1177c6e"
         },
         "GetCustomersByLatestStatus": {
           "status": "OK",
@@ -498,8 +498,8 @@
           "detail": ""
         },
         "MapRegister": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=ff7717be941d acc=ecb23025bbd0"
         },
         "MapResidencyGroup": {
           "status": "OK",
@@ -568,8 +568,8 @@
           "detail": ""
         },
         "GenerateKaluzaModel": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=b25a4b781cde prd=4b0cd1177c6e"
         },
         "GetCustomersByLatestStatus": {
           "status": "OK",
@@ -604,8 +604,8 @@
           "detail": ""
         },
         "MapAccountHistory": {
-          "status": "DIFF",
-          "detail": "git=9bb906018940 prd=fb705c766b62"
+          "status": "OK",
+          "detail": ""
         },
         "MapAdvanceAmounts": {
           "status": "OK",
@@ -624,8 +624,8 @@
           "detail": ""
         },
         "MapConsumption": {
-          "status": "DIFF",
-          "detail": "git=ed584ebb98b9 prd=56e2bb066dee"
+          "status": "OK",
+          "detail": ""
         },
         "MapCustomer": {
           "status": "OK",
@@ -680,8 +680,8 @@
           "detail": ""
         },
         "MapSupplyPoint": {
-          "status": "DIFF",
-          "detail": "git=2141f32fd227 prd=02b1050d52df"
+          "status": "OK",
+          "detail": ""
         },
         "PerformMapping": {
           "status": "OK",
