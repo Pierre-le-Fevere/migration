@@ -1,9 +1,11 @@
 {
-  "generatedAtUtc": "2026-10-12T11:00:04.2144677Z",
+  "generatedAtUtc": "2026-10-12T12:00:05.3070828Z",
   "sql": {
-    "allGreen": 162,
+    "allGreen": 160,
     "total": 162,
-    "findings": [],
+    "findings": [
+      "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: ACC=DIFF, PRD=DIFF"
+    ],
     "results": {
       "DEV": {
         "BatchUpdateCustomerStatus": {
@@ -443,8 +445,8 @@
           "detail": ""
         },
         "MapConsumption": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=0e6ff7153dc0 acc=ed584ebb98b9"
         },
         "MapCustomer": {
           "status": "OK",
@@ -617,8 +619,8 @@
           "detail": ""
         },
         "MapConsumption": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=0e6ff7153dc0 prd=ed584ebb98b9"
         },
         "MapCustomer": {
           "status": "OK",
