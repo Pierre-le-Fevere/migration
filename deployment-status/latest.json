@@ -1,17 +1,9 @@
 {
-  "generatedAtUtc": "2026-10-13T07:00:04.5307066Z",
+  "generatedAtUtc": "2026-10-13T08:00:05.8835874Z",
   "sql": {
-    "allGreen": 153,
+    "allGreen": 162,
     "total": 162,
-    "findings": [
-      "\u003Cstrong\u003EMapAdvanceInvoice\u003C/strong\u003E: DEV=DIFF",
-      "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: DEV=DIFF, ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapGridfeeCost\u003C/strong\u003E: DEV=DIFF",
-      "\u003Cstrong\u003EMapMeter\u003C/strong\u003E: DEV=DIFF",
-      "\u003Cstrong\u003EMapMeterRead\u003C/strong\u003E: DEV=DIFF",
-      "\u003Cstrong\u003EMapRegister\u003C/strong\u003E: DEV=DIFF",
-      "\u003Cstrong\u003EMapSupplyPoint\u003C/strong\u003E: DEV=DIFF"
-    ],
+    "findings": [],
     "results": {
       "DEV": {
         "BatchUpdateCustomerStatus": {
@@ -91,8 +83,8 @@
           "detail": ""
         },
         "MapAdvanceInvoice": {
-          "status": "DIFF",
-          "detail": "git=2c3ea1279c5f dev=6e38008326f8"
+          "status": "OK",
+          "detail": ""
         },
         "MapAgreement": {
           "status": "OK",
@@ -103,8 +95,8 @@
           "detail": ""
         },
         "MapConsumption": {
-          "status": "DIFF",
-          "detail": "git=0e6ff7153dc0 dev=f2f2b2436feb"
+          "status": "OK",
+          "detail": ""
         },
         "MapCustomer": {
           "status": "OK",
@@ -119,8 +111,8 @@
           "detail": ""
         },
         "MapGridfeeCost": {
-          "status": "DIFF",
-          "detail": "git=8c68a8a11dc5 dev=930f310084c6"
+          "status": "OK",
+          "detail": ""
         },
         "MapHistoricalUsageCosts": {
           "status": "OK",
@@ -135,12 +127,12 @@
           "detail": ""
         },
         "MapMeter": {
-          "status": "DIFF",
-          "detail": "git=0bdc80f0e308 dev=5989e5355889"
+          "status": "OK",
+          "detail": ""
         },
         "MapMeterRead": {
-          "status": "DIFF",
-          "detail": "git=ecacb418a0e4 dev=b8eb5da3b46d"
+          "status": "OK",
+          "detail": ""
         },
         "MapMigratedBalance": {
           "status": "OK",
@@ -151,16 +143,16 @@
           "detail": ""
         },
         "MapRegister": {
-          "status": "DIFF",
-          "detail": "git=ff7717be941d dev=392dac2cc4c5"
+          "status": "OK",
+          "detail": ""
         },
         "MapResidencyGroup": {
           "status": "OK",
           "detail": ""
         },
         "MapSupplyPoint": {
-          "status": "DIFF",
-          "detail": "git=37d608d4deb2 dev=ce2f3bf8cc3e"
+          "status": "OK",
+          "detail": ""
         },
         "PerformMapping": {
           "status": "OK",
@@ -451,8 +443,8 @@
           "detail": ""
         },
         "MapConsumption": {
-          "status": "DIFF",
-          "detail": "git=0e6ff7153dc0 acc=ed584ebb98b9"
+          "status": "OK",
+          "detail": ""
         },
         "MapCustomer": {
           "status": "OK",
@@ -625,8 +617,8 @@
           "detail": ""
         },
         "MapConsumption": {
-          "status": "DIFF",
-          "detail": "git=0e6ff7153dc0 prd=ed584ebb98b9"
+          "status": "OK",
+          "detail": ""
         },
         "MapCustomer": {
           "status": "OK",
