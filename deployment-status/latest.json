@@ -1,9 +1,18 @@
 {
-  "generatedAtUtc": "2026-10-14T07:00:05.0382234Z",
+  "generatedAtUtc": "2026-10-14T08:00:05.2938417Z",
   "sql": {
-    "allGreen": 162,
+    "allGreen": 154,
     "total": 162,
-    "findings": [],
+    "findings": [
+      "\u003Cstrong\u003EMapAdvanceInvoice\u003C/strong\u003E: DEV=DIFF",
+      "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: DEV=DIFF",
+      "\u003Cstrong\u003EMapGridfeeCost\u003C/strong\u003E: DEV=DIFF",
+      "\u003Cstrong\u003EMapIntervalData\u003C/strong\u003E: DEV=DIFF",
+      "\u003Cstrong\u003EMapMeter\u003C/strong\u003E: DEV=DIFF",
+      "\u003Cstrong\u003EMapMeterRead\u003C/strong\u003E: DEV=DIFF",
+      "\u003Cstrong\u003EMapRegister\u003C/strong\u003E: DEV=DIFF",
+      "\u003Cstrong\u003EMapSupplyPoint\u003C/strong\u003E: DEV=DIFF"
+    ],
     "results": {
       "DEV": {
         "BatchUpdateCustomerStatus": {
@@ -83,8 +92,8 @@
           "detail": ""
         },
         "MapAdvanceInvoice": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=6e38008326f8 dev=cc04be086999"
         },
         "MapAgreement": {
           "status": "OK",
@@ -95,8 +104,8 @@
           "detail": ""
         },
         "MapConsumption": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=f2f2b2436feb dev=978190387714"
         },
         "MapCustomer": {
           "status": "OK",
@@ -111,28 +120,28 @@
           "detail": ""
         },
         "MapGridfeeCost": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=930f310084c6 dev=c70b185d218a"
         },
         "MapHistoricalUsageCosts": {
           "status": "OK",
           "detail": ""
         },
         "MapIntervalData": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=c228556d0677 dev=05e084a64fbd"
         },
         "MapMandate": {
           "status": "OK",
           "detail": ""
         },
         "MapMeter": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=5989e5355889 dev=5708fe8c2879"
         },
         "MapMeterRead": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=7fe0aa58e914 dev=f0d3a970bb89"
         },
         "MapMigratedBalance": {
           "status": "OK",
@@ -143,16 +152,16 @@
           "detail": ""
         },
         "MapRegister": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=392dac2cc4c5 dev=031870e36608"
         },
         "MapResidencyGroup": {
           "status": "OK",
           "detail": ""
         },
         "MapSupplyPoint": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=ce2f3bf8cc3e dev=fad21dd72b3b"
         },
         "PerformMapping": {
           "status": "OK",
