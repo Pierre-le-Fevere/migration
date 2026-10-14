@@ -35,20 +35,24 @@
   .findings ul{margin:6px 0 0 18px;padding:0}
   .findings li{margin:3px 0;color:#333}
   .note{font-size:.75rem;color:#888;margin-top:18px}
+  #refreshBtn{background:none;border:none;font-size:1.5rem;cursor:pointer;padding:0 4px;vertical-align:middle}
+  #refreshBtn:disabled{cursor:progress}
+  #refreshBtn.working{display:inline-block;animation:spin 1.2s linear infinite}
+  @keyframes spin{to{transform:rotate(360deg)} }
 </style></head><body>
-<h1>&#x1F680; NOVA Migration ADF &mdash; Deployment Status</h1>
+<h1><button id="refreshBtn" title="Click to refresh this report now">&#x1F680;</button> NOVA Migration ADF &mdash; Deployment Status</h1>
 <div class="subtitle">
   SQL: GIT branch sql/MVB1 is reference &nbsp;|&nbsp;
   Functions: content-hash comparison (SHA-256/12) &mdash; GIT branch sql/MVB1 is reference &nbsp;|&nbsp;
-  Generated: 2026-10-14 11:00:00 UTC &nbsp;|&nbsp;
+  Generated: 2026-10-14 11:53:55 UTC &nbsp;|&nbsp;
   Source: DeploymentStatusCheck Azure Function
 </div>
 <div style="margin-bottom:18px">
-  <span class="badge bad">SQL: 144/162 all-green</span>
-  <span class="badge ok">Functions: 33/33 all-green</span>
+  <span class="badge bad">SQL: 146/162 all-green</span>
+  <span class="badge bad">Functions: 32/33 all-green</span>
 </div>
 <div class="env-label">Errors per environment (SQL + Functions, excluding N/A)</div>
-<div class="cards"><div class="card ok"><div class="num">0</div><div>DEV</div></div><div class="card bad"><div class="num">1</div><div>INT</div></div><div class="card bad"><div class="num">9</div><div>ACC</div></div><div class="card bad"><div class="num">8</div><div>PRD</div></div></div>
+<div class="cards"><div class="card bad"><div class="num">1</div><div>DEV</div></div><div class="card ok"><div class="num">0</div><div>INT</div></div><div class="card bad"><div class="num">8</div><div>ACC</div></div><div class="card bad"><div class="num">8</div><div>PRD</div></div></div>
 <h2 style="color:#1a1a2e;font-size:.9rem;letter-spacing:.07em;text-transform:uppercase">
   &#x1F5C4;&#xFE0F; SQL Stored Procedures
 </h2>
@@ -64,7 +68,7 @@
 <tr class="row-ok"><td class="proc">DropTablesWithPrefix</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">GenerateKaluzaModel</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">GetCustomersByLatestStatus</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
-<tr class="row-bad"><td class="proc">GetMigratedKaluzaCustomers</td><td class="na" title="Not applicable for this environment">&#x2014; N/A</td><td class="diff" title="git=9822b49996dc int=7710d9ee47dd">&#x274C; DIFF</td><td class="diff" title="git=9822b49996dc acc=7710d9ee47dd">&#x274C; DIFF</td><td class="na" title="Not applicable for this environment">&#x2014; N/A</td></tr>
+<tr class="row-ok"><td class="proc">GetMigratedKaluzaCustomers</td><td class="na" title="Not applicable for this environment">&#x2014; N/A</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="na" title="Not applicable for this environment">&#x2014; N/A</td></tr>
 <tr class="row-ok"><td class="proc">GetMigratedKaluzaCustomersMetering</td><td class="na" title="Not applicable for this environment">&#x2014; N/A</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="na" title="Not applicable for this environment">&#x2014; N/A</td></tr>
 <tr class="row-ok"><td class="proc">GetSprnCount</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">InsertNewCustomer</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
@@ -99,7 +103,7 @@
 <tr class="row-ok"><td class="proc">SelectBatchToTreat</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 </tbody>
 </table>
-<div class="findings"><strong>Findings:</strong><ul><li><strong>GetMigratedKaluzaCustomers</strong>: INT=DIFF, ACC=DIFF</li><li><strong>MapAdvanceInvoice</strong>: ACC=DIFF, PRD=DIFF</li><li><strong>MapConsumption</strong>: ACC=DIFF, PRD=DIFF</li><li><strong>MapGridfeeCost</strong>: ACC=DIFF, PRD=DIFF</li><li><strong>MapIntervalData</strong>: ACC=DIFF, PRD=DIFF</li><li><strong>MapMeter</strong>: ACC=DIFF, PRD=DIFF</li><li><strong>MapMeterRead</strong>: ACC=DIFF, PRD=DIFF</li><li><strong>MapRegister</strong>: ACC=DIFF, PRD=DIFF</li><li><strong>MapSupplyPoint</strong>: ACC=DIFF, PRD=DIFF</li></ul></div>
+<div class="findings"><strong>Findings:</strong><ul><li><strong>MapAdvanceInvoice</strong>: ACC=DIFF, PRD=DIFF</li><li><strong>MapConsumption</strong>: ACC=DIFF, PRD=DIFF</li><li><strong>MapGridfeeCost</strong>: ACC=DIFF, PRD=DIFF</li><li><strong>MapIntervalData</strong>: ACC=DIFF, PRD=DIFF</li><li><strong>MapMeter</strong>: ACC=DIFF, PRD=DIFF</li><li><strong>MapMeterRead</strong>: ACC=DIFF, PRD=DIFF</li><li><strong>MapRegister</strong>: ACC=DIFF, PRD=DIFF</li><li><strong>MapSupplyPoint</strong>: ACC=DIFF, PRD=DIFF</li></ul></div>
 <h2 style="color:#1a1a2e;font-size:.9rem;letter-spacing:.07em;text-transform:uppercase;margin-top:28px">
   &#x26A1; Azure Functions (content-based)
 </h2>
@@ -108,7 +112,7 @@
   <tbody><tr class="row-ok"><td class="proc">BuildSapEnvelopeFromWebhook</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">BuildSapMigrationEnvelope</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">CallKaluza</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
-<tr class="row-ok"><td class="proc">DeploymentStatusCheck</td><td class="ok" title="">&#x2705; OK</td><td class="na" title="Not applicable for this environment">&#x2014; N/A</td><td class="na" title="Not applicable for this environment">&#x2014; N/A</td><td class="na" title="Not applicable for this environment">&#x2014; N/A</td></tr>
+<tr class="row-bad"><td class="proc">DeploymentStatusCheck</td><td class="diff" title="git=4a6a6e79fade dev=5fa8d1d7fa89">&#x274C; DIFF</td><td class="na" title="Not applicable for this environment">&#x2014; N/A</td><td class="na" title="Not applicable for this environment">&#x2014; N/A</td><td class="na" title="Not applicable for this environment">&#x2014; N/A</td></tr>
 <tr class="row-ok"><td class="proc">GetDeploymentInfo</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">ImportDirect</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">LogAlert</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
@@ -116,7 +120,7 @@
 <tr class="row-ok"><td class="proc">schema.gql</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 </tbody>
 </table>
-
+<div class="findings"><strong>Findings:</strong><ul><li><strong>DeploymentStatusCheck</strong>: DEV=DIFF</li></ul></div>
 <div class="note">
   &#x2705; = file content hash matches GIT branch sql/MVB1 &nbsp;|&nbsp;
   &#x274C; DIFF = content differs from GIT branch sql/MVB1 &nbsp;|&nbsp;
@@ -124,4 +128,43 @@
   SQL: &#x2705; = matches GIT branch sql/MVB1 &nbsp;|&nbsp; &#x274C; DIFF = body differs from GIT branch sql/MVB1
   &nbsp;|&nbsp; &#x26A0;&#xFE0F; missing = not in DB
 </div>
+<script>
+(function(){
+  var VERSION = "2026-10-14 11:53:55";
+  var REFRESH_URL = "https://ms-dev-azfwe-oneb2c-migration-01.azurewebsites.net/api/DeploymentStatusRefresh";
+  var KEY = "deploymentStatusRefreshPending";
+  var btn = document.getElementById("refreshBtn");
+  var timer = null;
+  function setWorking(on){
+    btn.disabled = on;
+    btn.classList.toggle("working", on);
+    btn.innerHTML = on ? "&#x23F3;" : "&#x1F680;";
+    btn.title = on ? "Refresh in progress - page reloads when the new report is published"
+                   : "Click to refresh this report now";
+  }
+  function poll(){
+    if (timer) return;
+    timer = setInterval(function(){
+      fetch("latest.json?_=" + Date.now(), {cache:"no-store"})
+        .then(function(r){ return r.json(); })
+        .then(function(j){
+          if (j.generatedAt && j.generatedAt !== VERSION){
+            localStorage.removeItem(KEY);
+            location.reload();
+          }
+        }).catch(function(){});
+    }, 15000);
+  }
+  function start(){ setWorking(true); poll(); }
+  if (localStorage.getItem(KEY) === VERSION) start();
+  else localStorage.removeItem(KEY);
+  btn.addEventListener("click", function(){
+    localStorage.setItem(KEY, VERSION);
+    start();
+    // Server ignores the request if a refresh is already running; the icon
+    // stays "working" either way until a new version appears.
+    fetch(REFRESH_URL, {method:"POST"}).catch(function(){});
+  });
+})();
+</script>
 </body></html>
