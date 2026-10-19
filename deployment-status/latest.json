@@ -1,12 +1,10 @@
 {
-  "generatedAtUtc": "2026-10-19T06:00:05.5957562Z",
-  "generatedAt": "2026-10-19 06:00:00",
+  "generatedAtUtc": "2026-10-19T07:00:04.3294482Z",
+  "generatedAt": "2026-10-19 07:00:00",
   "sql": {
-    "allGreen": 161,
+    "allGreen": 162,
     "total": 162,
-    "findings": [
-      "\u003Cstrong\u003EMapAdvanceInvoice\u003C/strong\u003E: DEV=DIFF"
-    ],
+    "findings": [],
     "results": {
       "DEV": {
         "BatchUpdateCustomerStatus": {
@@ -86,8 +84,8 @@
           "detail": ""
         },
         "MapAdvanceInvoice": {
-          "status": "DIFF",
-          "detail": "git=00ccda935c36 dev=cc04be086999"
+          "status": "OK",
+          "detail": ""
         },
         "MapAgreement": {
           "status": "OK",
