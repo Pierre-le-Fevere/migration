@@ -1,10 +1,12 @@
 {
-  "generatedAtUtc": "2026-10-21T13:00:05.1596509Z",
-  "generatedAt": "2026-10-21 13:00:00",
+  "generatedAtUtc": "2026-10-21T14:00:05.7216569Z",
+  "generatedAt": "2026-10-21 14:00:00",
   "sql": {
-    "allGreen": 162,
+    "allGreen": 160,
     "total": 162,
-    "findings": [],
+    "findings": [
+      "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: INT=DIFF, ACC=DIFF"
+    ],
     "results": {
       "DEV": {
         "BatchUpdateCustomerStatus": {
@@ -222,8 +224,8 @@
           "detail": ""
         },
         "GetMigratedKaluzaCustomers": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=7710d9ee47dd int=2bfe5ccd1d00"
         },
         "GetMigratedKaluzaCustomersMetering": {
           "status": "OK",
@@ -396,8 +398,8 @@
           "detail": ""
         },
         "GetMigratedKaluzaCustomers": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=7710d9ee47dd acc=2bfe5ccd1d00"
         },
         "GetMigratedKaluzaCustomersMetering": {
           "status": "OK",
