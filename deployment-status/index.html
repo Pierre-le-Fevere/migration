@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8"/>
 <title>NOVA Migration ADF &mdash; Deployment Status</title>
-<style>
+            <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%9A%80%3C/text%3E%3C/svg%3E"/>
+            <style>
   body{font-family:'Segoe UI',Arial,sans-serif;background:#f0f2f5;margin:0;padding:24px}
   h1{color:#1a1a2e;font-size:1.5rem;margin-bottom:2px}
   .subtitle{color:#666;font-size:.82rem;margin-bottom:18px}
@@ -44,15 +45,15 @@
 <div class="subtitle">
   SQL: GIT branch sql/MVB1 is reference &nbsp;|&nbsp;
   Functions: content-hash comparison (SHA-256/12) &mdash; GIT branch sql/MVB1 is reference &nbsp;|&nbsp;
-  Generated: 2026-10-21 07:00:00 UTC &nbsp;|&nbsp;
+  Generated: 2026-10-21 07:29:22 UTC &nbsp;|&nbsp;
   Source: DeploymentStatusCheck Azure Function
 </div>
 <div style="margin-bottom:18px">
   <span class="badge ok">SQL: 162/162 all-green</span>
-  <span class="badge ok">Functions: 33/33 all-green</span>
+  <span class="badge bad">Functions: 25/34 all-green</span>
 </div>
 <div class="env-label">Errors per environment (SQL + Functions, excluding N/A)</div>
-<div class="cards"><div class="card ok"><div class="num">0</div><div>DEV</div></div><div class="card ok"><div class="num">0</div><div>INT</div></div><div class="card ok"><div class="num">0</div><div>ACC</div></div><div class="card ok"><div class="num">0</div><div>PRD</div></div></div>
+<div class="cards"><div class="card ok"><div class="num">0</div><div>DEV</div></div><div class="card bad"><div class="num">9</div><div>INT</div></div><div class="card ok"><div class="num">0</div><div>ACC</div></div><div class="card ok"><div class="num">0</div><div>PRD</div></div></div>
 <h2 style="color:#1a1a2e;font-size:.9rem;letter-spacing:.07em;text-transform:uppercase">
   &#x1F5C4;&#xFE0F; SQL Stored Procedures
 </h2>
@@ -109,18 +110,18 @@
 </h2>
 <table>
   <thead><tr><th>Function / Asset</th><th>DEV</th><th>INT</th><th>ACC</th><th>PRD</th></tr></thead>
-  <tbody><tr class="row-ok"><td class="proc">BuildSapEnvelopeFromWebhook</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
-<tr class="row-ok"><td class="proc">BuildSapMigrationEnvelope</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
-<tr class="row-ok"><td class="proc">CallKaluza</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
-<tr class="row-ok"><td class="proc">DeploymentStatusCheck</td><td class="ok" title="">&#x2705; OK</td><td class="na" title="Not applicable for this environment">&#x2014; N/A</td><td class="na" title="Not applicable for this environment">&#x2014; N/A</td><td class="na" title="Not applicable for this environment">&#x2014; N/A</td></tr>
-<tr class="row-ok"><td class="proc">GetDeploymentInfo</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
-<tr class="row-ok"><td class="proc">ImportDirect</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
-<tr class="row-ok"><td class="proc">LogAlert</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
-<tr class="row-ok"><td class="proc">ValidateGraphQL</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
-<tr class="row-ok"><td class="proc">schema.gql</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
+  <tbody><tr class="row-bad"><td class="proc">BuildSapEnvelopeFromWebhook</td><td class="ok" title="">&#x2705; OK</td><td class="error" title="GetDeploymentInfo unreachable">&#x1F4A5; error</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
+<tr class="row-bad"><td class="proc">BuildSapMigrationEnvelope</td><td class="ok" title="">&#x2705; OK</td><td class="error" title="GetDeploymentInfo unreachable">&#x1F4A5; error</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
+<tr class="row-bad"><td class="proc">CallKaluza</td><td class="ok" title="">&#x2705; OK</td><td class="error" title="GetDeploymentInfo unreachable">&#x1F4A5; error</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
+<tr class="row-bad"><td class="proc">DeploymentStatusCheck</td><td class="ok" title="">&#x2705; OK</td><td class="error" title="GetDeploymentInfo unreachable">&#x1F4A5; error</td><td class="na" title="Not applicable for this environment">&#x2014; N/A</td><td class="na" title="Not applicable for this environment">&#x2014; N/A</td></tr>
+<tr class="row-bad"><td class="proc">GetDeploymentInfo</td><td class="ok" title="">&#x2705; OK</td><td class="error" title="GetDeploymentInfo unreachable">&#x1F4A5; error</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
+<tr class="row-bad"><td class="proc">ImportDirect</td><td class="ok" title="">&#x2705; OK</td><td class="error" title="GetDeploymentInfo unreachable">&#x1F4A5; error</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
+<tr class="row-bad"><td class="proc">LogAlert</td><td class="ok" title="">&#x2705; OK</td><td class="error" title="GetDeploymentInfo unreachable">&#x1F4A5; error</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
+<tr class="row-bad"><td class="proc">ValidateGraphQL</td><td class="ok" title="">&#x2705; OK</td><td class="error" title="GetDeploymentInfo unreachable">&#x1F4A5; error</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
+<tr class="row-bad"><td class="proc">schema.gql</td><td class="ok" title="">&#x2705; OK</td><td class="error" title="GetDeploymentInfo unreachable">&#x1F4A5; error</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 </tbody>
 </table>
-
+<div class="findings"><strong>Findings:</strong><ul><li><strong>BuildSapEnvelopeFromWebhook</strong>: INT=ERROR</li><li><strong>BuildSapMigrationEnvelope</strong>: INT=ERROR</li><li><strong>CallKaluza</strong>: INT=ERROR</li><li><strong>DeploymentStatusCheck</strong>: INT=ERROR</li><li><strong>GetDeploymentInfo</strong>: INT=ERROR</li><li><strong>ImportDirect</strong>: INT=ERROR</li><li><strong>LogAlert</strong>: INT=ERROR</li><li><strong>ValidateGraphQL</strong>: INT=ERROR</li><li><strong>schema.gql</strong>: INT=ERROR</li></ul></div>
 <div class="note">
   &#x2705; = file content hash matches GIT branch sql/MVB1 &nbsp;|&nbsp;
   &#x274C; DIFF = content differs from GIT branch sql/MVB1 &nbsp;|&nbsp;
@@ -130,7 +131,7 @@
 </div>
 <script>
 (function(){
-  var VERSION = "2026-10-21 07:00:00";
+  var VERSION = "2026-10-21 07:29:22";
   var REFRESH_URL = "https://ms-dev-azfwe-oneb2c-migration-01.azurewebsites.net/api/DeploymentStatusRefresh";
   var KEY = "deploymentStatusRefreshPending";
   var btn = document.getElementById("refreshBtn");
