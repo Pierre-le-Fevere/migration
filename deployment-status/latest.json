@@ -1,6 +1,6 @@
 {
-  "generatedAtUtc": "2026-10-23T08:00:07.4263099Z",
-  "generatedAt": "2026-10-23 08:00:00",
+  "generatedAtUtc": "2026-10-23T09:00:05.9965641Z",
+  "generatedAt": "2026-10-23 09:00:00",
   "sql": {
     "allGreen": 160,
     "total": 162,
@@ -707,9 +707,11 @@
     }
   },
   "functions": {
-    "ok": 33,
+    "ok": 30,
     "total": 33,
-    "findings": [],
+    "findings": [
+      "\u003Cstrong\u003ECallKaluza\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF"
+    ],
     "results": {
       "DEV": {
         "BuildSapEnvelopeFromWebhook": {
@@ -759,8 +761,8 @@
           "detail": ""
         },
         "CallKaluza": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=08357aaffb0d int=3359f93c758d"
         },
         "DeploymentStatusCheck": {
           "status": "NA",
@@ -797,8 +799,8 @@
           "detail": ""
         },
         "CallKaluza": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=08357aaffb0d acc=3359f93c758d"
         },
         "DeploymentStatusCheck": {
           "status": "NA",
@@ -835,8 +837,8 @@
           "detail": ""
         },
         "CallKaluza": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=08357aaffb0d prd=3359f93c758d"
         },
         "DeploymentStatusCheck": {
           "status": "NA",
