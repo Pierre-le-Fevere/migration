@@ -1,11 +1,13 @@
 {
-  "generatedAtUtc": "2026-10-26T12:00:05.0233978Z",
-  "generatedAt": "2026-10-26 12:00:00",
+  "generatedAtUtc": "2026-10-26T12:56:05.8279052Z",
+  "generatedAt": "2026-10-26 12:55:58",
   "sql": {
-    "allGreen": 160,
+    "allGreen": 158,
     "total": 162,
     "findings": [
-      "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: INT=DIFF, ACC=DIFF"
+      "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: INT=DIFF, ACC=DIFF",
+      "\u003Cstrong\u003EMapBillingPreferences\u003C/strong\u003E: ACC=DIFF",
+      "\u003Cstrong\u003EMapSupplyPoint\u003C/strong\u003E: ACC=DIFF"
     ],
     "results": {
       "DEV": {
@@ -442,8 +444,8 @@
           "detail": ""
         },
         "MapBillingPreferences": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=19b729313ee8 acc=bf711739db50"
         },
         "MapConsumption": {
           "status": "OK",
@@ -502,8 +504,8 @@
           "detail": ""
         },
         "MapSupplyPoint": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=aebf4de75267 acc=a8072a89cfcd"
         },
         "PerformMapping": {
           "status": "OK",
@@ -707,9 +709,11 @@
     }
   },
   "functions": {
-    "ok": 33,
+    "ok": 32,
     "total": 33,
-    "findings": [],
+    "findings": [
+      "\u003Cstrong\u003EDeploymentStatusCheck\u003C/strong\u003E: DEV=DIFF"
+    ],
     "results": {
       "DEV": {
         "BuildSapEnvelopeFromWebhook": {
@@ -725,8 +729,8 @@
           "detail": ""
         },
         "DeploymentStatusCheck": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=3bdab962d47b dev=eb7f68fdfbb0"
         },
         "GetDeploymentInfo": {
           "status": "OK",
