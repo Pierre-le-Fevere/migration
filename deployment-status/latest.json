@@ -1,13 +1,14 @@
 {
-  "generatedAtUtc": "2026-10-27T12:00:05.9965157Z",
-  "generatedAt": "2026-10-27 12:00:00",
+  "generatedAtUtc": "2026-10-27T13:00:05.6645040Z",
+  "generatedAt": "2026-10-27 13:00:00",
   "sql": {
-    "allGreen": 158,
+    "allGreen": 157,
     "total": 162,
     "findings": [
       "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: INT=DIFF, ACC=DIFF",
       "\u003Cstrong\u003EMapBillingPreferences\u003C/strong\u003E: ACC=DIFF",
-      "\u003Cstrong\u003EMapSupplyPoint\u003C/strong\u003E: ACC=DIFF"
+      "\u003Cstrong\u003EMapSupplyPoint\u003C/strong\u003E: ACC=DIFF",
+      "\u003Cstrong\u003EResetTestMigrationId\u003C/strong\u003E: DEV=DIFF"
     ],
     "results": {
       "DEV": {
@@ -176,8 +177,8 @@
           "detail": ""
         },
         "ResetTestMigrationId": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=ae75495e6215 dev=f111cddbedab"
         },
         "SelectBatchToTreat": {
           "status": "OK",
