@@ -1,14 +1,12 @@
 {
-  "generatedAtUtc": "2026-10-27T09:00:07.0625008Z",
-  "generatedAt": "2026-10-27 09:00:00",
+  "generatedAtUtc": "2026-10-27T10:00:06.4954147Z",
+  "generatedAt": "2026-10-27 10:00:00",
   "sql": {
-    "allGreen": 150,
+    "allGreen": 158,
     "total": 162,
     "findings": [
-      "\u003Cstrong\u003EGenerateKaluzaModel\u003C/strong\u003E: DEV=DIFF, INT=DIFF, ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: INT=DIFF, ACC=DIFF",
       "\u003Cstrong\u003EMapBillingPreferences\u003C/strong\u003E: ACC=DIFF",
-      "\u003Cstrong\u003EMapCustomer\u003C/strong\u003E: DEV=DIFF, INT=DIFF, ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapSupplyPoint\u003C/strong\u003E: ACC=DIFF"
     ],
     "results": {
@@ -46,8 +44,8 @@
           "detail": ""
         },
         "GenerateKaluzaModel": {
-          "status": "DIFF",
-          "detail": "git=b25a4b781cde dev=2c2b569577fd"
+          "status": "OK",
+          "detail": ""
         },
         "GetCustomersByLatestStatus": {
           "status": "OK",
@@ -106,8 +104,8 @@
           "detail": ""
         },
         "MapCustomer": {
-          "status": "DIFF",
-          "detail": "git=9bf156545a17 dev=28d4e9c362f8"
+          "status": "OK",
+          "detail": ""
         },
         "MapCustomerAccountRelationship": {
           "status": "OK",
@@ -220,8 +218,8 @@
           "detail": ""
         },
         "GenerateKaluzaModel": {
-          "status": "DIFF",
-          "detail": "git=b25a4b781cde int=2c2b569577fd"
+          "status": "OK",
+          "detail": ""
         },
         "GetCustomersByLatestStatus": {
           "status": "OK",
@@ -280,8 +278,8 @@
           "detail": ""
         },
         "MapCustomer": {
-          "status": "DIFF",
-          "detail": "git=9bf156545a17 int=28d4e9c362f8"
+          "status": "OK",
+          "detail": ""
         },
         "MapCustomerAccountRelationship": {
           "status": "OK",
@@ -394,8 +392,8 @@
           "detail": ""
         },
         "GenerateKaluzaModel": {
-          "status": "DIFF",
-          "detail": "git=b25a4b781cde acc=2c2b569577fd"
+          "status": "OK",
+          "detail": ""
         },
         "GetCustomersByLatestStatus": {
           "status": "OK",
@@ -454,8 +452,8 @@
           "detail": ""
         },
         "MapCustomer": {
-          "status": "DIFF",
-          "detail": "git=9bf156545a17 acc=28d4e9c362f8"
+          "status": "OK",
+          "detail": ""
         },
         "MapCustomerAccountRelationship": {
           "status": "OK",
@@ -568,8 +566,8 @@
           "detail": ""
         },
         "GenerateKaluzaModel": {
-          "status": "DIFF",
-          "detail": "git=b25a4b781cde prd=2c2b569577fd"
+          "status": "OK",
+          "detail": ""
         },
         "GetCustomersByLatestStatus": {
           "status": "OK",
@@ -628,8 +626,8 @@
           "detail": ""
         },
         "MapCustomer": {
-          "status": "DIFF",
-          "detail": "git=9bf156545a17 prd=28d4e9c362f8"
+          "status": "OK",
+          "detail": ""
         },
         "MapCustomerAccountRelationship": {
           "status": "OK",
