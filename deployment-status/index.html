@@ -45,15 +45,15 @@
 <div class="subtitle">
   SQL: GIT branch sql/MVB1 is reference &nbsp;|&nbsp;
   Functions: content-hash comparison (SHA-256/12) &mdash; GIT branch sql/MVB1 is reference &nbsp;|&nbsp;
-  Generated: 2026-10-27 08:00:00 UTC &nbsp;|&nbsp;
+  Generated: 2026-10-27 09:00:00 UTC &nbsp;|&nbsp;
   Source: DeploymentStatusCheck Azure Function
 </div>
 <div style="margin-bottom:18px">
-  <span class="badge bad">SQL: 158/162 all-green</span>
+  <span class="badge bad">SQL: 150/162 all-green</span>
   <span class="badge ok">Functions: 33/33 all-green</span>
 </div>
 <div class="env-label">Errors per environment (SQL + Functions, excluding N/A)</div>
-<div class="cards"><div class="card ok"><div class="num">0</div><div>DEV</div></div><div class="card bad"><div class="num">1</div><div>INT</div></div><div class="card bad"><div class="num">3</div><div>ACC</div></div><div class="card ok"><div class="num">0</div><div>PRD</div></div></div>
+<div class="cards"><div class="card bad"><div class="num">2</div><div>DEV</div></div><div class="card bad"><div class="num">3</div><div>INT</div></div><div class="card bad"><div class="num">5</div><div>ACC</div></div><div class="card bad"><div class="num">2</div><div>PRD</div></div></div>
 <h2 style="color:#1a1a2e;font-size:.9rem;letter-spacing:.07em;text-transform:uppercase">
   &#x1F5C4;&#xFE0F; SQL Stored Procedures
 </h2>
@@ -67,7 +67,7 @@
 <tr class="row-ok"><td class="proc">CanILaunchNextBatch</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">ClaimFile</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">DropTablesWithPrefix</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
-<tr class="row-ok"><td class="proc">GenerateKaluzaModel</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
+<tr class="row-bad"><td class="proc">GenerateKaluzaModel</td><td class="diff" title="git=b25a4b781cde dev=2c2b569577fd">&#x274C; DIFF</td><td class="diff" title="git=b25a4b781cde int=2c2b569577fd">&#x274C; DIFF</td><td class="diff" title="git=b25a4b781cde acc=2c2b569577fd">&#x274C; DIFF</td><td class="diff" title="git=b25a4b781cde prd=2c2b569577fd">&#x274C; DIFF</td></tr>
 <tr class="row-ok"><td class="proc">GetCustomersByLatestStatus</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-bad"><td class="proc">GetMigratedKaluzaCustomers</td><td class="na" title="Not applicable for this environment">&#x2014; N/A</td><td class="diff" title="git=7710d9ee47dd int=e4e2872394cc">&#x274C; DIFF</td><td class="diff" title="git=7710d9ee47dd acc=e4e2872394cc">&#x274C; DIFF</td><td class="na" title="Not applicable for this environment">&#x2014; N/A</td></tr>
 <tr class="row-ok"><td class="proc">GetMigratedKaluzaCustomersMetering</td><td class="na" title="Not applicable for this environment">&#x2014; N/A</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="na" title="Not applicable for this environment">&#x2014; N/A</td></tr>
@@ -82,7 +82,7 @@
 <tr class="row-ok"><td class="proc">MapAgreement</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-bad"><td class="proc">MapBillingPreferences</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="diff" title="git=19b729313ee8 acc=bf711739db50">&#x274C; DIFF</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">MapConsumption</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
-<tr class="row-ok"><td class="proc">MapCustomer</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
+<tr class="row-bad"><td class="proc">MapCustomer</td><td class="diff" title="git=9bf156545a17 dev=28d4e9c362f8">&#x274C; DIFF</td><td class="diff" title="git=9bf156545a17 int=28d4e9c362f8">&#x274C; DIFF</td><td class="diff" title="git=9bf156545a17 acc=28d4e9c362f8">&#x274C; DIFF</td><td class="diff" title="git=9bf156545a17 prd=28d4e9c362f8">&#x274C; DIFF</td></tr>
 <tr class="row-ok"><td class="proc">MapCustomerAccountRelationship</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">MapCustomerResidencyRelationship</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">MapGridfeeCost</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
@@ -104,7 +104,7 @@
 <tr class="row-ok"><td class="proc">SelectBatchToTreat</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 </tbody>
 </table>
-<div class="findings"><strong>Findings:</strong><ul><li><strong>GetMigratedKaluzaCustomers</strong>: INT=DIFF, ACC=DIFF</li><li><strong>MapBillingPreferences</strong>: ACC=DIFF</li><li><strong>MapSupplyPoint</strong>: ACC=DIFF</li></ul></div>
+<div class="findings"><strong>Findings:</strong><ul><li><strong>GenerateKaluzaModel</strong>: DEV=DIFF, INT=DIFF, ACC=DIFF, PRD=DIFF</li><li><strong>GetMigratedKaluzaCustomers</strong>: INT=DIFF, ACC=DIFF</li><li><strong>MapBillingPreferences</strong>: ACC=DIFF</li><li><strong>MapCustomer</strong>: DEV=DIFF, INT=DIFF, ACC=DIFF, PRD=DIFF</li><li><strong>MapSupplyPoint</strong>: ACC=DIFF</li></ul></div>
 <h2 style="color:#1a1a2e;font-size:.9rem;letter-spacing:.07em;text-transform:uppercase;margin-top:28px">
   &#x26A1; Azure Functions (content-based)
 </h2>
@@ -131,7 +131,7 @@
 </div>
 <script>
 (function(){
-  var VERSION = "2026-10-27 08:00:00";
+  var VERSION = "2026-10-27 09:00:00";
   var REFRESH_URL = "https://ms-dev-azfwe-oneb2c-migration-01.azurewebsites.net/api/DeploymentStatusRefresh";
   var KEY = "deploymentStatusRefreshPending";
   var btn = document.getElementById("refreshBtn");
