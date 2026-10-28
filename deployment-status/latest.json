@@ -1,13 +1,13 @@
 {
-  "generatedAtUtc": "2026-10-28T09:00:05.2344174Z",
-  "generatedAt": "2026-10-28 09:00:00",
+  "generatedAtUtc": "2026-10-28T10:00:05.9137186Z",
+  "generatedAt": "2026-10-28 10:00:00",
   "sql": {
     "allGreen": 159,
     "total": 162,
     "findings": [
       "\u003Cstrong\u003EMapBillingPreferences\u003C/strong\u003E: ACC=DIFF",
-      "\u003Cstrong\u003EMapSupplyPoint\u003C/strong\u003E: ACC=DIFF",
-      "\u003Cstrong\u003EResetTestMigrationId\u003C/strong\u003E: DEV=DIFF"
+      "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: DEV=DIFF",
+      "\u003Cstrong\u003EMapSupplyPoint\u003C/strong\u003E: ACC=DIFF"
     ],
     "results": {
       "DEV": {
@@ -100,8 +100,8 @@
           "detail": ""
         },
         "MapConsumption": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=978190387714 dev=70b95942d525"
         },
         "MapCustomer": {
           "status": "OK",
@@ -176,8 +176,8 @@
           "detail": ""
         },
         "ResetTestMigrationId": {
-          "status": "DIFF",
-          "detail": "git=8b59ea0c095e dev=117bd4ffa5d8"
+          "status": "OK",
+          "detail": ""
         },
         "SelectBatchToTreat": {
           "status": "OK",
