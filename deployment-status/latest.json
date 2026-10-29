@@ -1,401 +1,362 @@
 {
-  "generatedAtUtc": "2026-10-29T07:01:09.1588175Z",
-  "generatedAt": "2026-10-29 07:00:00",
+  "generatedAtUtc": "2026-10-29T08:00:09.5305263Z",
+  "generatedAt": "2026-10-29 08:00:00",
   "sql": {
-    "allGreen": 77,
-    "total": 166,
+    "allGreen": 158,
+    "total": 162,
     "findings": [
-      "\u003Cstrong\u003EBatchUpdateCustomerStatus\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003EBatchUpdateCustomerStatusAll\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003EBatchUpdateCustomerStatusFreezeEligibility\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003EBuildBatchFreezingRequest\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003ECallMappingWithTVP\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003ECanILaunchNextBatch\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003EClaimFile\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003EDropTablesWithPrefix\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003EGenerateKaluzaModel\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003EGetCustomersByLatestStatus\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003EGetMigratedKaluzaCustomersMetering\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003EGetSprnCount\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003EInsertNewCustomer\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003ELastMRDate\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003ELaunchNextBatch\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003EMapAccount\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003EMapAccountHistory\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003EMapAdvanceAmounts\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003EMapAdvanceInvoice\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003EMapAgreement\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003EMapBillingPreferences\u003C/strong\u003E: DEV=ERROR, INT=ERROR, ACC=DIFF",
-      "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: DEV=ERROR, INT=ERROR, ACC=DIFF",
-      "\u003Cstrong\u003EMapCustomer\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003EMapCustomerAccountRelationship\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003EMapCustomerResidencyRelationship\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003EMapGridfeeCost\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003EMapHistoricalUsageCosts\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003EMapIntervalData\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003EMapMandate\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003EMapMeter\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003EMapMeterRead\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003EMapMigratedBalance\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003EMapMigratedPayments\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003EMapRegister\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003EMapResidencyGroup\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003EMapSupplyPoint\u003C/strong\u003E: DEV=ERROR, INT=ERROR, ACC=DIFF",
-      "\u003Cstrong\u003EPerformMapping\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003EPerformValidation\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003EProcessCleanupList\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003EPruneODataForBatch\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003EResetTestMigrationId\u003C/strong\u003E: DEV=ERROR, INT=ERROR",
-      "\u003Cstrong\u003ESelectBatchToTreat\u003C/strong\u003E: DEV=ERROR, INT=ERROR"
+      "\u003Cstrong\u003EMapBillingPreferences\u003C/strong\u003E: ACC=DIFF",
+      "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: ACC=DIFF",
+      "\u003Cstrong\u003EMapSupplyPoint\u003C/strong\u003E: ACC=DIFF",
+      "\u003Cstrong\u003EResetTestMigrationId\u003C/strong\u003E: DEV=DIFF"
     ],
     "results": {
       "DEV": {
         "BatchUpdateCustomerStatus": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "BatchUpdateCustomerStatusAll": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "BatchUpdateCustomerStatusFreezeEligibility": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "BuildBatchFreezingRequest": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "CallMappingWithTVP": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "CanILaunchNextBatch": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "ClaimFile": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "DropTablesWithPrefix": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "GenerateKaluzaModel": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "GetCustomersByLatestStatus": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "GetMigratedKaluzaCustomers": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "NA",
+          "detail": "Not applicable for this environment"
         },
         "GetMigratedKaluzaCustomersMetering": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "NA",
+          "detail": "Not applicable for this environment"
         },
         "GetSprnCount": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "InsertNewCustomer": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "LastMRDate": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "LaunchNextBatch": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapAccount": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapAccountHistory": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapAdvanceAmounts": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapAdvanceInvoice": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapAgreement": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapBillingPreferences": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapConsumption": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapCustomer": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapCustomerAccountRelationship": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapCustomerResidencyRelationship": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapGridfeeCost": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapHistoricalUsageCosts": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapIntervalData": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapMandate": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapMeter": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapMeterRead": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapMigratedBalance": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapMigratedPayments": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapRegister": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapResidencyGroup": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapSupplyPoint": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "PerformMapping": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "PerformValidation": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "ProcessCleanupList": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "PruneODataForBatch": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "ResetTestMigrationId": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "DIFF",
+          "detail": "git=8b59ea0c095e dev=6c0923d9f112"
         },
         "SelectBatchToTreat": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         }
       },
       "INT": {
         "BatchUpdateCustomerStatus": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "BatchUpdateCustomerStatusAll": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "BatchUpdateCustomerStatusFreezeEligibility": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "BuildBatchFreezingRequest": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "CallMappingWithTVP": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "NA",
+          "detail": "Not applicable for this environment"
         },
         "CanILaunchNextBatch": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "ClaimFile": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "DropTablesWithPrefix": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "GenerateKaluzaModel": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "GetCustomersByLatestStatus": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "GetMigratedKaluzaCustomers": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "GetMigratedKaluzaCustomersMetering": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "GetSprnCount": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "InsertNewCustomer": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "LastMRDate": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "LaunchNextBatch": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapAccount": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapAccountHistory": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapAdvanceAmounts": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapAdvanceInvoice": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapAgreement": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapBillingPreferences": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapConsumption": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapCustomer": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapCustomerAccountRelationship": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapCustomerResidencyRelationship": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapGridfeeCost": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapHistoricalUsageCosts": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapIntervalData": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapMandate": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapMeter": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapMeterRead": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapMigratedBalance": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapMigratedPayments": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapRegister": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapResidencyGroup": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "MapSupplyPoint": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "PerformMapping": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "PerformValidation": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "ProcessCleanupList": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "PruneODataForBatch": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         },
         "ResetTestMigrationId": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "NA",
+          "detail": "Not applicable for this environment"
         },
         "SelectBatchToTreat": {
-          "status": "ERROR",
-          "detail": "Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed ou"
+          "status": "OK",
+          "detail": ""
         }
       },
       "ACC": {
