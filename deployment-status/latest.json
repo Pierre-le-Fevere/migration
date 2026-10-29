@@ -1,13 +1,11 @@
 {
-  "generatedAtUtc": "2026-10-29T10:00:07.2712786Z",
-  "generatedAt": "2026-10-29 10:00:00",
+  "generatedAtUtc": "2026-10-29T11:00:06.2226902Z",
+  "generatedAt": "2026-10-29 11:00:00",
   "sql": {
-    "allGreen": 159,
+    "allGreen": 161,
     "total": 162,
     "findings": [
-      "\u003Cstrong\u003EMapBillingPreferences\u003C/strong\u003E: ACC=DIFF",
-      "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: ACC=DIFF",
-      "\u003Cstrong\u003EMapSupplyPoint\u003C/strong\u003E: ACC=DIFF"
+      "\u003Cstrong\u003EMapHistoricalUsageCosts\u003C/strong\u003E: DEV=DIFF"
     ],
     "results": {
       "DEV": {
@@ -120,8 +118,8 @@
           "detail": ""
         },
         "MapHistoricalUsageCosts": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=323908f1497a dev=b94b0fd53b98"
         },
         "MapIntervalData": {
           "status": "OK",
@@ -444,12 +442,12 @@
           "detail": ""
         },
         "MapBillingPreferences": {
-          "status": "DIFF",
-          "detail": "git=19b729313ee8 acc=bf711739db50"
+          "status": "OK",
+          "detail": ""
         },
         "MapConsumption": {
-          "status": "DIFF",
-          "detail": "git=70b95942d525 acc=978190387714"
+          "status": "OK",
+          "detail": ""
         },
         "MapCustomer": {
           "status": "OK",
@@ -504,8 +502,8 @@
           "detail": ""
         },
         "MapSupplyPoint": {
-          "status": "DIFF",
-          "detail": "git=aebf4de75267 acc=a8072a89cfcd"
+          "status": "OK",
+          "detail": ""
         },
         "PerformMapping": {
           "status": "OK",
