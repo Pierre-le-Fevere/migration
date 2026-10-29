@@ -1,12 +1,10 @@
 {
-  "generatedAtUtc": "2026-10-29T15:49:19.4901152Z",
-  "generatedAt": "2026-10-29 15:49:16",
+  "generatedAtUtc": "2026-10-29T15:54:10.3030536Z",
+  "generatedAt": "2026-10-29 15:54:07",
   "sql": {
-    "allGreen": 161,
+    "allGreen": 162,
     "total": 162,
-    "findings": [
-      "\u003Cstrong\u003EMapMeter\u003C/strong\u003E: DEV=DIFF"
-    ],
+    "findings": [],
     "results": {
       "DEV": {
         "BatchUpdateCustomerStatus": {
@@ -130,8 +128,8 @@
           "detail": ""
         },
         "MapMeter": {
-          "status": "DIFF",
-          "detail": "git=ff438331fdbd dev=7e48de5e6bbc"
+          "status": "OK",
+          "detail": ""
         },
         "MapMeterRead": {
           "status": "OK",
