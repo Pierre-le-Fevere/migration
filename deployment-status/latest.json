@@ -1,11 +1,11 @@
 {
-  "generatedAtUtc": "2026-10-29T13:00:04.4680271Z",
-  "generatedAt": "2026-10-29 13:00:00",
+  "generatedAtUtc": "2026-10-29T14:00:05.6651835Z",
+  "generatedAt": "2026-10-29 14:00:00",
   "sql": {
     "allGreen": 161,
     "total": 162,
     "findings": [
-      "\u003Cstrong\u003EMapHistoricalUsageCosts\u003C/strong\u003E: DEV=DIFF"
+      "\u003Cstrong\u003EMapAgreement\u003C/strong\u003E: DEV=DIFF"
     ],
     "results": {
       "DEV": {
@@ -90,8 +90,8 @@
           "detail": ""
         },
         "MapAgreement": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=e3420141afb4 dev=d1aa5309518c"
         },
         "MapBillingPreferences": {
           "status": "OK",
@@ -118,8 +118,8 @@
           "detail": ""
         },
         "MapHistoricalUsageCosts": {
-          "status": "DIFF",
-          "detail": "git=323908f1497a dev=1d5825e73f08"
+          "status": "OK",
+          "detail": ""
         },
         "MapIntervalData": {
           "status": "OK",
