@@ -1,12 +1,10 @@
 {
-  "generatedAtUtc": "2026-10-29T14:00:05.6651835Z",
-  "generatedAt": "2026-10-29 14:00:00",
+  "generatedAtUtc": "2026-10-29T14:20:14.4268515Z",
+  "generatedAt": "2026-10-29 14:20:09",
   "sql": {
-    "allGreen": 161,
+    "allGreen": 162,
     "total": 162,
-    "findings": [
-      "\u003Cstrong\u003EMapAgreement\u003C/strong\u003E: DEV=DIFF"
-    ],
+    "findings": [],
     "results": {
       "DEV": {
         "BatchUpdateCustomerStatus": {
@@ -90,8 +88,8 @@
           "detail": ""
         },
         "MapAgreement": {
-          "status": "DIFF",
-          "detail": "git=e3420141afb4 dev=d1aa5309518c"
+          "status": "OK",
+          "detail": ""
         },
         "MapBillingPreferences": {
           "status": "OK",
