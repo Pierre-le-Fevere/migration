@@ -1,10 +1,13 @@
 {
-  "generatedAtUtc": "2026-11-04T09:00:13.6047895Z",
-  "generatedAt": "2026-11-04 09:00:00",
+  "generatedAtUtc": "2026-11-04T10:00:06.0131726Z",
+  "generatedAt": "2026-11-04 10:00:00",
   "sql": {
-    "allGreen": 162,
+    "allGreen": 160,
     "total": 162,
-    "findings": [],
+    "findings": [
+      "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: ACC=DIFF",
+      "\u003Cstrong\u003EResetTestMigrationId\u003C/strong\u003E: DEV=DIFF"
+    ],
     "results": {
       "DEV": {
         "BatchUpdateCustomerStatus": {
@@ -172,8 +175,8 @@
           "detail": ""
         },
         "ResetTestMigrationId": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=d2c31a1bd57b dev=6aec16640d01"
         },
         "SelectBatchToTreat": {
           "status": "OK",
@@ -444,8 +447,8 @@
           "detail": ""
         },
         "MapConsumption": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=39b651cb8dcf acc=6628f9da5202"
         },
         "MapCustomer": {
           "status": "OK",
