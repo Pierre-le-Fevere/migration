@@ -1,11 +1,12 @@
 {
-  "generatedAtUtc": "2026-11-05T11:00:04.9825957Z",
-  "generatedAt": "2026-11-05 11:00:00",
+  "generatedAtUtc": "2026-11-05T12:00:03.6333596Z",
+  "generatedAt": "2026-11-05 12:00:00",
   "sql": {
-    "allGreen": 160,
+    "allGreen": 159,
     "total": 162,
     "findings": [
       "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: ACC=DIFF",
+      "\u003Cstrong\u003EMapHistoricalUsageCosts\u003C/strong\u003E: DEV=DIFF",
       "\u003Cstrong\u003EResetTestMigrationId\u003C/strong\u003E: DEV=DIFF"
     ],
     "results": {
@@ -119,8 +120,8 @@
           "detail": ""
         },
         "MapHistoricalUsageCosts": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=97e5c5ce2d26 dev=c3892fb8f8cf"
         },
         "MapIntervalData": {
           "status": "OK",
