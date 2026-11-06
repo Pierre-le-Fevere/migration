@@ -1,6 +1,6 @@
 {
-  "generatedAtUtc": "2026-11-06T12:00:04.4576750Z",
-  "generatedAt": "2026-11-06 12:00:00",
+  "generatedAtUtc": "2026-11-06T13:00:04.0082781Z",
+  "generatedAt": "2026-11-06 13:00:00",
   "sql": {
     "allGreen": 159,
     "total": 162,
@@ -121,7 +121,7 @@
         },
         "MapHistoricalUsageCosts": {
           "status": "DIFF",
-          "detail": "git=97e5c5ce2d26 dev=c3892fb8f8cf"
+          "detail": "git=97e5c5ce2d26 dev=4f945a769cdd"
         },
         "MapIntervalData": {
           "status": "OK",
