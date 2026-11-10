@@ -1,6 +1,6 @@
 {
-  "generatedAtUtc": "2026-11-10T09:00:04.9149380Z",
-  "generatedAt": "2026-11-10 08:59:59",
+  "generatedAtUtc": "2026-11-10T10:00:06.0713987Z",
+  "generatedAt": "2026-11-10 10:00:00",
   "sql": {
     "allGreen": 158,
     "total": 162,
@@ -90,7 +90,7 @@
         },
         "MapAdvanceInvoice": {
           "status": "DIFF",
-          "detail": "git=d38e27cc2132 dev=3be358080669"
+          "detail": "git=d38e27cc2132 dev=6417d6579ad2"
         },
         "MapAgreement": {
           "status": "OK",
