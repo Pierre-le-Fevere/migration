@@ -1,10 +1,11 @@
 {
-  "generatedAtUtc": "2026-11-10T08:00:06.8014078Z",
-  "generatedAt": "2026-11-10 08:00:00",
+  "generatedAtUtc": "2026-11-10T09:00:04.9149380Z",
+  "generatedAt": "2026-11-10 08:59:59",
   "sql": {
-    "allGreen": 159,
+    "allGreen": 158,
     "total": 162,
     "findings": [
+      "\u003Cstrong\u003EMapAdvanceInvoice\u003C/strong\u003E: DEV=DIFF",
       "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: ACC=DIFF",
       "\u003Cstrong\u003EMapHistoricalUsageCosts\u003C/strong\u003E: DEV=DIFF",
       "\u003Cstrong\u003EResetTestMigrationId\u003C/strong\u003E: DEV=DIFF"
@@ -88,8 +89,8 @@
           "detail": ""
         },
         "MapAdvanceInvoice": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=d38e27cc2132 dev=3be358080669"
         },
         "MapAgreement": {
           "status": "OK",
