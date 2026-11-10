@@ -1,11 +1,11 @@
 {
-  "generatedAtUtc": "2026-11-10T12:47:50.5757981Z",
-  "generatedAt": "2026-11-10 12:47:46",
+  "generatedAtUtc": "2026-11-10T12:53:33.9754416Z",
+  "generatedAt": "2026-11-10 12:53:28",
   "sql": {
-    "allGreen": 155,
+    "allGreen": 156,
     "total": 162,
     "findings": [
-      "\u003Cstrong\u003EMapAdvanceInvoice\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
+      "\u003Cstrong\u003EMapAdvanceInvoice\u003C/strong\u003E: PRD=DIFF",
       "\u003Cstrong\u003EMapBillingPreferences\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: ACC=DIFF",
       "\u003Cstrong\u003EMapHistoricalUsageCosts\u003C/strong\u003E: DEV=DIFF",
@@ -438,8 +438,8 @@
           "detail": ""
         },
         "MapAdvanceInvoice": {
-          "status": "DIFF",
-          "detail": "git=6417d6579ad2 acc=d38e27cc2132"
+          "status": "OK",
+          "detail": ""
         },
         "MapAgreement": {
           "status": "OK",
