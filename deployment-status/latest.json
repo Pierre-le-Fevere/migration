@@ -1,12 +1,12 @@
 {
-  "generatedAtUtc": "2026-11-10T12:26:04.7240363Z",
-  "generatedAt": "2026-11-10 12:25:59",
+  "generatedAtUtc": "2026-11-10T12:47:50.5757981Z",
+  "generatedAt": "2026-11-10 12:47:46",
   "sql": {
-    "allGreen": 153,
+    "allGreen": 155,
     "total": 162,
     "findings": [
-      "\u003Cstrong\u003EMapAdvanceInvoice\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapBillingPreferences\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF",
+      "\u003Cstrong\u003EMapAdvanceInvoice\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
+      "\u003Cstrong\u003EMapBillingPreferences\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapConsumption\u003C/strong\u003E: ACC=DIFF",
       "\u003Cstrong\u003EMapHistoricalUsageCosts\u003C/strong\u003E: DEV=DIFF",
       "\u003Cstrong\u003EResetTestMigrationId\u003C/strong\u003E: DEV=DIFF"
@@ -264,16 +264,16 @@
           "detail": ""
         },
         "MapAdvanceInvoice": {
-          "status": "DIFF",
-          "detail": "git=6417d6579ad2 int=d38e27cc2132"
+          "status": "OK",
+          "detail": ""
         },
         "MapAgreement": {
           "status": "OK",
           "detail": ""
         },
         "MapBillingPreferences": {
-          "status": "DIFF",
-          "detail": "git=496df6d8dff0 int=50c046244941"
+          "status": "OK",
+          "detail": ""
         },
         "MapConsumption": {
           "status": "OK",
@@ -451,7 +451,7 @@
         },
         "MapConsumption": {
           "status": "DIFF",
-          "detail": "git=39b651cb8dcf acc=6628f9da5202"
+          "detail": "git=39b651cb8dcf acc=5bc5597beca1"
         },
         "MapCustomer": {
           "status": "OK",
