@@ -1,12 +1,10 @@
 {
-  "generatedAtUtc": "2026-11-12T10:00:05.8165337Z",
-  "generatedAt": "2026-11-12 10:00:00",
+  "generatedAtUtc": "2026-11-12T10:49:23.0728419Z",
+  "generatedAt": "2026-11-12 10:49:18",
   "sql": {
-    "allGreen": 161,
+    "allGreen": 162,
     "total": 162,
-    "findings": [
-      "\u003Cstrong\u003EMapHistoricalUsageCosts\u003C/strong\u003E: DEV=DIFF"
-    ],
+    "findings": [],
     "results": {
       "DEV": {
         "BatchUpdateCustomerStatus": {
@@ -118,8 +116,8 @@
           "detail": ""
         },
         "MapHistoricalUsageCosts": {
-          "status": "DIFF",
-          "detail": "git=c3892fb8f8cf dev=4f945a769cdd"
+          "status": "OK",
+          "detail": ""
         },
         "MapIntervalData": {
           "status": "OK",
