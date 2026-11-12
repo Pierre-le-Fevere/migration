@@ -1,12 +1,10 @@
 {
-  "generatedAtUtc": "2026-11-12T09:00:07.2057755Z",
-  "generatedAt": "2026-11-12 09:00:00",
+  "generatedAtUtc": "2026-11-12T09:50:18.7527778Z",
+  "generatedAt": "2026-11-12 09:50:12",
   "sql": {
-    "allGreen": 158,
+    "allGreen": 160,
     "total": 162,
     "findings": [
-      "\u003Cstrong\u003EMapAdvanceInvoice\u003C/strong\u003E: PRD=DIFF",
-      "\u003Cstrong\u003EMapBillingPreferences\u003C/strong\u003E: PRD=DIFF",
       "\u003Cstrong\u003EMapHistoricalUsageCosts\u003C/strong\u003E: DEV=DIFF",
       "\u003Cstrong\u003EResetTestMigrationId\u003C/strong\u003E: DEV=DIFF"
     ],
@@ -122,7 +120,7 @@
         },
         "MapHistoricalUsageCosts": {
           "status": "DIFF",
-          "detail": "git=97e5c5ce2d26 dev=4f945a769cdd"
+          "detail": "git=c3892fb8f8cf dev=4f945a769cdd"
         },
         "MapIntervalData": {
           "status": "OK",
@@ -611,16 +609,16 @@
           "detail": ""
         },
         "MapAdvanceInvoice": {
-          "status": "DIFF",
-          "detail": "git=6417d6579ad2 prd=d38e27cc2132"
+          "status": "OK",
+          "detail": ""
         },
         "MapAgreement": {
           "status": "OK",
           "detail": ""
         },
         "MapBillingPreferences": {
-          "status": "DIFF",
-          "detail": "git=496df6d8dff0 prd=50c046244941"
+          "status": "OK",
+          "detail": ""
         },
         "MapConsumption": {
           "status": "OK",
