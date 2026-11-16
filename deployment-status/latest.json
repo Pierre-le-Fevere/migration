@@ -1,12 +1,10 @@
 {
-  "generatedAtUtc": "2026-11-16T12:00:05.4107360Z",
-  "generatedAt": "2026-11-16 12:00:00",
+  "generatedAtUtc": "2026-11-16T13:00:03.7091847Z",
+  "generatedAt": "2026-11-16 13:00:00",
   "sql": {
-    "allGreen": 157,
+    "allGreen": 158,
     "total": 158,
-    "findings": [
-      "\u003Cstrong\u003ECanILaunchNextBatch\u003C/strong\u003E: ACC=DIFF"
-    ],
+    "findings": [],
     "results": {
       "DEV": {
         "BatchUpdateCustomerStatus": {
@@ -370,8 +368,8 @@
           "detail": "Not applicable for this environment"
         },
         "CanILaunchNextBatch": {
-          "status": "DIFF",
-          "detail": "git=dcf64b142154 acc=3df5ea11face"
+          "status": "OK",
+          "detail": ""
         },
         "ClaimFile": {
           "status": "OK",
