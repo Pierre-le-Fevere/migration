@@ -1,12 +1,11 @@
 {
-  "generatedAtUtc": "2026-11-16T09:00:04.9634347Z",
-  "generatedAt": "2026-11-16 09:00:00",
+  "generatedAtUtc": "2026-11-16T10:00:24.7068657Z",
+  "generatedAt": "2026-11-16 10:00:00",
   "sql": {
-    "allGreen": 156,
+    "allGreen": 157,
     "total": 158,
     "findings": [
-      "\u003Cstrong\u003ECanILaunchNextBatch\u003C/strong\u003E: ACC=DIFF",
-      "\u003Cstrong\u003EPerformMapping\u003C/strong\u003E: DEV=DIFF"
+      "\u003Cstrong\u003ECanILaunchNextBatch\u003C/strong\u003E: ACC=DIFF"
     ],
     "results": {
       "DEV": {
@@ -155,8 +154,8 @@
           "detail": ""
         },
         "PerformMapping": {
-          "status": "DIFF",
-          "detail": "git=805a6481804b dev=e8d125f64e1d"
+          "status": "OK",
+          "detail": ""
         },
         "PerformValidation": {
           "status": "OK",
@@ -692,9 +691,19 @@
     }
   },
   "functions": {
-    "ok": 33,
-    "total": 33,
-    "findings": [],
+    "ok": 25,
+    "total": 34,
+    "findings": [
+      "\u003Cstrong\u003EBuildSapEnvelopeFromWebhook\u003C/strong\u003E: ACC=ERROR",
+      "\u003Cstrong\u003EBuildSapMigrationEnvelope\u003C/strong\u003E: ACC=ERROR",
+      "\u003Cstrong\u003ECallKaluza\u003C/strong\u003E: ACC=ERROR",
+      "\u003Cstrong\u003EDeploymentStatusCheck\u003C/strong\u003E: ACC=ERROR",
+      "\u003Cstrong\u003EGetDeploymentInfo\u003C/strong\u003E: ACC=ERROR",
+      "\u003Cstrong\u003EImportDirect\u003C/strong\u003E: ACC=ERROR",
+      "\u003Cstrong\u003ELogAlert\u003C/strong\u003E: ACC=ERROR",
+      "\u003Cstrong\u003EValidateGraphQL\u003C/strong\u003E: ACC=ERROR",
+      "\u003Cstrong\u003Eschema.gql\u003C/strong\u003E: ACC=ERROR"
+    ],
     "results": {
       "DEV": {
         "BuildSapEnvelopeFromWebhook": {
@@ -774,40 +783,40 @@
       },
       "ACC": {
         "BuildSapEnvelopeFromWebhook": {
-          "status": "OK",
-          "detail": ""
+          "status": "ERROR",
+          "detail": "GetDeploymentInfo unreachable"
         },
         "BuildSapMigrationEnvelope": {
-          "status": "OK",
-          "detail": ""
+          "status": "ERROR",
+          "detail": "GetDeploymentInfo unreachable"
         },
         "CallKaluza": {
-          "status": "OK",
-          "detail": ""
+          "status": "ERROR",
+          "detail": "GetDeploymentInfo unreachable"
         },
         "DeploymentStatusCheck": {
-          "status": "NA",
-          "detail": "Not applicable for this environment"
+          "status": "ERROR",
+          "detail": "GetDeploymentInfo unreachable"
         },
         "GetDeploymentInfo": {
-          "status": "OK",
-          "detail": ""
+          "status": "ERROR",
+          "detail": "GetDeploymentInfo unreachable"
         },
         "ImportDirect": {
-          "status": "OK",
-          "detail": ""
+          "status": "ERROR",
+          "detail": "GetDeploymentInfo unreachable"
         },
         "LogAlert": {
-          "status": "OK",
-          "detail": ""
+          "status": "ERROR",
+          "detail": "GetDeploymentInfo unreachable"
         },
         "ValidateGraphQL": {
-          "status": "OK",
-          "detail": ""
+          "status": "ERROR",
+          "detail": "GetDeploymentInfo unreachable"
         },
         "schema.gql": {
-          "status": "OK",
-          "detail": ""
+          "status": "ERROR",
+          "detail": "GetDeploymentInfo unreachable"
         }
       },
       "PRD": {
