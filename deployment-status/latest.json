@@ -1,11 +1,12 @@
 {
-  "generatedAtUtc": "2026-11-16T08:00:04.4431483Z",
-  "generatedAt": "2026-11-16 08:00:00",
+  "generatedAtUtc": "2026-11-16T09:00:04.9634347Z",
+  "generatedAt": "2026-11-16 09:00:00",
   "sql": {
-    "allGreen": 161,
-    "total": 162,
+    "allGreen": 156,
+    "total": 158,
     "findings": [
-      "\u003Cstrong\u003ECanILaunchNextBatch\u003C/strong\u003E: ACC=DIFF"
+      "\u003Cstrong\u003ECanILaunchNextBatch\u003C/strong\u003E: ACC=DIFF",
+      "\u003Cstrong\u003EPerformMapping\u003C/strong\u003E: DEV=DIFF"
     ],
     "results": {
       "DEV": {
@@ -66,10 +67,6 @@
           "detail": ""
         },
         "LastMRDate": {
-          "status": "OK",
-          "detail": ""
-        },
-        "LaunchNextBatch": {
           "status": "OK",
           "detail": ""
         },
@@ -158,8 +155,8 @@
           "detail": ""
         },
         "PerformMapping": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=805a6481804b dev=e8d125f64e1d"
         },
         "PerformValidation": {
           "status": "OK",
@@ -240,10 +237,6 @@
           "detail": ""
         },
         "LastMRDate": {
-          "status": "OK",
-          "detail": ""
-        },
-        "LaunchNextBatch": {
           "status": "OK",
           "detail": ""
         },
@@ -417,10 +410,6 @@
           "status": "OK",
           "detail": ""
         },
-        "LaunchNextBatch": {
-          "status": "OK",
-          "detail": ""
-        },
         "MapAccount": {
           "status": "OK",
           "detail": ""
@@ -588,10 +577,6 @@
           "detail": ""
         },
         "LastMRDate": {
-          "status": "OK",
-          "detail": ""
-        },
-        "LaunchNextBatch": {
           "status": "OK",
           "detail": ""
         },
