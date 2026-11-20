@@ -1,8 +1,8 @@
 {
-  "generatedAtUtc": "2026-11-20T09:00:05.1000852Z",
-  "generatedAt": "2026-11-20 09:00:00",
+  "generatedAtUtc": "2026-11-20T10:00:07.9083072Z",
+  "generatedAt": "2026-11-20 10:00:00",
   "sql": {
-    "allGreen": 138,
+    "allGreen": 137,
     "total": 158,
     "findings": [
       "\u003Cstrong\u003EMapAccountHistory\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
@@ -14,7 +14,7 @@
       "\u003Cstrong\u003EMapMigratedBalance\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapMigratedPayments\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapResidencyGroup\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapSupplyPoint\u003C/strong\u003E: DEV=DIFF",
+      "\u003Cstrong\u003EMapSupplyPoint\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EResetTestMigrationId\u003C/strong\u003E: DEV=DIFF"
     ],
     "results": {
@@ -160,8 +160,8 @@
           "detail": ""
         },
         "MapSupplyPoint": {
-          "status": "DIFF",
-          "detail": "git=032034b2d963 dev=c952910a633d"
+          "status": "OK",
+          "detail": ""
         },
         "PerformMapping": {
           "status": "OK",
@@ -500,8 +500,8 @@
           "detail": "git=710b12a41c84 acc=b8f9750df204"
         },
         "MapSupplyPoint": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=c952910a633d acc=032034b2d963"
         },
         "PerformMapping": {
           "status": "OK",
@@ -670,8 +670,8 @@
           "detail": "git=710b12a41c84 prd=b8f9750df204"
         },
         "MapSupplyPoint": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=c952910a633d prd=032034b2d963"
         },
         "PerformMapping": {
           "status": "OK",
