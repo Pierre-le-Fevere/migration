@@ -1,19 +1,10 @@
 {
-  "generatedAtUtc": "2026-11-20T15:00:05.1963429Z",
-  "generatedAt": "2026-11-20 15:00:00",
+  "generatedAtUtc": "2026-11-20T17:00:28.2909533Z",
+  "generatedAt": "2026-11-20 17:00:23",
   "sql": {
-    "allGreen": 138,
+    "allGreen": 156,
     "total": 158,
     "findings": [
-      "\u003Cstrong\u003EMapAccountHistory\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapAdvanceInvoice\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapAgreement\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapBillingPreferences\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapCustomerResidencyRelationship\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapHistoricalUsageCosts\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapMigratedBalance\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapMigratedPayments\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapResidencyGroup\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapSupplyPoint\u003C/strong\u003E: ACC=DIFF, PRD=DIFF"
     ],
     "results": {
@@ -423,24 +414,24 @@
           "detail": ""
         },
         "MapAccountHistory": {
-          "status": "DIFF",
-          "detail": "git=9ae00af63b5c acc=92f8009e3877"
+          "status": "OK",
+          "detail": ""
         },
         "MapAdvanceAmounts": {
           "status": "OK",
           "detail": ""
         },
         "MapAdvanceInvoice": {
-          "status": "DIFF",
-          "detail": "git=fbbade2aca46 acc=6417d6579ad2"
+          "status": "OK",
+          "detail": ""
         },
         "MapAgreement": {
-          "status": "DIFF",
-          "detail": "git=9e121e683518 acc=d1aa5309518c"
+          "status": "OK",
+          "detail": ""
         },
         "MapBillingPreferences": {
-          "status": "DIFF",
-          "detail": "git=241faaf87ded acc=d682a24d3e22"
+          "status": "OK",
+          "detail": ""
         },
         "MapConsumption": {
           "status": "OK",
@@ -455,16 +446,16 @@
           "detail": ""
         },
         "MapCustomerResidencyRelationship": {
-          "status": "DIFF",
-          "detail": "git=c1b1e6418d36 acc=9d4a52462aeb"
+          "status": "OK",
+          "detail": ""
         },
         "MapGridfeeCost": {
           "status": "OK",
           "detail": ""
         },
         "MapHistoricalUsageCosts": {
-          "status": "DIFF",
-          "detail": "git=6bfbdd1fc951 acc=e7f60943569c"
+          "status": "OK",
+          "detail": ""
         },
         "MapIntervalData": {
           "status": "OK",
@@ -483,20 +474,20 @@
           "detail": ""
         },
         "MapMigratedBalance": {
-          "status": "DIFF",
-          "detail": "git=77b575819de5 acc=7c46375425ce"
+          "status": "OK",
+          "detail": ""
         },
         "MapMigratedPayments": {
-          "status": "DIFF",
-          "detail": "git=5ba97c3298f8 acc=e9f0585b435c"
+          "status": "OK",
+          "detail": ""
         },
         "MapRegister": {
           "status": "OK",
           "detail": ""
         },
         "MapResidencyGroup": {
-          "status": "DIFF",
-          "detail": "git=710b12a41c84 acc=b8f9750df204"
+          "status": "OK",
+          "detail": ""
         },
         "MapSupplyPoint": {
           "status": "DIFF",
@@ -593,24 +584,24 @@
           "detail": ""
         },
         "MapAccountHistory": {
-          "status": "DIFF",
-          "detail": "git=9ae00af63b5c prd=92f8009e3877"
+          "status": "OK",
+          "detail": ""
         },
         "MapAdvanceAmounts": {
           "status": "OK",
           "detail": ""
         },
         "MapAdvanceInvoice": {
-          "status": "DIFF",
-          "detail": "git=fbbade2aca46 prd=6417d6579ad2"
+          "status": "OK",
+          "detail": ""
         },
         "MapAgreement": {
-          "status": "DIFF",
-          "detail": "git=9e121e683518 prd=d1aa5309518c"
+          "status": "OK",
+          "detail": ""
         },
         "MapBillingPreferences": {
-          "status": "DIFF",
-          "detail": "git=241faaf87ded prd=d682a24d3e22"
+          "status": "OK",
+          "detail": ""
         },
         "MapConsumption": {
           "status": "OK",
@@ -625,16 +616,16 @@
           "detail": ""
         },
         "MapCustomerResidencyRelationship": {
-          "status": "DIFF",
-          "detail": "git=c1b1e6418d36 prd=9d4a52462aeb"
+          "status": "OK",
+          "detail": ""
         },
         "MapGridfeeCost": {
           "status": "OK",
           "detail": ""
         },
         "MapHistoricalUsageCosts": {
-          "status": "DIFF",
-          "detail": "git=6bfbdd1fc951 prd=e7f60943569c"
+          "status": "OK",
+          "detail": ""
         },
         "MapIntervalData": {
           "status": "OK",
@@ -653,20 +644,20 @@
           "detail": ""
         },
         "MapMigratedBalance": {
-          "status": "DIFF",
-          "detail": "git=77b575819de5 prd=7c46375425ce"
+          "status": "OK",
+          "detail": ""
         },
         "MapMigratedPayments": {
-          "status": "DIFF",
-          "detail": "git=5ba97c3298f8 prd=e9f0585b435c"
+          "status": "OK",
+          "detail": ""
         },
         "MapRegister": {
           "status": "OK",
           "detail": ""
         },
         "MapResidencyGroup": {
-          "status": "DIFF",
-          "detail": "git=710b12a41c84 prd=b8f9750df204"
+          "status": "OK",
+          "detail": ""
         },
         "MapSupplyPoint": {
           "status": "DIFF",
