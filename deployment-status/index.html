@@ -45,15 +45,15 @@
 <div class="subtitle">
   SQL: GIT branch sql/MVB1 is reference &nbsp;|&nbsp;
   Functions: content-hash comparison (SHA-256/12) &mdash; GIT branch sql/MVB1 is reference &nbsp;|&nbsp;
-  Generated: 2026-11-20 08:00:00 UTC &nbsp;|&nbsp;
+  Generated: 2026-11-20 09:00:00 UTC &nbsp;|&nbsp;
   Source: DeploymentStatusCheck Azure Function
 </div>
 <div style="margin-bottom:18px">
-  <span class="badge bad">SQL: 130/158 all-green</span>
+  <span class="badge bad">SQL: 138/158 all-green</span>
   <span class="badge ok">Functions: 33/33 all-green</span>
 </div>
 <div class="env-label">Errors per environment (SQL + Functions, excluding N/A)</div>
-<div class="cards"><div class="card bad"><div class="num">4</div><div>DEV</div></div><div class="card bad"><div class="num">8</div><div>INT</div></div><div class="card bad"><div class="num">8</div><div>ACC</div></div><div class="card bad"><div class="num">8</div><div>PRD</div></div></div>
+<div class="cards"><div class="card bad"><div class="num">2</div><div>DEV</div></div><div class="card ok"><div class="num">0</div><div>INT</div></div><div class="card bad"><div class="num">9</div><div>ACC</div></div><div class="card bad"><div class="num">9</div><div>PRD</div></div></div>
 <h2 style="color:#1a1a2e;font-size:.9rem;letter-spacing:.07em;text-transform:uppercase">
   &#x1F5C4;&#xFE0F; SQL Stored Procedures
 </h2>
@@ -75,26 +75,26 @@
 <tr class="row-ok"><td class="proc">GetSprnCount</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">InsertNewCustomer</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">MapAccount</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
-<tr class="row-bad"><td class="proc">MapAccountHistory</td><td class="ok" title="">&#x2705; OK</td><td class="diff" title="git=9ae00af63b5c int=92f8009e3877">&#x274C; DIFF</td><td class="diff" title="git=9ae00af63b5c acc=92f8009e3877">&#x274C; DIFF</td><td class="diff" title="git=9ae00af63b5c prd=92f8009e3877">&#x274C; DIFF</td></tr>
+<tr class="row-bad"><td class="proc">MapAccountHistory</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="diff" title="git=9ae00af63b5c acc=92f8009e3877">&#x274C; DIFF</td><td class="diff" title="git=9ae00af63b5c prd=92f8009e3877">&#x274C; DIFF</td></tr>
 <tr class="row-ok"><td class="proc">MapAdvanceAmounts</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
-<tr class="row-bad"><td class="proc">MapAdvanceInvoice</td><td class="diff" title="git=02e343ac59a0 dev=fbbade2aca46">&#x274C; DIFF</td><td class="diff" title="git=02e343ac59a0 int=6417d6579ad2">&#x274C; DIFF</td><td class="diff" title="git=02e343ac59a0 acc=6417d6579ad2">&#x274C; DIFF</td><td class="diff" title="git=02e343ac59a0 prd=6417d6579ad2">&#x274C; DIFF</td></tr>
-<tr class="row-bad"><td class="proc">MapAgreement</td><td class="ok" title="">&#x2705; OK</td><td class="diff" title="git=9e121e683518 int=d1aa5309518c">&#x274C; DIFF</td><td class="diff" title="git=9e121e683518 acc=d1aa5309518c">&#x274C; DIFF</td><td class="diff" title="git=9e121e683518 prd=d1aa5309518c">&#x274C; DIFF</td></tr>
-<tr class="row-bad"><td class="proc">MapBillingPreferences</td><td class="ok" title="">&#x2705; OK</td><td class="diff" title="git=241faaf87ded int=d682a24d3e22">&#x274C; DIFF</td><td class="diff" title="git=241faaf87ded acc=d682a24d3e22">&#x274C; DIFF</td><td class="diff" title="git=241faaf87ded prd=d682a24d3e22">&#x274C; DIFF</td></tr>
+<tr class="row-bad"><td class="proc">MapAdvanceInvoice</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="diff" title="git=fbbade2aca46 acc=6417d6579ad2">&#x274C; DIFF</td><td class="diff" title="git=fbbade2aca46 prd=6417d6579ad2">&#x274C; DIFF</td></tr>
+<tr class="row-bad"><td class="proc">MapAgreement</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="diff" title="git=9e121e683518 acc=d1aa5309518c">&#x274C; DIFF</td><td class="diff" title="git=9e121e683518 prd=d1aa5309518c">&#x274C; DIFF</td></tr>
+<tr class="row-bad"><td class="proc">MapBillingPreferences</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="diff" title="git=241faaf87ded acc=d682a24d3e22">&#x274C; DIFF</td><td class="diff" title="git=241faaf87ded prd=d682a24d3e22">&#x274C; DIFF</td></tr>
 <tr class="row-ok"><td class="proc">MapConsumption</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">MapCustomer</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">MapCustomerAccountRelationship</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
-<tr class="row-bad"><td class="proc">MapCustomerResidencyRelationship</td><td class="ok" title="">&#x2705; OK</td><td class="diff" title="git=c1b1e6418d36 int=9d4a52462aeb">&#x274C; DIFF</td><td class="diff" title="git=c1b1e6418d36 acc=9d4a52462aeb">&#x274C; DIFF</td><td class="diff" title="git=c1b1e6418d36 prd=9d4a52462aeb">&#x274C; DIFF</td></tr>
+<tr class="row-bad"><td class="proc">MapCustomerResidencyRelationship</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="diff" title="git=c1b1e6418d36 acc=9d4a52462aeb">&#x274C; DIFF</td><td class="diff" title="git=c1b1e6418d36 prd=9d4a52462aeb">&#x274C; DIFF</td></tr>
 <tr class="row-ok"><td class="proc">MapGridfeeCost</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
-<tr class="row-bad"><td class="proc">MapHistoricalUsageCosts</td><td class="diff" title="git=e7f60943569c dev=6bfbdd1fc951">&#x274C; DIFF</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
+<tr class="row-bad"><td class="proc">MapHistoricalUsageCosts</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="diff" title="git=6bfbdd1fc951 acc=e7f60943569c">&#x274C; DIFF</td><td class="diff" title="git=6bfbdd1fc951 prd=e7f60943569c">&#x274C; DIFF</td></tr>
 <tr class="row-ok"><td class="proc">MapIntervalData</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">MapMandate</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">MapMeter</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">MapMeterRead</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
-<tr class="row-bad"><td class="proc">MapMigratedBalance</td><td class="ok" title="">&#x2705; OK</td><td class="diff" title="git=77b575819de5 int=7c46375425ce">&#x274C; DIFF</td><td class="diff" title="git=77b575819de5 acc=7c46375425ce">&#x274C; DIFF</td><td class="diff" title="git=77b575819de5 prd=7c46375425ce">&#x274C; DIFF</td></tr>
-<tr class="row-bad"><td class="proc">MapMigratedPayments</td><td class="diff" title="git=ef3fc4ab1dd6 dev=5ba97c3298f8">&#x274C; DIFF</td><td class="diff" title="git=ef3fc4ab1dd6 int=e9f0585b435c">&#x274C; DIFF</td><td class="diff" title="git=ef3fc4ab1dd6 acc=e9f0585b435c">&#x274C; DIFF</td><td class="diff" title="git=ef3fc4ab1dd6 prd=e9f0585b435c">&#x274C; DIFF</td></tr>
+<tr class="row-bad"><td class="proc">MapMigratedBalance</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="diff" title="git=77b575819de5 acc=7c46375425ce">&#x274C; DIFF</td><td class="diff" title="git=77b575819de5 prd=7c46375425ce">&#x274C; DIFF</td></tr>
+<tr class="row-bad"><td class="proc">MapMigratedPayments</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="diff" title="git=5ba97c3298f8 acc=e9f0585b435c">&#x274C; DIFF</td><td class="diff" title="git=5ba97c3298f8 prd=e9f0585b435c">&#x274C; DIFF</td></tr>
 <tr class="row-ok"><td class="proc">MapRegister</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
-<tr class="row-bad"><td class="proc">MapResidencyGroup</td><td class="ok" title="">&#x2705; OK</td><td class="diff" title="git=710b12a41c84 int=b8f9750df204">&#x274C; DIFF</td><td class="diff" title="git=710b12a41c84 acc=b8f9750df204">&#x274C; DIFF</td><td class="diff" title="git=710b12a41c84 prd=b8f9750df204">&#x274C; DIFF</td></tr>
-<tr class="row-ok"><td class="proc">MapSupplyPoint</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
+<tr class="row-bad"><td class="proc">MapResidencyGroup</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="diff" title="git=710b12a41c84 acc=b8f9750df204">&#x274C; DIFF</td><td class="diff" title="git=710b12a41c84 prd=b8f9750df204">&#x274C; DIFF</td></tr>
+<tr class="row-bad"><td class="proc">MapSupplyPoint</td><td class="diff" title="git=032034b2d963 dev=c952910a633d">&#x274C; DIFF</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">PerformMapping</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">PerformValidation</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 <tr class="row-ok"><td class="proc">ProcessCleanupList</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
@@ -103,7 +103,7 @@
 <tr class="row-ok"><td class="proc">SelectBatchToTreat</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td><td class="ok" title="">&#x2705; OK</td></tr>
 </tbody>
 </table>
-<div class="findings"><strong>Findings:</strong><ul><li><strong>MapAccountHistory</strong>: INT=DIFF, ACC=DIFF, PRD=DIFF</li><li><strong>MapAdvanceInvoice</strong>: DEV=DIFF, INT=DIFF, ACC=DIFF, PRD=DIFF</li><li><strong>MapAgreement</strong>: INT=DIFF, ACC=DIFF, PRD=DIFF</li><li><strong>MapBillingPreferences</strong>: INT=DIFF, ACC=DIFF, PRD=DIFF</li><li><strong>MapCustomerResidencyRelationship</strong>: INT=DIFF, ACC=DIFF, PRD=DIFF</li><li><strong>MapHistoricalUsageCosts</strong>: DEV=DIFF</li><li><strong>MapMigratedBalance</strong>: INT=DIFF, ACC=DIFF, PRD=DIFF</li><li><strong>MapMigratedPayments</strong>: DEV=DIFF, INT=DIFF, ACC=DIFF, PRD=DIFF</li><li><strong>MapResidencyGroup</strong>: INT=DIFF, ACC=DIFF, PRD=DIFF</li><li><strong>ResetTestMigrationId</strong>: DEV=DIFF</li></ul></div>
+<div class="findings"><strong>Findings:</strong><ul><li><strong>MapAccountHistory</strong>: ACC=DIFF, PRD=DIFF</li><li><strong>MapAdvanceInvoice</strong>: ACC=DIFF, PRD=DIFF</li><li><strong>MapAgreement</strong>: ACC=DIFF, PRD=DIFF</li><li><strong>MapBillingPreferences</strong>: ACC=DIFF, PRD=DIFF</li><li><strong>MapCustomerResidencyRelationship</strong>: ACC=DIFF, PRD=DIFF</li><li><strong>MapHistoricalUsageCosts</strong>: ACC=DIFF, PRD=DIFF</li><li><strong>MapMigratedBalance</strong>: ACC=DIFF, PRD=DIFF</li><li><strong>MapMigratedPayments</strong>: ACC=DIFF, PRD=DIFF</li><li><strong>MapResidencyGroup</strong>: ACC=DIFF, PRD=DIFF</li><li><strong>MapSupplyPoint</strong>: DEV=DIFF</li><li><strong>ResetTestMigrationId</strong>: DEV=DIFF</li></ul></div>
 <h2 style="color:#1a1a2e;font-size:.9rem;letter-spacing:.07em;text-transform:uppercase;margin-top:28px">
   &#x26A1; Azure Functions (content-based)
 </h2>
@@ -130,7 +130,7 @@
 </div>
 <script>
 (function(){
-  var VERSION = "2026-11-20 08:00:00";
+  var VERSION = "2026-11-20 09:00:00";
   var REFRESH_URL = "https://ms-dev-azfwe-oneb2c-migration-01.azurewebsites.net/api/DeploymentStatusRefresh";
   var KEY = "deploymentStatusRefreshPending";
   var btn = document.getElementById("refreshBtn");
