@@ -1,12 +1,10 @@
 {
-  "generatedAtUtc": "2026-11-20T17:00:55.1611991Z",
-  "generatedAt": "2026-11-20 17:00:52",
+  "generatedAtUtc": "2026-11-20T17:11:24.1937622Z",
+  "generatedAt": "2026-11-20 17:11:20",
   "sql": {
-    "allGreen": 156,
+    "allGreen": 158,
     "total": 158,
-    "findings": [
-      "\u003Cstrong\u003EMapSupplyPoint\u003C/strong\u003E: ACC=DIFF, PRD=DIFF"
-    ],
+    "findings": [],
     "results": {
       "DEV": {
         "ArchiveBP": {
@@ -490,8 +488,8 @@
           "detail": ""
         },
         "MapSupplyPoint": {
-          "status": "DIFF",
-          "detail": "git=c952910a633d acc=032034b2d963"
+          "status": "OK",
+          "detail": ""
         },
         "PerformMapping": {
           "status": "OK",
@@ -660,8 +658,8 @@
           "detail": ""
         },
         "MapSupplyPoint": {
-          "status": "DIFF",
-          "detail": "git=c952910a633d prd=032034b2d963"
+          "status": "OK",
+          "detail": ""
         },
         "PerformMapping": {
           "status": "OK",
