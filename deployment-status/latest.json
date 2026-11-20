@@ -1,8 +1,8 @@
 {
-  "generatedAtUtc": "2026-11-20T14:00:04.4076678Z",
-  "generatedAt": "2026-11-20 14:00:00",
+  "generatedAtUtc": "2026-11-20T15:00:05.1963429Z",
+  "generatedAt": "2026-11-20 15:00:00",
   "sql": {
-    "allGreen": 137,
+    "allGreen": 138,
     "total": 158,
     "findings": [
       "\u003Cstrong\u003EMapAccountHistory\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
@@ -14,8 +14,7 @@
       "\u003Cstrong\u003EMapMigratedBalance\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapMigratedPayments\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapResidencyGroup\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapSupplyPoint\u003C/strong\u003E: ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EResetTestMigrationId\u003C/strong\u003E: DEV=DIFF"
+      "\u003Cstrong\u003EMapSupplyPoint\u003C/strong\u003E: ACC=DIFF, PRD=DIFF"
     ],
     "results": {
       "DEV": {
@@ -180,8 +179,8 @@
           "detail": ""
         },
         "ResetTestMigrationId": {
-          "status": "DIFF",
-          "detail": "git=6b610e937370 dev=07e2f7905369"
+          "status": "OK",
+          "detail": ""
         },
         "SelectBatchToTreat": {
           "status": "OK",
