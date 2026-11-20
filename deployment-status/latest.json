@@ -1,17 +1,18 @@
 {
-  "generatedAtUtc": "2026-11-20T07:00:12.9582870Z",
-  "generatedAt": "2026-11-20 07:00:00",
+  "generatedAtUtc": "2026-11-20T08:00:19.4555748Z",
+  "generatedAt": "2026-11-20 08:00:00",
   "sql": {
-    "allGreen": 133,
+    "allGreen": 130,
     "total": 158,
     "findings": [
       "\u003Cstrong\u003EMapAccountHistory\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapAdvanceInvoice\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF",
+      "\u003Cstrong\u003EMapAdvanceInvoice\u003C/strong\u003E: DEV=DIFF, INT=DIFF, ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapAgreement\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapBillingPreferences\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapCustomerResidencyRelationship\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF",
+      "\u003Cstrong\u003EMapHistoricalUsageCosts\u003C/strong\u003E: DEV=DIFF",
       "\u003Cstrong\u003EMapMigratedBalance\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF",
-      "\u003Cstrong\u003EMapMigratedPayments\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF",
+      "\u003Cstrong\u003EMapMigratedPayments\u003C/strong\u003E: DEV=DIFF, INT=DIFF, ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EMapResidencyGroup\u003C/strong\u003E: INT=DIFF, ACC=DIFF, PRD=DIFF",
       "\u003Cstrong\u003EResetTestMigrationId\u003C/strong\u003E: DEV=DIFF"
     ],
@@ -90,8 +91,8 @@
           "detail": ""
         },
         "MapAdvanceInvoice": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=02e343ac59a0 dev=fbbade2aca46"
         },
         "MapAgreement": {
           "status": "OK",
@@ -122,8 +123,8 @@
           "detail": ""
         },
         "MapHistoricalUsageCosts": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=e7f60943569c dev=6bfbdd1fc951"
         },
         "MapIntervalData": {
           "status": "OK",
@@ -146,8 +147,8 @@
           "detail": ""
         },
         "MapMigratedPayments": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=ef3fc4ab1dd6 dev=5ba97c3298f8"
         },
         "MapRegister": {
           "status": "OK",
