@@ -1,6 +1,6 @@
 {
-  "generatedAtUtc": "2026-11-23T11:00:05.6810069Z",
-  "generatedAt": "2026-11-23 11:00:00",
+  "generatedAtUtc": "2026-11-23T12:00:04.2475905Z",
+  "generatedAt": "2026-11-23 12:00:00",
   "sql": {
     "allGreen": 155,
     "total": 158,
@@ -227,7 +227,7 @@
         },
         "GetMigratedKaluzaCustomers": {
           "status": "DIFF",
-          "detail": "git=127ec5e6e15e int=6970b4d51748"
+          "detail": "git=127ec5e6e15e int=c1623f5aaf19"
         },
         "GetMigratedKaluzaCustomersMetering": {
           "status": "DIFF",
