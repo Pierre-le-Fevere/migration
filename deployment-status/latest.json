@@ -1,12 +1,13 @@
 {
-  "generatedAtUtc": "2026-11-23T12:00:04.2475905Z",
-  "generatedAt": "2026-11-23 12:00:00",
+  "generatedAtUtc": "2026-11-23T13:00:06.1707085Z",
+  "generatedAt": "2026-11-23 13:00:00",
   "sql": {
-    "allGreen": 155,
+    "allGreen": 154,
     "total": 158,
     "findings": [
       "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: INT=DIFF",
       "\u003Cstrong\u003EGetMigratedKaluzaCustomersMetering\u003C/strong\u003E: INT=DIFF",
+      "\u003Cstrong\u003EMapMigratedPayments\u003C/strong\u003E: DEV=DIFF",
       "\u003Cstrong\u003EResetTestMigrationId\u003C/strong\u003E: DEV=DIFF"
     ],
     "results": {
@@ -140,8 +141,8 @@
           "detail": ""
         },
         "MapMigratedPayments": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=5ba97c3298f8 dev=967a9866058d"
         },
         "MapRegister": {
           "status": "OK",
@@ -173,7 +174,7 @@
         },
         "ResetTestMigrationId": {
           "status": "DIFF",
-          "detail": "git=8aa0a9bb818d dev=3f1dbbdca9eb"
+          "detail": "git=8aa0a9bb818d dev=3e6a92802b42"
         },
         "SelectBatchToTreat": {
           "status": "OK",
@@ -227,7 +228,7 @@
         },
         "GetMigratedKaluzaCustomers": {
           "status": "DIFF",
-          "detail": "git=127ec5e6e15e int=c1623f5aaf19"
+          "detail": "git=127ec5e6e15e int=b028952343cb"
         },
         "GetMigratedKaluzaCustomersMetering": {
           "status": "DIFF",
