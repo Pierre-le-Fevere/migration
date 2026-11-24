@@ -1,6 +1,6 @@
 {
-  "generatedAtUtc": "2026-11-24T12:00:04.4052610Z",
-  "generatedAt": "2026-11-24 12:00:00",
+  "generatedAtUtc": "2026-11-24T13:00:06.8480157Z",
+  "generatedAt": "2026-11-24 13:00:00",
   "sql": {
     "allGreen": 155,
     "total": 158,
@@ -693,9 +693,11 @@
     }
   },
   "functions": {
-    "ok": 33,
+    "ok": 29,
     "total": 33,
-    "findings": [],
+    "findings": [
+      "\u003Cstrong\u003Eschema.gql\u003C/strong\u003E: DEV=DIFF, INT=DIFF, ACC=DIFF, PRD=DIFF"
+    ],
     "results": {
       "DEV": {
         "BuildSapEnvelopeFromWebhook": {
@@ -731,8 +733,8 @@
           "detail": ""
         },
         "schema.gql": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=de260aeb7bc8 dev=2237f214f969"
         }
       },
       "INT": {
@@ -769,8 +771,8 @@
           "detail": ""
         },
         "schema.gql": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=de260aeb7bc8 int=2237f214f969"
         }
       },
       "ACC": {
@@ -807,8 +809,8 @@
           "detail": ""
         },
         "schema.gql": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=de260aeb7bc8 acc=2237f214f969"
         }
       },
       "PRD": {
@@ -845,8 +847,8 @@
           "detail": ""
         },
         "schema.gql": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=de260aeb7bc8 prd=2237f214f969"
         }
       }
     }
