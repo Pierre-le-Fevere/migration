@@ -1,13 +1,12 @@
 {
-  "generatedAtUtc": "2026-11-24T15:00:04.4522968Z",
-  "generatedAt": "2026-11-24 15:00:00",
+  "generatedAtUtc": "2026-11-25T07:00:10.4163536Z",
+  "generatedAt": "2026-11-25 07:00:00",
   "sql": {
-    "allGreen": 155,
+    "allGreen": 156,
     "total": 158,
     "findings": [
       "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: INT=DIFF",
-      "\u003Cstrong\u003EGetMigratedKaluzaCustomersMetering\u003C/strong\u003E: INT=DIFF",
-      "\u003Cstrong\u003EResetTestMigrationId\u003C/strong\u003E: DEV=DIFF"
+      "\u003Cstrong\u003EGetMigratedKaluzaCustomersMetering\u003C/strong\u003E: INT=DIFF"
     ],
     "results": {
       "DEV": {
@@ -172,8 +171,8 @@
           "detail": ""
         },
         "ResetTestMigrationId": {
-          "status": "DIFF",
-          "detail": "git=8aa0a9bb818d dev=05bba4fccffb"
+          "status": "OK",
+          "detail": ""
         },
         "SelectBatchToTreat": {
           "status": "OK",
@@ -693,11 +692,9 @@
     }
   },
   "functions": {
-    "ok": 29,
+    "ok": 33,
     "total": 33,
-    "findings": [
-      "\u003Cstrong\u003Eschema.gql\u003C/strong\u003E: DEV=DIFF, INT=DIFF, ACC=DIFF, PRD=DIFF"
-    ],
+    "findings": [],
     "results": {
       "DEV": {
         "BuildSapEnvelopeFromWebhook": {
@@ -733,8 +730,8 @@
           "detail": ""
         },
         "schema.gql": {
-          "status": "DIFF",
-          "detail": "git=de260aeb7bc8 dev=2237f214f969"
+          "status": "OK",
+          "detail": ""
         }
       },
       "INT": {
@@ -771,8 +768,8 @@
           "detail": ""
         },
         "schema.gql": {
-          "status": "DIFF",
-          "detail": "git=de260aeb7bc8 int=2237f214f969"
+          "status": "OK",
+          "detail": ""
         }
       },
       "ACC": {
@@ -809,8 +806,8 @@
           "detail": ""
         },
         "schema.gql": {
-          "status": "DIFF",
-          "detail": "git=de260aeb7bc8 acc=2237f214f969"
+          "status": "OK",
+          "detail": ""
         }
       },
       "PRD": {
@@ -847,8 +844,8 @@
           "detail": ""
         },
         "schema.gql": {
-          "status": "DIFF",
-          "detail": "git=de260aeb7bc8 prd=2237f214f969"
+          "status": "OK",
+          "detail": ""
         }
       }
     }
