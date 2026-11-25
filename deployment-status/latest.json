@@ -1,13 +1,11 @@
 {
-  "generatedAtUtc": "2026-11-25T08:00:04.7663783Z",
-  "generatedAt": "2026-11-25 08:00:00",
+  "generatedAtUtc": "2026-11-25T08:19:18.8452600Z",
+  "generatedAt": "2026-11-25 08:19:10",
   "sql": {
-    "allGreen": 155,
+    "allGreen": 157,
     "total": 158,
     "findings": [
-      "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: INT=DIFF",
-      "\u003Cstrong\u003EGetMigratedKaluzaCustomersMetering\u003C/strong\u003E: INT=DIFF",
-      "\u003Cstrong\u003EResetTestMigrationId\u003C/strong\u003E: DEV=DIFF"
+      "\u003Cstrong\u003EGetMigratedKaluzaCustomers\u003C/strong\u003E: ACC=DIFF"
     ],
     "results": {
       "DEV": {
@@ -172,8 +170,8 @@
           "detail": ""
         },
         "ResetTestMigrationId": {
-          "status": "DIFF",
-          "detail": "git=05bba4fccffb dev=b12de46648d9"
+          "status": "OK",
+          "detail": ""
         },
         "SelectBatchToTreat": {
           "status": "OK",
@@ -226,12 +224,12 @@
           "detail": ""
         },
         "GetMigratedKaluzaCustomers": {
-          "status": "DIFF",
-          "detail": "git=127ec5e6e15e int=b028952343cb"
+          "status": "OK",
+          "detail": ""
         },
         "GetMigratedKaluzaCustomersMetering": {
-          "status": "DIFF",
-          "detail": "git=ceeb0b07df06 int=9592e1e4a473"
+          "status": "OK",
+          "detail": ""
         },
         "GetSprnCount": {
           "status": "OK",
@@ -396,8 +394,8 @@
           "detail": ""
         },
         "GetMigratedKaluzaCustomers": {
-          "status": "OK",
-          "detail": ""
+          "status": "DIFF",
+          "detail": "git=d4e04c782d9b acc=127ec5e6e15e"
         },
         "GetMigratedKaluzaCustomersMetering": {
           "status": "OK",
